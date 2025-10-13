@@ -1,0 +1,10 @@
+# Data Dictionary (Draft)
+
+> NOTE: This draft is inferred from the CSV headers and will be refined.
+
+- **Year**: Calendar year of landings.
+- **Species**: Common name or product category.
+- **Region/Port**: Reporting geography or landing port.
+- **Pounds / Landings Weight**: Quantity landed (check units—lbs vs metric).
+- **Value**: Ex-vessel value in USD (verify).
+- Other fields present in the source CSV may include gear, month, county, etc.
