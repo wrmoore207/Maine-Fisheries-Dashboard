@@ -1,0 +1,30 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Haddock,Other Maine,Not-Specified,UK,Live Pounds,7293,17769,63,17
+2008,Haddock,Portland,Cumberland,UK,Live Pounds,1123412,1452358,866,50
+2009,Haddock,Other Maine,Not-Specified,UK,Live Pounds,7890,10712,138,20
+2009,Haddock,Portland,Cumberland,UK,Live Pounds,154585,205730,604,40
+2010,Haddock,Other Maine,Not-Specified,UK,Live Pounds,127650,130983,297,39
+2011,Haddock,Other Maine,Not-Specified,UK,Live Pounds,27895,33810,376,40
+2012,Haddock,Other Maine,Not-Specified,UK,Live Pounds,14743,4116,117,18
+2012,Haddock,Portland,Cumberland,UK,Live Pounds,41399,98706,371,35
+2013,Haddock,Other Maine,Not-Specified,UK,Live Pounds,17490,2304,43,10
+2013,Haddock,Portland,Cumberland,UK,Live Pounds,114540,208975,423,27
+2014,Haddock,Other Maine,Not-Specified,UK,Live Pounds,6978,10914,154,16
+2014,Haddock,Portland,Cumberland,UK,Live Pounds,276844,371365,539,22
+2015,Haddock,Eliot,York,UK,Live Pounds,659,1187,30,4
+2015,Haddock,Portland,Cumberland,UK,Live Pounds,402214,570095,439,23
+2016,Haddock,Eliot,York,UK,Live Pounds,8700,18191,88,5
+2016,Haddock,Other Maine,Not-Specified,UK,Live Pounds,314564,526504,476,34
+2017,Haddock,Other Maine,Not-Specified,UK,Live Pounds,15971,35136,153,12
+2017,Haddock,Portland,Cumberland,UK,Live Pounds,353710,513443,419,31
+2018,Haddock,Other Maine,Not-Specified,UK,Live Pounds,657371,763743,601,36
+2020,Haddock,Other Maine,Not-Specified,UK,Live Pounds,15246,23897,62,13
+2020,Haddock,Portland,Cumberland,UK,Live Pounds,201118,306236,283,27
+2021,Haddock,Other Maine,Not-Specified,UK,Live Pounds,192092,319544,240,23
+2022,Haddock,Other Maine,Not-Specified,UK,Live Pounds,43419,94784,57,8
+2022,Haddock,Portland,Cumberland,UK,Live Pounds,202855,435084,343,27
+2023,Haddock,Other Maine,Not-Specified,UK,Live Pounds,37375,66555,56,5
+2023,Haddock,Port Clyde,Knox,UK,Live Pounds,35107,64948,64,3
+2023,Haddock,Portland,Cumberland,UK,Live Pounds,490704,803557,388,19
+2024,Haddock,Other Maine,Not-Specified,UK,Live Pounds,40636,78295,93,4
+2024,Haddock,Portland,Cumberland,UK,Live Pounds,307214,528247,411,18
