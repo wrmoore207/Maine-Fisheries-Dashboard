@@ -1,0 +1,17 @@
+[theme]
+base="light"
+primaryColor="#0f6c8d"         # Gulf teal
+backgroundColor="#f7fafc"      # sand-light
+secondaryBackgroundColor="#edf2f7"
+textColor="#1a202c"
+font="sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+
+[client]
+showErrorDetails = "full"
+toolbarMode = "viewer"

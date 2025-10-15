@@ -11,9 +11,14 @@ It focuses on multi-species trends over time and by region, beginning with Lobst
 - **Deploy**: Streamlit Community Cloud (fast) or Render (more control)
 
 ## Getting Started
+## Run locally
+
 ```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 streamlit run app.py
+
 ```
 
 ## Data
