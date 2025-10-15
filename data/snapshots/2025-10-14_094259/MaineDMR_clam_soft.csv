@@ -1,0 +1,1014 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Clam Soft,Addison,Washington,UK,Live Pounds,141208,171648,1578,85
+2008,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,13356,20400,102,6
+2008,Clam Soft,Biddeford Pool,York,UK,Live Pounds,31232,33933,235,6
+2008,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,10671,14423,85,13
+2008,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,123488,171559,1429,54
+2008,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,69631,97928,679,14
+2008,Clam Soft,Bremen,Lincoln,UK,Live Pounds,43983,53527,506,37
+2008,Clam Soft,Bristol,Lincoln,UK,Live Pounds,7689,9834,104,28
+2008,Clam Soft,Brooklin,Hancock,UK,Live Pounds,179738,252028,1275,77
+2008,Clam Soft,Brooksville,Hancock,UK,Live Pounds,6541,8512,114,23
+2008,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,637451,913890,5726,86
+2008,Clam Soft,Chebeague Island,Cumberland,UK,Live Pounds,4817,5949,36,4
+2008,Clam Soft,Cushing,Knox,UK,Live Pounds,276542,338388,3133,125
+2008,Clam Soft,Cutler,Washington,UK,Live Pounds,151956,204153,2006,53
+2008,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,624883,750666,5462,171
+2008,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,812267,956471,6695,128
+2008,Clam Soft,Franklin,Hancock,UK,Live Pounds,39928,55712,355,53
+2008,Clam Soft,Freeport,Cumberland,UK,Live Pounds,804968,1088420,4552,114
+2008,Clam Soft,Friendship,Knox,UK,Live Pounds,198526,238165,2365,86
+2008,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,204264,304698,2085,24
+2008,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,61253,78026,645,33
+2008,Clam Soft,Hancock,Hancock,UK,Live Pounds,19028,23302,207,31
+2008,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,452296,645333,4334,87
+2008,Clam Soft,Harrington,Washington,UK,Live Pounds,290117,360794,3226,95
+2008,Clam Soft,Isle au Haut,Knox,UK,Live Pounds,11519,13950,144,23
+2008,Clam Soft,Jonesport,Washington,UK,Live Pounds,104819,126744,1179,69
+2008,Clam Soft,Lamoine,Hancock,UK,Live Pounds,158312,216190,1664,125
+2008,Clam Soft,Lubec,Washington,UK,Live Pounds,62080,81659,1053,49
+2008,Clam Soft,Machiasport,Washington,UK,Live Pounds,402464,507555,4843,124
+2008,Clam Soft,Milbridge,Washington,UK,Live Pounds,200672,234111,2253,122
+2008,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,613,895,8,4
+2008,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,2398,2834,38,9
+2008,Clam Soft,Other Hancock,Hancock,UK,Live Pounds,40855,59257,383,42
+2008,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,176746,244529,2521,191
+2008,Clam Soft,Other Maine,UK,UK,Live Pounds,1410,2044,7,5
+2008,Clam Soft,Other Washington,Washington,UK,Live Pounds,567,713,7,5
+2008,Clam Soft,Pembroke,Washington,UK,Live Pounds,33931,40474,611,20
+2008,Clam Soft,Penobscot,Hancock,UK,Live Pounds,75474,115382,378,50
+2008,Clam Soft,Perry,Washington,UK,Live Pounds,43090,52683,919,41
+2008,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,199521,273835,2445,44
+2008,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,114493,130663,1903,45
+2008,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,404970,539466,3122,53
+2008,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,65374,81722,713,52
+2008,Clam Soft,Sheepscot,Lincoln,UK,Live Pounds,5168,9501,34,4
+2008,Clam Soft,Sorrento,Hancock,UK,Live Pounds,11976,15748,123,29
+2008,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,54051,81676,312,25
+2008,Clam Soft,South Thomaston,Knox,UK,Live Pounds,49432,61257,442,69
+2008,Clam Soft,Spruce Head,Knox,UK,Live Pounds,4647,6093,50,23
+2008,Clam Soft,St. George,Knox,UK,Live Pounds,477684,657765,4208,128
+2008,Clam Soft,Steuben,Washington,UK,Live Pounds,94739,121813,1050,75
+2008,Clam Soft,Stonington,Hancock,UK,Live Pounds,147159,178761,1608,76
+2008,Clam Soft,Sullivan,Hancock,UK,Live Pounds,73176,93864,685,78
+2008,Clam Soft,Surry,Hancock,UK,Live Pounds,13464,15997,72,9
+2008,Clam Soft,Swans Island,Hancock,UK,Live Pounds,43577,56343,215,18
+2008,Clam Soft,Thomaston,Knox,UK,Live Pounds,83478,127355,441,42
+2008,Clam Soft,Trenton,Hancock,UK,Live Pounds,35514,45754,345,48
+2008,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,32981,46910,218,29
+2008,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,894923,1118543,10452,240
+2008,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,189659,303884,1283,33
+2008,Clam Soft,Westport Island,Lincoln,UK,Live Pounds,4257,5848,106,4
+2008,Clam Soft,Whiting,Washington,UK,Live Pounds,44632,64110,430,19
+2008,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,3512,5876,41,13
+2008,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,51404,80221,425,14
+2008,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,143580,205274,471,23
+2009,Clam Soft,Addison,Washington,UK,Live Pounds,379238,532438,4016,228
+2009,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,5817,9913,42,9
+2009,Clam Soft,Biddeford,York,UK,Live Pounds,6970,8144,42,6
+2009,Clam Soft,Biddeford Pool,York,UK,Live Pounds,33477,40353,228,13
+2009,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,5264,8336,52,22
+2009,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,193083,235583,2344,58
+2009,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,26685,37097,235,23
+2009,Clam Soft,Bremen,Lincoln,UK,Live Pounds,65703,72510,718,52
+2009,Clam Soft,Bristol,Lincoln,UK,Live Pounds,60076,62326,671,53
+2009,Clam Soft,Brooklin,Hancock,UK,Live Pounds,117003,156629,822,52
+2009,Clam Soft,Brooksville,Hancock,UK,Live Pounds,39673,57163,482,44
+2009,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,512091,700133,4235,75
+2009,Clam Soft,Cape Porpoise,York,UK,Live Pounds,11738,17632,204,11
+2009,Clam Soft,Cushing,Knox,UK,Live Pounds,300292,341911,3439,112
+2009,Clam Soft,Cutler,Washington,UK,Live Pounds,129408,163691,1860,61
+2009,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,284574,280997,2888,172
+2009,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,672963,796022,5805,126
+2009,Clam Soft,Edgecomb,Lincoln,UK,Live Pounds,9186,8868,83,14
+2009,Clam Soft,Franklin,Hancock,UK,Live Pounds,68745,97782,721,84
+2009,Clam Soft,Freeport,Cumberland,UK,Live Pounds,738823,985448,3969,70
+2009,Clam Soft,Friendship,Knox,UK,Live Pounds,194605,214730,2181,95
+2009,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,122079,174930,972,25
+2009,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,82639,101716,865,45
+2009,Clam Soft,Hancock,Hancock,UK,Live Pounds,30988,44201,339,55
+2009,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,515350,714152,4407,84
+2009,Clam Soft,Harrington,Washington,UK,Live Pounds,419037,493534,4456,100
+2009,Clam Soft,Islesboro,Waldo,UK,Live Pounds,4226,6429,26,12
+2009,Clam Soft,Jonesboro,Washington,UK,Live Pounds,39150,41010,555,19
+2009,Clam Soft,Jonesport,Washington,UK,Live Pounds,152114,165301,1868,92
+2009,Clam Soft,Lamoine,Hancock,UK,Live Pounds,237576,335042,2491,170
+2009,Clam Soft,Machias,Washington,UK,Live Pounds,1752,2765,26,10
+2009,Clam Soft,Machiasport,Washington,UK,Live Pounds,488515,569271,6484,120
+2009,Clam Soft,Milbridge,Washington,UK,Live Pounds,206129,236346,2402,131
+2009,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,1097,1107,12,6
+2009,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,37525,39673,475,56
+2009,Clam Soft,North Haven,Knox,UK,Live Pounds,11393,5989,41,17
+2009,Clam Soft,Other Hancock,Hancock,UK,Live Pounds,44083,69873,425,48
+2009,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,236882,328947,2701,246
+2009,Clam Soft,Other Maine,UK,UK,Live Pounds,40082,54979,333,71
+2009,Clam Soft,Pembroke,Washington,UK,Live Pounds,11503,12760,304,42
+2009,Clam Soft,Penobscot,Hancock,UK,Live Pounds,104139,166645,512,37
+2009,Clam Soft,Perry,Washington,UK,Live Pounds,44207,46238,797,49
+2009,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,193246,247749,2105,62
+2009,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,133552,146883,2046,52
+2009,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,352871,486381,2779,51
+2009,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,20891,25730,265,42
+2009,Clam Soft,Sorrento,Hancock,UK,Live Pounds,33462,41366,375,60
+2009,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,135784,181127,1226,80
+2009,Clam Soft,South Thomaston,Knox,UK,Live Pounds,12405,18166,147,45
+2009,Clam Soft,Spruce Head,Knox,UK,Live Pounds,2283,2635,20,9
+2009,Clam Soft,St. George,Knox,UK,Live Pounds,334165,360579,3118,121
+2009,Clam Soft,Steuben,Washington,UK,Live Pounds,83346,88877,1338,89
+2009,Clam Soft,Stonington,Hancock,UK,Live Pounds,149286,169034,1621,76
+2009,Clam Soft,Sullivan,Hancock,UK,Live Pounds,69546,86828,793,93
+2009,Clam Soft,Surry,Hancock,UK,Live Pounds,12780,16963,61,6
+2009,Clam Soft,Swans Island,Hancock,UK,Live Pounds,172000,214286,913,62
+2009,Clam Soft,Thomaston,Knox,UK,Live Pounds,70786,87313,497,51
+2009,Clam Soft,Tremont,Hancock,UK,Live Pounds,1120,1475,9,7
+2009,Clam Soft,Trenton,Hancock,UK,Live Pounds,77174,109679,708,83
+2009,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,52163,75876,341,54
+2009,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,353537,391811,5705,185
+2009,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,80867,119190,656,30
+2009,Clam Soft,Whiting,Washington,UK,Live Pounds,41892,56843,433,38
+2009,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,5746,8510,46,10
+2009,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,232177,310174,772,24
+2010,Clam Soft,Addison,Washington,UK,Live Pounds,462989,588527,4978,207
+2010,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,1856,3278,23,8
+2010,Clam Soft,Biddeford Pool,York,UK,Live Pounds,74710,123004,469,9
+2010,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,6969,8795,66,14
+2010,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,250660,333472,2647,63
+2010,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,12843,16650,155,14
+2010,Clam Soft,Bremen,Lincoln,UK,Live Pounds,134452,162762,1224,37
+2010,Clam Soft,Bristol,Lincoln,UK,Live Pounds,19391,23696,203,30
+2010,Clam Soft,Brooklin,Hancock,UK,Live Pounds,178472,223840,1266,53
+2010,Clam Soft,Brooksville,Hancock,UK,Live Pounds,61156,92060,723,51
+2010,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,677846,958189,4859,104
+2010,Clam Soft,Cape Porpoise,York,UK,Live Pounds,14942,26812,215,7
+2010,Clam Soft,Cushing,Knox,UK,Live Pounds,219288,261709,2704,117
+2010,Clam Soft,Cutler,Washington,UK,Live Pounds,166394,205573,2074,93
+2010,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,46795,58675,614,60
+2010,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,629014,706938,5609,117
+2010,Clam Soft,Edgecomb,Lincoln,UK,Live Pounds,4296,5729,48,11
+2010,Clam Soft,Franklin,Hancock,UK,Live Pounds,48366,63556,503,61
+2010,Clam Soft,Freeport,Cumberland,UK,Live Pounds,530468,748753,3377,77
+2010,Clam Soft,Frenchboro,Hancock,UK,Live Pounds,5375,5577,23,8
+2010,Clam Soft,Friendship,Knox,UK,Live Pounds,152850,164289,2001,77
+2010,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,173593,252414,1147,29
+2010,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,92718,112317,838,47
+2010,Clam Soft,Hancock,Hancock,UK,Live Pounds,96252,147766,992,82
+2010,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,361116,506282,3588,91
+2010,Clam Soft,Harrington,Washington,UK,Live Pounds,425649,468045,4132,118
+2010,Clam Soft,Isle au Haut,Knox,UK,Live Pounds,17455,23511,131,23
+2010,Clam Soft,Islesboro,Waldo,UK,Live Pounds,13304,17185,105,22
+2010,Clam Soft,Jonesboro,Washington,UK,Live Pounds,53840,59310,627,19
+2010,Clam Soft,Jonesport,Washington,UK,Live Pounds,152001,158687,1757,91
+2010,Clam Soft,Lamoine,Hancock,UK,Live Pounds,235697,321428,2378,152
+2010,Clam Soft,Lubec,Washington,UK,Live Pounds,66620,84447,900,43
+2010,Clam Soft,Machias,Washington,UK,Live Pounds,22230,25291,318,19
+2010,Clam Soft,Machiasport,Washington,UK,Live Pounds,623779,705417,7464,158
+2010,Clam Soft,Milbridge,Washington,UK,Live Pounds,312573,375846,3166,125
+2010,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,24976,34514,57,6
+2010,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,62232,82451,675,38
+2010,Clam Soft,North Haven,Knox,UK,Live Pounds,26024,39412,176,50
+2010,Clam Soft,Other Hancock,Hancock,UK,Live Pounds,1954,3190,15,12
+2010,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,209784,282886,2383,175
+2010,Clam Soft,Other Maine,UK,UK,Live Pounds,8464,10251,87,29
+2010,Clam Soft,Owls Head,Knox,UK,Live Pounds,9021,9844,86,15
+2010,Clam Soft,Pembroke,Washington,UK,Live Pounds,10397,12648,225,31
+2010,Clam Soft,Penobscot,Hancock,UK,Live Pounds,60508,89592,338,36
+2010,Clam Soft,Perry,Washington,UK,Live Pounds,48582,63508,854,48
+2010,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,210958,287718,2173,50
+2010,Clam Soft,Portland,Cumberland,UK,Live Pounds,35935,46306,174,7
+2010,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,145704,171159,1968,50
+2010,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,401145,532639,2807,50
+2010,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,26133,34907,326,38
+2010,Clam Soft,Sorrento,Hancock,UK,Live Pounds,52452,65005,509,68
+2010,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,158527,206356,1703,40
+2010,Clam Soft,St. George,Knox,UK,Live Pounds,369147,414391,3720,124
+2010,Clam Soft,Steuben,Washington,UK,Live Pounds,139322,168510,1817,94
+2010,Clam Soft,Stonington,Hancock,UK,Live Pounds,163416,189910,1745,65
+2010,Clam Soft,Sullivan,Hancock,UK,Live Pounds,52947,65761,591,62
+2010,Clam Soft,Surry,Hancock,UK,Live Pounds,10756,15975,43,3
+2010,Clam Soft,Swans Island,Hancock,UK,Live Pounds,346825,477420,2097,83
+2010,Clam Soft,Thomaston,Knox,UK,Live Pounds,103896,123742,589,58
+2010,Clam Soft,Tremont,Hancock,UK,Live Pounds,5672,8154,65,11
+2010,Clam Soft,Trenton,Hancock,UK,Live Pounds,77293,116549,834,88
+2010,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,83195,131802,675,94
+2010,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,611052,747556,6993,211
+2010,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,109886,173662,813,49
+2010,Clam Soft,Whiting,Washington,UK,Live Pounds,46287,57467,487,32
+2010,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,26582,40266,218,26
+2010,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,35813,53921,343,12
+2010,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,190165,247472,677,19
+2011,Clam Soft,Addison,Washington,UK,Live Pounds,325161,385503,3558,119
+2011,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,8071,15155,87,20
+2011,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,39344,48962,330,37
+2011,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,214569,277762,2502,56
+2011,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,44557,66575,503,10
+2011,Clam Soft,Bremen,Lincoln,UK,Live Pounds,175071,222225,1507,49
+2011,Clam Soft,Bristol,Lincoln,UK,Live Pounds,2248,2962,28,6
+2011,Clam Soft,Brooklin,Hancock,UK,Live Pounds,114524,148265,838,38
+2011,Clam Soft,Brooksville,Hancock,UK,Live Pounds,60809,87402,809,51
+2011,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,554863,861582,4659,84
+2011,Clam Soft,Cape Porpoise,York,UK,Live Pounds,4805,7676,97,5
+2011,Clam Soft,Cushing,Knox,UK,Live Pounds,237668,334861,2369,99
+2011,Clam Soft,Cutler,Washington,UK,Live Pounds,166147,226547,2096,67
+2011,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,147950,192757,1636,56
+2011,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,531301,675435,4593,117
+2011,Clam Soft,Franklin,Hancock,UK,Live Pounds,42027,61336,430,34
+2011,Clam Soft,Freeport,Cumberland,UK,Live Pounds,726055,1088820,4392,66
+2011,Clam Soft,Friendship,Knox,UK,Live Pounds,140207,183218,1822,70
+2011,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,170250,265942,1189,23
+2011,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,122611,173193,1053,38
+2011,Clam Soft,Hancock,Hancock,UK,Live Pounds,23232,32492,249,42
+2011,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,426970,658389,4357,88
+2011,Clam Soft,Harrington,Washington,UK,Live Pounds,476938,542893,4727,101
+2011,Clam Soft,Isle au Haut,Knox,UK,Live Pounds,18200,26596,125,26
+2011,Clam Soft,Islesboro,Waldo,UK,Live Pounds,1916,2562,18,11
+2011,Clam Soft,Jonesboro,Washington,UK,Live Pounds,72926,98419,834,31
+2011,Clam Soft,Jonesport,Washington,UK,Live Pounds,122794,140488,1407,75
+2011,Clam Soft,Lamoine,Hancock,UK,Live Pounds,253978,363805,2411,91
+2011,Clam Soft,Lubec,Washington,UK,Live Pounds,158907,251900,1767,71
+2011,Clam Soft,Machias,Washington,UK,Live Pounds,17309,23169,226,30
+2011,Clam Soft,Machiasport,Washington,UK,Live Pounds,712423,855849,8648,143
+2011,Clam Soft,Milbridge,Washington,UK,Live Pounds,286555,399193,3218,117
+2011,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,3524,5001,26,10
+2011,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,14032,17525,183,10
+2011,Clam Soft,North Haven,Knox,UK,Live Pounds,9474,12445,66,28
+2011,Clam Soft,Other Hancock,Hancock,UK,Live Pounds,1337,2088,11,8
+2011,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,342292,477748,3801,204
+2011,Clam Soft,Other Maine,UK,UK,Live Pounds,9160,10614,75,29
+2011,Clam Soft,Pembroke,Washington,UK,Live Pounds,68350,97094,1025,56
+2011,Clam Soft,Penobscot,Hancock,UK,Live Pounds,22619,33627,171,11
+2011,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,223680,334166,2344,47
+2011,Clam Soft,Portland,Cumberland,UK,Live Pounds,30741,48194,133,5
+2011,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,184874,232393,2638,50
+2011,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,451842,570783,2966,55
+2011,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,42221,51532,514,38
+2011,Clam Soft,Sorrento,Hancock,UK,Live Pounds,29038,38036,282,34
+2011,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,177571,247211,1537,38
+2011,Clam Soft,South Thomaston,Knox,UK,Live Pounds,47284,64734,433,65
+2011,Clam Soft,St. George,Knox,UK,Live Pounds,585388,814953,4933,160
+2011,Clam Soft,Steuben,Washington,UK,Live Pounds,120060,155254,1529,81
+2011,Clam Soft,Stonington,Hancock,UK,Live Pounds,226725,276813,2250,71
+2011,Clam Soft,Sullivan,Hancock,UK,Live Pounds,46607,70146,458,48
+2011,Clam Soft,Surry,Hancock,UK,Live Pounds,6208,7264,62,6
+2011,Clam Soft,Swans Island,Hancock,UK,Live Pounds,265592,346785,1705,53
+2011,Clam Soft,Thomaston,Knox,UK,Live Pounds,293830,491215,1490,55
+2011,Clam Soft,Tremont,Hancock,UK,Live Pounds,7508,10197,63,12
+2011,Clam Soft,Trenton,Hancock,UK,Live Pounds,99324,168221,1039,56
+2011,Clam Soft,Trescott,Washington,UK,Live Pounds,33566,47875,254,24
+2011,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,37433,56384,251,52
+2011,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,1029943,1406173,10137,227
+2011,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,122482,189038,1118,27
+2011,Clam Soft,Westport Island,Lincoln,UK,Live Pounds,2398,3607,62,4
+2011,Clam Soft,Whiting,Washington,UK,Live Pounds,28350,41272,297,19
+2011,Clam Soft,Winter Harbor,Hancock,UK,Live Pounds,19012,29027,147,9
+2011,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,36723,60597,336,21
+2011,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,22649,37804,269,13
+2011,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,545012,673180,1319,27
+2012,Clam Soft,Addison,Washington,UK,Live Pounds,179157,248830,1804,75
+2012,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,10270,20268,64,6
+2012,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,31335,47507,186,30
+2012,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,191660,263844,2383,50
+2012,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,48965,72862,650,15
+2012,Clam Soft,Bremen,Lincoln,UK,Live Pounds,125381,192424,1153,58
+2012,Clam Soft,Bristol,Lincoln,UK,Live Pounds,2600,3867,30,13
+2012,Clam Soft,Brooklin,Hancock,UK,Live Pounds,175012,244950,1152,52
+2012,Clam Soft,Brooksville,Hancock,UK,Live Pounds,148289,230293,1521,53
+2012,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,660054,1048188,5421,96
+2012,Clam Soft,Cushing,Knox,UK,Live Pounds,125966,167153,1369,88
+2012,Clam Soft,Cutler,Washington,UK,Live Pounds,192160,266905,2248,67
+2012,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,208422,315060,2430,53
+2012,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,639575,824367,4952,140
+2012,Clam Soft,Edgecomb,Lincoln,UK,Live Pounds,1912,2560,16,5
+2012,Clam Soft,Franklin,Hancock,UK,Live Pounds,45508,75471,392,20
+2012,Clam Soft,Freeport,Cumberland,UK,Live Pounds,939359,1468168,5075,70
+2012,Clam Soft,Friendship,Knox,UK,Live Pounds,135201,183347,1699,81
+2012,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,180274,269524,1356,26
+2012,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,109783,156269,984,45
+2012,Clam Soft,Hancock,Hancock,UK,Live Pounds,14824,21993,153,39
+2012,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,380873,587899,4010,73
+2012,Clam Soft,Harrington,Washington,UK,Live Pounds,455509,557820,4539,102
+2012,Clam Soft,Isle au Haut,Knox,UK,Live Pounds,8037,14167,68,16
+2012,Clam Soft,Jonesboro,Washington,UK,Live Pounds,114127,138416,1348,28
+2012,Clam Soft,Jonesport,Washington,UK,Live Pounds,202737,222734,2069,63
+2012,Clam Soft,Lamoine,Hancock,UK,Live Pounds,318661,495579,2986,76
+2012,Clam Soft,Lubec,Washington,UK,Live Pounds,237204,347722,2761,91
+2012,Clam Soft,Machias,Washington,UK,Live Pounds,3079,4946,54,10
+2012,Clam Soft,Machiasport,Washington,UK,Live Pounds,723320,898882,8357,130
+2012,Clam Soft,Milbridge,Washington,UK,Live Pounds,174509,242956,1952,98
+2012,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,29068,46980,138,13
+2012,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,2027,2205,29,10
+2012,Clam Soft,North Haven,Knox,UK,Live Pounds,1879,3610,13,9
+2012,Clam Soft,Other Hancock,Hancock,UK,Live Pounds,16397,25278,149,12
+2012,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,218548,334522,2138,165
+2012,Clam Soft,Other Maine,UK,UK,Live Pounds,8542,11474,111,25
+2012,Clam Soft,Other Washington,Washington,UK,Live Pounds,3484,3571,49,9
+2012,Clam Soft,Pembroke,Washington,UK,Live Pounds,108926,140686,1600,52
+2012,Clam Soft,Penobscot,Hancock,UK,Live Pounds,12802,21106,129,5
+2012,Clam Soft,Perry,Washington,UK,Live Pounds,130172,183925,2145,79
+2012,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,249462,343554,2578,43
+2012,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,162313,196139,2173,28
+2012,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,287824,412044,2652,46
+2012,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,17336,20231,211,18
+2012,Clam Soft,Sorrento,Hancock,UK,Live Pounds,55205,75749,454,41
+2012,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,114895,156273,1001,42
+2012,Clam Soft,South Thomaston,Knox,UK,Live Pounds,44288,64429,449,64
+2012,Clam Soft,Southwest Harbor,Hancock,UK,Live Pounds,4995,10581,43,7
+2012,Clam Soft,St. George,Knox,UK,Live Pounds,709033,983522,6583,152
+2012,Clam Soft,Steuben,Washington,UK,Live Pounds,58584,77220,779,57
+2012,Clam Soft,Stonington,Hancock,UK,Live Pounds,245560,313810,2193,79
+2012,Clam Soft,Sullivan,Hancock,UK,Live Pounds,50131,81944,476,48
+2012,Clam Soft,Surry,Hancock,UK,Live Pounds,4374,7439,35,8
+2012,Clam Soft,Swans Island,Hancock,UK,Live Pounds,99868,140766,628,34
+2012,Clam Soft,Thomaston,Knox,UK,Live Pounds,145508,213437,1089,46
+2012,Clam Soft,Tremont,Hancock,UK,Live Pounds,15422,21927,176,18
+2012,Clam Soft,Trenton,Hancock,UK,Live Pounds,45714,66831,443,42
+2012,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,84748,145362,632,104
+2012,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,653685,914084,7753,224
+2012,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,136680,222138,1120,23
+2012,Clam Soft,Whiting,Washington,UK,Live Pounds,23397,34366,238,15
+2012,Clam Soft,Winter Harbor,Hancock,UK,Live Pounds,2171,3348,22,9
+2012,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,32417,52332,368,19
+2012,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,23967,38609,294,12
+2012,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,497972,689040,1356,26
+2013,Clam Soft,Addison,Washington,UK,Live Pounds,143336,242636,1672,58
+2013,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,5065,11610,57,6
+2013,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,18191,25574,155,21
+2013,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,221536,346755,2709,52
+2013,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,56856,95079,734,19
+2013,Clam Soft,Bremen,Lincoln,UK,Live Pounds,253900,405109,2282,74
+2013,Clam Soft,Bristol,Lincoln,UK,Live Pounds,18209,25987,171,33
+2013,Clam Soft,Brooklin,Hancock,UK,Live Pounds,95342,141532,797,49
+2013,Clam Soft,Brooksville,Hancock,UK,Live Pounds,220783,380166,2485,72
+2013,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,595336,1038120,5310,87
+2013,Clam Soft,Cushing,Knox,UK,Live Pounds,106247,150402,1140,78
+2013,Clam Soft,Cutler,Washington,UK,Live Pounds,158439,248873,2108,59
+2013,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,243522,344305,1662,61
+2013,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,575889,822020,4918,107
+2013,Clam Soft,Franklin,Hancock,UK,Live Pounds,24148,45021,242,19
+2013,Clam Soft,Freeport,Cumberland,UK,Live Pounds,840653,1431879,5006,62
+2013,Clam Soft,Friendship,Knox,UK,Live Pounds,153323,237045,1835,70
+2013,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,143357,247700,1210,32
+2013,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,106693,159867,988,47
+2013,Clam Soft,Hancock,Hancock,UK,Live Pounds,21873,36082,291,40
+2013,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,361976,627999,4032,68
+2013,Clam Soft,Harrington,Washington,UK,Live Pounds,328766,476206,3694,81
+2013,Clam Soft,Isle au Haut,Knox,UK,Live Pounds,2578,4112,38,8
+2013,Clam Soft,Islesboro,Waldo,UK,Live Pounds,8093,13673,69,25
+2013,Clam Soft,Jonesboro,Washington,UK,Live Pounds,133196,220013,1602,55
+2013,Clam Soft,Jonesport,Washington,UK,Live Pounds,153353,226185,1739,70
+2013,Clam Soft,Lamoine,Hancock,UK,Live Pounds,290867,520945,2775,85
+2013,Clam Soft,Lubec,Washington,UK,Live Pounds,342078,614075,4090,125
+2013,Clam Soft,Machias,Washington,UK,Live Pounds,20423,32015,372,28
+2013,Clam Soft,Machiasport,Washington,UK,Live Pounds,509042,758791,6479,116
+2013,Clam Soft,Milbridge,Washington,UK,Live Pounds,208490,325913,2199,85
+2013,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,19153,28097,118,9
+2013,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,20150,32829,266,14
+2013,Clam Soft,North Haven,Knox,UK,Live Pounds,2580,5367,14,7
+2013,Clam Soft,Other Hancock,Hancock,UK,Live Pounds,3717,5660,32,24
+2013,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,321376,537889,2880,245
+2013,Clam Soft,Other Maine,UK,UK,Live Pounds,5562,6105,57,29
+2013,Clam Soft,Pembroke,Washington,UK,Live Pounds,216145,319757,3204,66
+2013,Clam Soft,Perry,Washington,UK,Live Pounds,97049,162874,1604,84
+2013,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,252539,408279,2683,49
+2013,Clam Soft,Portland,Cumberland,UK,Live Pounds,29671,50712,209,5
+2013,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,202237,303547,2537,39
+2013,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,313240,521683,2621,46
+2013,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,9471,12385,117,17
+2013,Clam Soft,Sorrento,Hancock,UK,Live Pounds,37841,54380,357,31
+2013,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,133560,208468,1329,37
+2013,Clam Soft,St. George,Knox,UK,Live Pounds,849869,1440057,6573,153
+2013,Clam Soft,Steuben,Washington,UK,Live Pounds,92822,141076,1259,48
+2013,Clam Soft,Stonington,Hancock,UK,Live Pounds,316110,431705,3155,89
+2013,Clam Soft,Sullivan,Hancock,UK,Live Pounds,23371,35595,254,40
+2013,Clam Soft,Surry,Hancock,UK,Live Pounds,7489,10268,105,18
+2013,Clam Soft,Swans Island,Hancock,UK,Live Pounds,72334,108552,492,30
+2013,Clam Soft,Thomaston,Knox,UK,Live Pounds,300351,442177,2143,51
+2013,Clam Soft,Tremont,Hancock,UK,Live Pounds,10378,17655,164,10
+2013,Clam Soft,Trenton,Hancock,UK,Live Pounds,84077,133783,922,53
+2013,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,113629,220726,905,97
+2013,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,726879,1144579,8788,222
+2013,Clam Soft,Warren,Knox,UK,Live Pounds,3576,5906,38,16
+2013,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,175034,306054,1278,22
+2013,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,17404,30407,227,17
+2013,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,25940,48014,330,12
+2013,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,405649,672164,1252,26
+2014,Clam Soft,Addison,Washington,UK,Live Pounds,159085,346721,1829,89
+2014,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,6411,16788,105,9
+2014,Clam Soft,Biddeford,York,UK,Live Pounds,2558,5190,13,11
+2014,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,16092,27813,111,34
+2014,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,239157,472722,2785,61
+2014,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,54864,114032,623,28
+2014,Clam Soft,Bremen,Lincoln,UK,Live Pounds,128630,221739,1592,74
+2014,Clam Soft,Bristol,Lincoln,UK,Live Pounds,5162,10506,76,26
+2014,Clam Soft,Brooklin,Hancock,UK,Live Pounds,126282,254044,1013,87
+2014,Clam Soft,Brooksville,Hancock,UK,Live Pounds,208018,405547,2411,115
+2014,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,297680,670492,3065,65
+2014,Clam Soft,Castine,Hancock,UK,Live Pounds,19399,45218,146,58
+2014,Clam Soft,Cranberry Isles,Hancock,UK,Live Pounds,1266,3700,10,3
+2014,Clam Soft,Cushing,Knox,UK,Live Pounds,121073,245492,1702,124
+2014,Clam Soft,Cutler,Washington,UK,Live Pounds,215673,489472,2898,90
+2014,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,127068,197836,1646,48
+2014,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,648017,1193655,5348,159
+2014,Clam Soft,Edmunds,Washington,UK,Live Pounds,1630,3676,28,9
+2014,Clam Soft,Franklin,Hancock,UK,Live Pounds,17508,33641,145,19
+2014,Clam Soft,Freeport,Cumberland,UK,Live Pounds,590597,1292100,4377,65
+2014,Clam Soft,Friendship,Knox,UK,Live Pounds,116536,232596,1659,88
+2014,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,168823,373167,1385,30
+2014,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,83906,156623,916,33
+2014,Clam Soft,Hancock,Hancock,UK,Live Pounds,19365,43484,181,34
+2014,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,295600,612396,3395,85
+2014,Clam Soft,Harrington,Washington,UK,Live Pounds,282381,521729,3350,103
+2014,Clam Soft,Isle au Haut,Knox,UK,Live Pounds,694,1642,11,6
+2014,Clam Soft,Islesboro,Waldo,UK,Live Pounds,5282,10172,61,21
+2014,Clam Soft,Jonesboro,Washington,UK,Live Pounds,186894,370827,2228,60
+2014,Clam Soft,Jonesport,Washington,UK,Live Pounds,184835,345541,2152,100
+2014,Clam Soft,Lamoine,Hancock,UK,Live Pounds,228714,497259,2641,71
+2014,Clam Soft,Lubec,Washington,UK,Live Pounds,423420,880474,6212,159
+2014,Clam Soft,Machias,Washington,UK,Live Pounds,17365,34525,341,37
+2014,Clam Soft,Machiasport,Washington,UK,Live Pounds,538638,1055991,7000,145
+2014,Clam Soft,Milbridge,Washington,UK,Live Pounds,199803,392920,2399,96
+2014,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,9219,22267,61,12
+2014,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,21693,39073,300,16
+2014,Clam Soft,North Haven,Knox,UK,Live Pounds,5114,11948,42,22
+2014,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,508937,1031188,4798,415
+2014,Clam Soft,Other Maine,UK,UK,Live Pounds,314,816,3,1
+2014,Clam Soft,Pembroke,Washington,UK,Live Pounds,184140,329558,3202,103
+2014,Clam Soft,Perry,Washington,UK,Live Pounds,170477,323512,3223,129
+2014,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,243052,487252,2767,52
+2014,Clam Soft,Robbinston,Washington,UK,Live Pounds,2602,5207,41,8
+2014,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,210686,407943,2631,47
+2014,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,343258,688740,2692,68
+2014,Clam Soft,Searsport,Waldo,UK,Live Pounds,386,862,5,4
+2014,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,46161,98441,564,69
+2014,Clam Soft,Sorrento,Hancock,UK,Live Pounds,4798,10580,62,26
+2014,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,71940,139491,896,41
+2014,Clam Soft,St. George,Knox,UK,Live Pounds,521357,1015606,4851,190
+2014,Clam Soft,Steuben,Washington,UK,Live Pounds,150814,275393,1836,65
+2014,Clam Soft,Stockton Springs,Waldo,UK,Live Pounds,35586,61666,130,34
+2014,Clam Soft,Stonington,Hancock,UK,Live Pounds,211150,342332,2243,104
+2014,Clam Soft,Sullivan,Hancock,UK,Live Pounds,14914,27056,193,27
+2014,Clam Soft,Surry,Hancock,UK,Live Pounds,6582,14317,77,17
+2014,Clam Soft,Swans Island,Hancock,UK,Live Pounds,35774,77039,234,36
+2014,Clam Soft,Thomaston,Knox,UK,Live Pounds,223406,386701,1574,83
+2014,Clam Soft,Tremont,Hancock,UK,Live Pounds,13895,29955,218,25
+2014,Clam Soft,Trenton,Hancock,UK,Live Pounds,86741,189046,1089,50
+2014,Clam Soft,Trescott,Washington,UK,Live Pounds,13990,32208,181,15
+2014,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,242454,583420,2410,219
+2014,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,410005,752623,6460,196
+2014,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,100978,222547,1010,30
+2014,Clam Soft,Whiting,Washington,UK,Live Pounds,20540,43889,274,33
+2014,Clam Soft,Winter Harbor,Hancock,UK,Live Pounds,5037,10374,53,8
+2014,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,70759,176361,560,24
+2014,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,32686,77064,327,11
+2014,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,424951,737298,1055,30
+2015,Clam Soft,Addison,Washington,UK,Live Pounds,250233,612308,3036,88
+2015,Clam Soft,Arrowsic,Sagadahoc,UK,Live Pounds,874,2408,19,3
+2015,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,3396,10055,92,4
+2015,Clam Soft,Beals,Washington,UK,Live Pounds,19417,38717,422,16
+2015,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,33733,84837,321,19
+2015,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,179644,443491,2412,52
+2015,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,21945,59512,283,22
+2015,Clam Soft,Bremen,Lincoln,UK,Live Pounds,220127,556002,2710,100
+2015,Clam Soft,Bristol,Lincoln,UK,Live Pounds,2208,4804,41,14
+2015,Clam Soft,Brooklin,Hancock,UK,Live Pounds,89024,209016,829,75
+2015,Clam Soft,Brooksville,Hancock,UK,Live Pounds,167765,411761,2608,101
+2015,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,196809,540453,2352,63
+2015,Clam Soft,Castine,Hancock,UK,Live Pounds,15844,35403,232,36
+2015,Clam Soft,Cranberry Isles,Hancock,UK,Live Pounds,21470,60168,155,11
+2015,Clam Soft,Cushing,Knox,UK,Live Pounds,87507,218278,1309,101
+2015,Clam Soft,Cutler,Washington,UK,Live Pounds,277417,733876,4001,85
+2015,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,88587,208578,1559,53
+2015,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,520293,1184698,5645,141
+2015,Clam Soft,Eastport,Washington,UK,Live Pounds,57847,121538,981,47
+2015,Clam Soft,Edgecomb,Lincoln,UK,Live Pounds,3611,8209,50,11
+2015,Clam Soft,Edmunds,Washington,UK,Live Pounds,3381,7977,92,5
+2015,Clam Soft,Franklin,Hancock,UK,Live Pounds,15108,33993,158,28
+2015,Clam Soft,Freeport,Cumberland,UK,Live Pounds,289775,786599,2854,64
+2015,Clam Soft,Friendship,Knox,UK,Live Pounds,88283,232188,1335,85
+2015,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,174800,460934,1804,31
+2015,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,85634,203472,970,47
+2015,Clam Soft,Hancock,Hancock,UK,Live Pounds,9785,24301,100,26
+2015,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,151753,411322,2017,63
+2015,Clam Soft,Harrington,Washington,UK,Live Pounds,240953,536617,2905,92
+2015,Clam Soft,Isle au Haut,Knox,UK,Live Pounds,3365,10065,50,13
+2015,Clam Soft,Islesboro,Waldo,UK,Live Pounds,5350,13586,63,19
+2015,Clam Soft,Jonesboro,Washington,UK,Live Pounds,177285,427671,2280,74
+2015,Clam Soft,Jonesport,Washington,UK,Live Pounds,250235,554398,2916,117
+2015,Clam Soft,Lamoine,Hancock,UK,Live Pounds,335633,901185,3516,106
+2015,Clam Soft,Lubec,Washington,UK,Live Pounds,412020,999469,6836,145
+2015,Clam Soft,Machias,Washington,UK,Live Pounds,22801,52142,337,39
+2015,Clam Soft,Machiasport,Washington,UK,Live Pounds,622240,1456374,7920,193
+2015,Clam Soft,Milbridge,Washington,UK,Live Pounds,194031,457964,2452,69
+2015,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,19947,52207,168,13
+2015,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,17758,42441,243,15
+2015,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,332295,860319,3829,305
+2015,Clam Soft,Other Maine,UK,UK,Live Pounds,103,237,3,3
+2015,Clam Soft,Owls Head,Knox,UK,Live Pounds,30376,70984,506,50
+2015,Clam Soft,Pembroke,Washington,UK,Live Pounds,217705,494072,3508,129
+2015,Clam Soft,Perry,Washington,UK,Live Pounds,346092,816625,6365,218
+2015,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,228603,570809,2816,41
+2015,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,215366,495095,2563,45
+2015,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,225929,559446,2629,43
+2015,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,33151,75002,495,59
+2015,Clam Soft,Sorrento,Hancock,UK,Live Pounds,26044,74475,213,28
+2015,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,94132,248063,999,38
+2015,Clam Soft,South Thomaston,Knox,UK,Live Pounds,54899,138244,735,86
+2015,Clam Soft,St. George,Knox,UK,Live Pounds,176718,432908,2646,119
+2015,Clam Soft,Steuben,Washington,UK,Live Pounds,120774,272855,1762,55
+2015,Clam Soft,Stonington,Hancock,UK,Live Pounds,118141,264967,1382,84
+2015,Clam Soft,Sullivan,Hancock,UK,Live Pounds,15943,35130,178,27
+2015,Clam Soft,Surry,Hancock,UK,Live Pounds,15481,41705,186,20
+2015,Clam Soft,Swans Island,Hancock,UK,Live Pounds,72696,184462,523,43
+2015,Clam Soft,Thomaston,Knox,UK,Live Pounds,125604,260184,995,42
+2015,Clam Soft,Tremont,Hancock,UK,Live Pounds,7959,19889,102,16
+2015,Clam Soft,Trenton,Hancock,UK,Live Pounds,27453,66003,325,47
+2015,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,131603,361757,1479,117
+2015,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,847192,2223605,10143,243
+2015,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,85929,239328,1054,28
+2015,Clam Soft,Whiting,Washington,UK,Live Pounds,37364,99015,506,46
+2015,Clam Soft,Winter Harbor,Hancock,UK,Live Pounds,1860,4300,32,3
+2015,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,95820,259140,808,21
+2015,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,18012,47537,241,8
+2015,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,185564,415789,673,27
+2016,Clam Soft,Addison,Washington,UK,Live Pounds,118584,243852,1560,62
+2016,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,13442,37695,198,10
+2016,Clam Soft,Biddeford Pool,York,UK,Live Pounds,111079,260038,713,14
+2016,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,11021,22839,158,20
+2016,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,135926,298828,1888,59
+2016,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,8924,19370,146,11
+2016,Clam Soft,Bremen,Lincoln,UK,Live Pounds,255789,540417,2848,90
+2016,Clam Soft,Bristol,Lincoln,UK,Live Pounds,2311,4814,33,11
+2016,Clam Soft,Brooklin,Hancock,UK,Live Pounds,51530,110581,708,50
+2016,Clam Soft,Brooksville,Hancock,UK,Live Pounds,97518,215349,1832,75
+2016,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,346805,773125,3353,83
+2016,Clam Soft,Castine,Hancock,UK,Live Pounds,35650,73608,597,41
+2016,Clam Soft,Cushing,Knox,UK,Live Pounds,77265,151387,1264,88
+2016,Clam Soft,Cutler,Washington,UK,Live Pounds,226772,500086,3540,98
+2016,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,76046,137087,1126,66
+2016,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,411313,825693,4715,152
+2016,Clam Soft,Edgecomb,Lincoln,UK,Live Pounds,622,1057,15,6
+2016,Clam Soft,Franklin,Hancock,UK,Live Pounds,30328,72546,441,24
+2016,Clam Soft,Freeport,Cumberland,UK,Live Pounds,242339,568898,2334,52
+2016,Clam Soft,Friendship,Knox,UK,Live Pounds,49843,106670,951,45
+2016,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,159040,350148,1693,26
+2016,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,75675,152601,591,36
+2016,Clam Soft,Hancock,Hancock,UK,Live Pounds,35923,83874,455,50
+2016,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,97940,238763,1137,55
+2016,Clam Soft,Harrington,Washington,UK,Live Pounds,155858,314788,2117,63
+2016,Clam Soft,Isle au Haut,Knox,UK,Live Pounds,2473,4186,48,3
+2016,Clam Soft,Jonesboro,Washington,UK,Live Pounds,112859,230794,1527,48
+2016,Clam Soft,Jonesport,Washington,UK,Live Pounds,159884,313178,2111,79
+2016,Clam Soft,Lamoine,Hancock,UK,Live Pounds,197599,467215,2823,88
+2016,Clam Soft,Lubec,Washington,UK,Live Pounds,371465,762191,6153,142
+2016,Clam Soft,Machias,Washington,UK,Live Pounds,14046,27628,247,34
+2016,Clam Soft,Machiasport,Washington,UK,Live Pounds,483009,985959,6547,155
+2016,Clam Soft,Milbridge,Washington,UK,Live Pounds,123415,248629,1798,85
+2016,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,13083,30498,94,13
+2016,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,3909,8013,58,11
+2016,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,196772,397070,2807,267
+2016,Clam Soft,Pembroke,Washington,UK,Live Pounds,144340,289373,2888,184
+2016,Clam Soft,Perry,Washington,UK,Live Pounds,356880,688746,6095,242
+2016,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,153870,326485,2385,43
+2016,Clam Soft,Robbinston,Washington,UK,Live Pounds,18693,42354,440,74
+2016,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,187753,366315,2488,48
+2016,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,343806,776129,3230,63
+2016,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,14328,31707,175,30
+2016,Clam Soft,Sorrento,Hancock,UK,Live Pounds,11359,22778,141,26
+2016,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,84340,183381,952,34
+2016,Clam Soft,Southport,Lincoln,UK,Live Pounds,14349,30021,224,12
+2016,Clam Soft,Southwest Harbor,Hancock,UK,Live Pounds,555,1068,8,4
+2016,Clam Soft,St. George,Knox,UK,Live Pounds,273041,605820,3368,103
+2016,Clam Soft,Steuben,Washington,UK,Live Pounds,85365,174220,1399,49
+2016,Clam Soft,Stonington,Hancock,UK,Live Pounds,82098,152905,1060,73
+2016,Clam Soft,Sullivan,Hancock,UK,Live Pounds,3811,8462,73,27
+2016,Clam Soft,Surry,Hancock,UK,Live Pounds,8053,15728,154,22
+2016,Clam Soft,Swans Island,Hancock,UK,Live Pounds,32199,70997,320,28
+2016,Clam Soft,Thomaston,Knox,UK,Live Pounds,81100,171422,925,43
+2016,Clam Soft,Tremont,Hancock,UK,Live Pounds,2542,5789,64,7
+2016,Clam Soft,Trenton,Hancock,UK,Live Pounds,19191,46929,276,38
+2016,Clam Soft,Trescott,Washington,UK,Live Pounds,26081,62862,372,25
+2016,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,40530,89360,416,62
+2016,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,980592,2108897,12639,268
+2016,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,75834,168602,970,25
+2016,Clam Soft,Whiting,Washington,UK,Live Pounds,15801,34899,229,20
+2016,Clam Soft,Winter Harbor,Hancock,UK,Live Pounds,3010,4141,45,6
+2016,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,39229,91690,386,22
+2016,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,13655,31006,191,10
+2016,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,24324,49783,175,7
+2017,Clam Soft,Addison,Washington,UK,Live Pounds,67537,118932,697,49
+2017,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,4651,19555,152,4
+2017,Clam Soft,Biddeford Pool,York,UK,Live Pounds,91976,170423,566,12
+2017,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,4579,8878,62,11
+2017,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,81714,143296,1172,41
+2017,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,8065,16771,145,10
+2017,Clam Soft,Bremen,Lincoln,UK,Live Pounds,166268,290390,1990,60
+2017,Clam Soft,Bristol,Lincoln,UK,Live Pounds,3876,6070,63,7
+2017,Clam Soft,Brooklin,Hancock,UK,Live Pounds,53164,95254,547,32
+2017,Clam Soft,Brooksville,Hancock,UK,Live Pounds,59755,101188,1059,46
+2017,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,701851,1372603,4709,116
+2017,Clam Soft,Castine,Hancock,UK,Live Pounds,6784,11525,108,16
+2017,Clam Soft,Cushing,Knox,UK,Live Pounds,68966,119879,966,55
+2017,Clam Soft,Cutler,Washington,UK,Live Pounds,184486,306809,2475,74
+2017,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,57460,96937,922,36
+2017,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,478933,840299,4070,120
+2017,Clam Soft,Franklin,Hancock,UK,Live Pounds,65754,130450,609,21
+2017,Clam Soft,Freeport,Cumberland,UK,Live Pounds,388052,744331,2747,52
+2017,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,102850,196944,1092,18
+2017,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,43932,69036,459,19
+2017,Clam Soft,Hancock,Hancock,UK,Live Pounds,29708,47934,314,29
+2017,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,112895,228242,1219,53
+2017,Clam Soft,Harrington,Washington,UK,Live Pounds,119473,180856,1537,45
+2017,Clam Soft,Jonesboro,Washington,UK,Live Pounds,71683,126379,1128,33
+2017,Clam Soft,Jonesport,Washington,UK,Live Pounds,154022,271814,1747,75
+2017,Clam Soft,Lamoine,Hancock,UK,Live Pounds,80973,148602,1165,50
+2017,Clam Soft,Lubec,Washington,UK,Live Pounds,326079,540374,4892,90
+2017,Clam Soft,Machias,Washington,UK,Live Pounds,12244,21508,219,9
+2017,Clam Soft,Machiasport,Washington,UK,Live Pounds,267303,471010,3404,90
+2017,Clam Soft,Milbridge,Washington,UK,Live Pounds,53579,93313,854,43
+2017,Clam Soft,Mount Desert,Hancock,UK,Live Pounds,4908,10645,44,5
+2017,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,181753,622604,1971,183
+2017,Clam Soft,Pembroke,Washington,UK,Live Pounds,140508,228028,2412,89
+2017,Clam Soft,Perry,Washington,UK,Live Pounds,89537,140411,1516,100
+2017,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,113179,216695,1733,38
+2017,Clam Soft,Pine Point,Cumberland,UK,Live Pounds,20763,37800,118,14
+2017,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,138527,250629,1884,44
+2017,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,210789,389502,1680,46
+2017,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,9816,17302,134,22
+2017,Clam Soft,Sorrento,Hancock,UK,Live Pounds,20782,38559,215,21
+2017,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,159947,289291,1670,41
+2017,Clam Soft,South Thomaston,Knox,UK,Live Pounds,21439,39368,225,45
+2017,Clam Soft,St. George,Knox,UK,Live Pounds,277418,474818,2887,101
+2017,Clam Soft,Steuben,Washington,UK,Live Pounds,85641,143499,1252,34
+2017,Clam Soft,Stonington,Hancock,UK,Live Pounds,148897,232214,1245,60
+2017,Clam Soft,Sullivan,Hancock,UK,Live Pounds,120438,242644,955,57
+2017,Clam Soft,Surry,Hancock,UK,Live Pounds,9134,15107,164,26
+2017,Clam Soft,Swans Island,Hancock,UK,Live Pounds,19052,38246,166,14
+2017,Clam Soft,Thomaston,Knox,UK,Live Pounds,161211,754145,1266,44
+2017,Clam Soft,Tremont,Hancock,UK,Live Pounds,6825,13119,88,12
+2017,Clam Soft,Trenton,Hancock,UK,Live Pounds,8524,16802,134,17
+2017,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,10936,20672,113,25
+2017,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,907384,1596789,10348,230
+2017,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,92528,190896,815,20
+2017,Clam Soft,Whiting,Washington,UK,Live Pounds,3870,7110,67,10
+2017,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,5660,11889,87,12
+2017,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,5019,9329,91,5
+2017,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,73399,157348,222,13
+2018,Clam Soft,Addison,Washington,UK,Live Pounds,73049,130087,853,30
+2018,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,2503,9451,60,5
+2018,Clam Soft,Beals,Washington,UK,Live Pounds,41711,69767,887,14
+2018,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,950,1823,12,4
+2018,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,76417,138325,909,40
+2018,Clam Soft,Bremen,Lincoln,UK,Live Pounds,135215,215877,1588,58
+2018,Clam Soft,Bristol,Lincoln,UK,Live Pounds,10679,17157,155,18
+2018,Clam Soft,Brooklin,Hancock,UK,Live Pounds,25905,40947,189,15
+2018,Clam Soft,Brooksville,Hancock,UK,Live Pounds,57383,101599,631,36
+2018,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,524927,1022605,3596,104
+2018,Clam Soft,Castine,Hancock,UK,Live Pounds,19042,36988,216,19
+2018,Clam Soft,Cushing,Knox,UK,Live Pounds,58717,101314,793,59
+2018,Clam Soft,Cutler,Washington,UK,Live Pounds,267074,466087,2983,96
+2018,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,26568,44894,385,30
+2018,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,448664,738270,3019,87
+2018,Clam Soft,Franklin,Hancock,UK,Live Pounds,206819,409183,1410,45
+2018,Clam Soft,Freeport,Cumberland,UK,Live Pounds,525681,1000529,3477,61
+2018,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,89958,170334,1027,19
+2018,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,60223,102900,755,25
+2018,Clam Soft,Hancock,Hancock,UK,Live Pounds,48955,89188,463,43
+2018,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,128220,252976,1262,61
+2018,Clam Soft,Harrington,Washington,UK,Live Pounds,159324,267953,1668,38
+2018,Clam Soft,Jonesboro,Washington,UK,Live Pounds,76988,136128,846,30
+2018,Clam Soft,Jonesport,Washington,UK,Live Pounds,244338,407540,2491,87
+2018,Clam Soft,Lamoine,Hancock,UK,Live Pounds,179492,312796,1724,70
+2018,Clam Soft,Lubec,Washington,UK,Live Pounds,248519,430777,4097,77
+2018,Clam Soft,Machias,Washington,UK,Live Pounds,119087,235526,934,51
+2018,Clam Soft,Machiasport,Washington,UK,Live Pounds,283396,487606,3067,95
+2018,Clam Soft,Milbridge,Washington,UK,Live Pounds,103873,179028,1325,43
+2018,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,349,635,5,5
+2018,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,198667,378055,1693,167
+2018,Clam Soft,Owls Head,Knox,UK,Live Pounds,12604,21454,193,20
+2018,Clam Soft,Pembroke,Washington,UK,Live Pounds,175637,289362,2687,59
+2018,Clam Soft,Perry,Washington,UK,Live Pounds,41685,70055,630,27
+2018,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,61501,116811,773,28
+2018,Clam Soft,Portland,Cumberland,UK,Live Pounds,15859,35140,100,5
+2018,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,134804,240532,1691,30
+2018,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,557993,1027908,3471,47
+2018,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,11037,18409,149,18
+2018,Clam Soft,Sorrento,Hancock,UK,Live Pounds,26698,46378,257,28
+2018,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,256250,462732,2001,42
+2018,Clam Soft,St. George,Knox,UK,Live Pounds,143778,231827,1521,76
+2018,Clam Soft,Steuben,Washington,UK,Live Pounds,72418,115170,894,27
+2018,Clam Soft,Stonington,Hancock,UK,Live Pounds,189037,250261,1439,45
+2018,Clam Soft,Sullivan,Hancock,UK,Live Pounds,81704,167630,621,53
+2018,Clam Soft,Surry,Hancock,UK,Live Pounds,6623,10602,101,10
+2018,Clam Soft,Swans Island,Hancock,UK,Live Pounds,24348,48111,159,12
+2018,Clam Soft,Thomaston,Knox,UK,Live Pounds,70812,131271,439,50
+2018,Clam Soft,Trenton,Hancock,UK,Live Pounds,17031,43523,149,19
+2018,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,46489,99987,338,43
+2018,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,468704,815106,6124,164
+2018,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,152960,306738,956,22
+2018,Clam Soft,Whiting,Washington,UK,Live Pounds,2534,4778,33,7
+2018,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,40881,95194,296,16
+2018,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,3751,6640,59,3
+2018,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,129948,269660,291,13
+2019,Clam Soft,Addison,Washington,UK,Live Pounds,124111,278268,1131,38
+2019,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,95528,246031,966,30
+2019,Clam Soft,Bremen,Lincoln,UK,Live Pounds,125466,252627,1314,53
+2019,Clam Soft,Bristol,Lincoln,UK,Live Pounds,9725,19867,147,20
+2019,Clam Soft,Brooklin,Hancock,UK,Live Pounds,23999,58989,212,18
+2019,Clam Soft,Brooksville,Hancock,UK,Live Pounds,94797,185976,1016,36
+2019,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,599834,1578373,4477,93
+2019,Clam Soft,Castine,Hancock,UK,Live Pounds,14024,25779,249,19
+2019,Clam Soft,Cushing,Knox,UK,Live Pounds,58467,120060,735,64
+2019,Clam Soft,Cutler,Washington,UK,Live Pounds,391557,954892,4139,104
+2019,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,24863,57757,395,42
+2019,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,606496,1344116,4326,109
+2019,Clam Soft,Eastport,Washington,UK,Live Pounds,2413,5959,22,6
+2019,Clam Soft,Franklin,Hancock,UK,Live Pounds,397046,951327,2418,71
+2019,Clam Soft,Freeport,Cumberland,UK,Live Pounds,497981,1235962,3714,67
+2019,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,91897,221732,1041,26
+2019,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,52275,124338,494,27
+2019,Clam Soft,Hancock,Hancock,UK,Live Pounds,41367,91791,307,39
+2019,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,203961,414246,1451,62
+2019,Clam Soft,Harrington,Washington,UK,Live Pounds,220938,485429,2219,82
+2019,Clam Soft,Jonesboro,Washington,UK,Live Pounds,86046,208264,647,32
+2019,Clam Soft,Jonesport,Washington,UK,Live Pounds,384820,911747,3766,104
+2019,Clam Soft,Lamoine,Hancock,UK,Live Pounds,135127,297041,1583,64
+2019,Clam Soft,Lubec,Washington,UK,Live Pounds,329200,734608,4531,106
+2019,Clam Soft,Machias,Washington,UK,Live Pounds,155763,360906,1084,51
+2019,Clam Soft,Machiasport,Washington,UK,Live Pounds,493144,1122747,4420,136
+2019,Clam Soft,Milbridge,Washington,UK,Live Pounds,206040,468059,2195,51
+2019,Clam Soft,Other Sagadahoc,Sagadahoc,UK,Live Pounds,2537,6978,42,5
+2019,Clam Soft,Pembroke,Washington,UK,Live Pounds,164299,337023,2752,87
+2019,Clam Soft,Penobscot,Hancock,UK,Live Pounds,2685,7445,39,5
+2019,Clam Soft,Perry,Washington,UK,Live Pounds,32295,62468,588,39
+2019,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,116246,270225,1176,33
+2019,Clam Soft,Portland,Cumberland,UK,Live Pounds,22398,68460,147,8
+2019,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,134539,304883,1646,38
+2019,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,374526,891448,2732,55
+2019,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,4566,7303,69,11
+2019,Clam Soft,Sorrento,Hancock,UK,Live Pounds,21871,46150,181,34
+2019,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,188728,425891,1660,50
+2019,Clam Soft,St. George,Knox,UK,Live Pounds,60602,134439,774,52
+2019,Clam Soft,Steuben,Washington,UK,Live Pounds,36941,86855,505,21
+2019,Clam Soft,Stonington,Hancock,UK,Live Pounds,134631,249321,1107,39
+2019,Clam Soft,Sullivan,Hancock,UK,Live Pounds,67465,165869,515,47
+2019,Clam Soft,Surry,Hancock,UK,Live Pounds,1240,2726,33,9
+2019,Clam Soft,Swans Island,Hancock,UK,Live Pounds,56505,127601,243,14
+2019,Clam Soft,Trenton,Hancock,UK,Live Pounds,8065,21445,111,21
+2019,Clam Soft,Trescott,Washington,UK,Live Pounds,13596,31371,169,10
+2019,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,138874,344970,1007,72
+2019,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,269820,646314,3968,146
+2019,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,117443,309972,652,30
+2019,Clam Soft,Westport Island,Lincoln,UK,Live Pounds,13293,35559,120,7
+2019,Clam Soft,Whiting,Washington,UK,Live Pounds,17808,47233,155,14
+2019,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,69533,174584,515,20
+2019,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,29607,74289,247,10
+2019,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,64728,182672,225,15
+2020,Clam Soft,Addison,Washington,UK,Live Pounds,200480,483897,1667,56
+2020,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,98163,224325,1012,25
+2020,Clam Soft,Bremen,Lincoln,UK,Live Pounds,28126,62619,380,49
+2020,Clam Soft,Bristol,Lincoln,UK,Live Pounds,6145,15304,128,14
+2020,Clam Soft,Brooklin,Hancock,UK,Live Pounds,20303,48593,207,12
+2020,Clam Soft,Brooksville,Hancock,UK,Live Pounds,45142,93674,510,15
+2020,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,616063,1514981,4997,110
+2020,Clam Soft,Cushing,Knox,UK,Live Pounds,44505,108608,561,58
+2020,Clam Soft,Cutler,Washington,UK,Live Pounds,335565,789750,3562,96
+2020,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,9709,24194,148,20
+2020,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,342227,709703,3016,97
+2020,Clam Soft,Eastport,Washington,UK,Live Pounds,9463,24711,92,5
+2020,Clam Soft,Franklin,Hancock,UK,Live Pounds,270688,668998,2043,66
+2020,Clam Soft,Freeport,Cumberland,UK,Live Pounds,346979,876552,2811,71
+2020,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,40094,109684,663,15
+2020,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,41352,97475,365,19
+2020,Clam Soft,Hancock,Hancock,UK,Live Pounds,32293,71539,385,41
+2020,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,172985,421284,1679,55
+2020,Clam Soft,Harrington,Washington,UK,Live Pounds,297533,658974,2876,75
+2020,Clam Soft,Jonesboro,Washington,UK,Live Pounds,126248,337422,931,40
+2020,Clam Soft,Jonesport,Washington,UK,Live Pounds,359166,853081,3264,147
+2020,Clam Soft,Lamoine,Hancock,UK,Live Pounds,94800,213946,1039,51
+2020,Clam Soft,Lubec,Washington,UK,Live Pounds,328957,817179,3889,93
+2020,Clam Soft,Machias,Washington,UK,Live Pounds,96090,230558,712,49
+2020,Clam Soft,Machiasport,Washington,UK,Live Pounds,419812,1032261,3399,159
+2020,Clam Soft,Milbridge,Washington,UK,Live Pounds,188456,407655,1992,82
+2020,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,1465,3180,30,5
+2020,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,239384,593910,2750,168
+2020,Clam Soft,Pembroke,Washington,UK,Live Pounds,143985,309381,2171,50
+2020,Clam Soft,Perry,Washington,UK,Live Pounds,32585,74592,478,25
+2020,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,67752,163508,870,30
+2020,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,88293,230420,891,25
+2020,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,330920,740886,2238,44
+2020,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,205,320,11,3
+2020,Clam Soft,Sorrento,Hancock,UK,Live Pounds,1303,3038,19,11
+2020,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,92940,236907,1046,34
+2020,Clam Soft,St. George,Knox,UK,Live Pounds,65024,174227,626,36
+2020,Clam Soft,Steuben,Washington,UK,Live Pounds,22483,44361,266,14
+2020,Clam Soft,Stonington,Hancock,UK,Live Pounds,100492,190163,805,37
+2020,Clam Soft,Sullivan,Hancock,UK,Live Pounds,105681,283312,841,58
+2020,Clam Soft,Surry,Hancock,UK,Live Pounds,111,262,3,3
+2020,Clam Soft,Swans Island,Hancock,UK,Live Pounds,69987,166812,427,20
+2020,Clam Soft,Thomaston,Knox,UK,Live Pounds,86776,189614,403,22
+2020,Clam Soft,Trenton,Hancock,UK,Live Pounds,10655,28704,100,20
+2020,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,90330,232878,696,67
+2020,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,260765,656036,3293,145
+2020,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,69906,175273,476,26
+2020,Clam Soft,Whiting,Washington,UK,Live Pounds,31309,86117,248,12
+2020,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,50382,130148,448,24
+2020,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,18694,49807,181,6
+2020,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,58837,164997,248,21
+2021,Clam Soft,Addison,Washington,UK,Live Pounds,142882,473058,1267,64
+2021,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,95093,329806,914,29
+2021,Clam Soft,Boothbay Harbor,Lincoln,UK,Live Pounds,11741,41113,94,15
+2021,Clam Soft,Bremen,Lincoln,UK,Live Pounds,123397,379394,1296,51
+2021,Clam Soft,Bristol,Lincoln,UK,Live Pounds,18967,63049,236,20
+2021,Clam Soft,Brooklin,Hancock,UK,Live Pounds,11097,32758,102,11
+2021,Clam Soft,Brooksville,Hancock,UK,Live Pounds,33935,100975,435,12
+2021,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,616344,2250403,5387,116
+2021,Clam Soft,Cushing,Knox,UK,Live Pounds,259568,935864,2432,122
+2021,Clam Soft,Cutler,Washington,UK,Live Pounds,341925,1087155,3771,118
+2021,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,37313,119403,498,37
+2021,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,233334,725835,2136,91
+2021,Clam Soft,Eastport,Washington,UK,Live Pounds,38405,141448,451,29
+2021,Clam Soft,Franklin,Hancock,UK,Live Pounds,335454,1062188,2452,75
+2021,Clam Soft,Freeport,Cumberland,UK,Live Pounds,435151,1584388,2904,70
+2021,Clam Soft,Friendship,Knox,UK,Live Pounds,100619,346770,1166,51
+2021,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,62897,219475,846,15
+2021,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,43756,137532,455,22
+2021,Clam Soft,Hancock,Hancock,UK,Live Pounds,24606,75038,273,41
+2021,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,213484,766702,2109,52
+2021,Clam Soft,Harrington,Washington,UK,Live Pounds,300253,904843,2993,82
+2021,Clam Soft,Jonesboro,Washington,UK,Live Pounds,193184,670833,1429,44
+2021,Clam Soft,Jonesport,Washington,UK,Live Pounds,238535,729240,2489,120
+2021,Clam Soft,Lamoine,Hancock,UK,Live Pounds,40184,113620,487,42
+2021,Clam Soft,Lubec,Washington,UK,Live Pounds,421002,1399782,5157,105
+2021,Clam Soft,Machias,Washington,UK,Live Pounds,77204,250312,668,47
+2021,Clam Soft,Machiasport,Washington,UK,Live Pounds,455602,1468717,3695,141
+2021,Clam Soft,Milbridge,Washington,UK,Live Pounds,227154,710739,2372,71
+2021,Clam Soft,Newcastle,Lincoln,UK,Live Pounds,5021,22820,30,16
+2021,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,246982,816139,2583,175
+2021,Clam Soft,Pembroke,Washington,UK,Live Pounds,82483,230167,1203,58
+2021,Clam Soft,Perry,Washington,UK,Live Pounds,104519,382161,1895,133
+2021,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,79911,262269,996,23
+2021,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,98983,341590,804,25
+2021,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,445252,1512729,2814,42
+2021,Clam Soft,Sorrento,Hancock,UK,Live Pounds,5243,14916,61,18
+2021,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,231385,778803,1870,47
+2021,Clam Soft,St. George,Knox,UK,Live Pounds,98000,330402,887,51
+2021,Clam Soft,Steuben,Washington,UK,Live Pounds,9740,35630,143,14
+2021,Clam Soft,Stonington,Hancock,UK,Live Pounds,61662,176714,628,25
+2021,Clam Soft,Sullivan,Hancock,UK,Live Pounds,157888,589885,1248,76
+2021,Clam Soft,Swans Island,Hancock,UK,Live Pounds,44931,140898,351,13
+2021,Clam Soft,Trenton,Hancock,UK,Live Pounds,2672,9962,49,13
+2021,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,70199,252993,529,54
+2021,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,464094,1534636,4961,178
+2021,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,94135,365019,665,29
+2021,Clam Soft,Westport Island,Lincoln,UK,Live Pounds,10419,43428,118,5
+2021,Clam Soft,Whiting,Washington,UK,Live Pounds,38225,126825,310,20
+2021,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,30200,110516,335,19
+2021,Clam Soft,Woolwich,Sagadahoc,UK,Live Pounds,14978,49562,166,10
+2021,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,38434,140092,184,15
+2022,Clam Soft,Addison,Washington,UK,Live Pounds,196232,527909,1756,65
+2022,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,101346,268020,845,21
+2022,Clam Soft,Bremen,Lincoln,UK,Live Pounds,87781,216220,949,52
+2022,Clam Soft,Brooklin,Hancock,UK,Live Pounds,46161,110099,372,18
+2022,Clam Soft,Brooksville,Hancock,UK,Live Pounds,29118,71525,354,13
+2022,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,620892,1742125,4810,94
+2022,Clam Soft,Cushing,Knox,UK,Live Pounds,383274,972553,3990,160
+2022,Clam Soft,Cutler,Washington,UK,Live Pounds,134500,376851,1563,92
+2022,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,30063,81444,414,21
+2022,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,195914,529971,1809,70
+2022,Clam Soft,Franklin,Hancock,UK,Live Pounds,365070,949145,2789,91
+2022,Clam Soft,Freeport,Cumberland,UK,Live Pounds,418003,1176660,2318,51
+2022,Clam Soft,Friendship,Knox,UK,Live Pounds,40923,105206,388,38
+2022,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,57380,165982,669,18
+2022,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,30182,76896,351,25
+2022,Clam Soft,Hancock,Hancock,UK,Live Pounds,35358,96602,379,39
+2022,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,158237,454741,1594,57
+2022,Clam Soft,Harrington,Washington,UK,Live Pounds,293792,766883,2901,121
+2022,Clam Soft,Jonesboro,Washington,UK,Live Pounds,190484,536077,1662,60
+2022,Clam Soft,Jonesport,Washington,UK,Live Pounds,170469,446923,1614,86
+2022,Clam Soft,Lamoine,Hancock,UK,Live Pounds,30953,89128,381,41
+2022,Clam Soft,Lubec,Washington,UK,Live Pounds,261777,687887,3366,81
+2022,Clam Soft,Machias,Washington,UK,Live Pounds,75087,198988,928,40
+2022,Clam Soft,Machiasport,Washington,UK,Live Pounds,363819,1031241,3041,105
+2022,Clam Soft,Milbridge,Washington,UK,Live Pounds,205564,514414,2355,103
+2022,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,601264,1666784,7204,416
+2022,Clam Soft,Perry,Washington,UK,Live Pounds,84248,252189,1153,147
+2022,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,71473,211408,869,23
+2022,Clam Soft,Portland,Cumberland,UK,Live Pounds,42970,103467,128,15
+2022,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,103375,295274,913,22
+2022,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,419567,1141624,2650,48
+2022,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,4198,10202,61,9
+2022,Clam Soft,Sorrento,Hancock,UK,Live Pounds,4055,12077,38,13
+2022,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,145348,378930,1414,45
+2022,Clam Soft,St. George,Knox,UK,Live Pounds,16499,52637,135,10
+2022,Clam Soft,Steuben,Washington,UK,Live Pounds,43198,114990,829,45
+2022,Clam Soft,Sullivan,Hancock,UK,Live Pounds,147889,416122,996,82
+2022,Clam Soft,Surry,Hancock,UK,Live Pounds,6409,19628,48,3
+2022,Clam Soft,Swans Island,Hancock,UK,Live Pounds,24660,61403,188,22
+2022,Clam Soft,Thomaston,Knox,UK,Live Pounds,6238,14730,40,24
+2022,Clam Soft,Trenton,Hancock,UK,Live Pounds,11638,35315,136,18
+2022,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,27751,73248,217,22
+2022,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,396077,990381,4583,170
+2022,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,90150,273909,634,42
+2022,Clam Soft,Westport Island,Lincoln,UK,Live Pounds,2726,8004,41,3
+2022,Clam Soft,Whiting,Washington,UK,Live Pounds,34365,109961,346,52
+2022,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,27492,82589,287,12
+2022,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,41065,119867,164,12
+2023,Clam Soft,Addison,Washington,UK,Live Pounds,174952,462591,1413,63
+2023,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,1811,7760,52,3
+2023,Clam Soft,Blue Hill,Hancock,UK,Live Pounds,10772,20883,31,14
+2023,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,158678,431960,1199,29
+2023,Clam Soft,Bremen,Lincoln,UK,Live Pounds,45729,111666,502,29
+2023,Clam Soft,Bristol,Lincoln,UK,Live Pounds,8948,17453,83,17
+2023,Clam Soft,Brooklin,Hancock,UK,Live Pounds,13409,33790,115,20
+2023,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,463719,1316952,4349,99
+2023,Clam Soft,Cushing,Knox,UK,Live Pounds,266765,710568,2743,107
+2023,Clam Soft,Cutler,Washington,UK,Live Pounds,100283,286759,1098,69
+2023,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,9546,17580,127,10
+2023,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,140358,639917,1370,63
+2023,Clam Soft,Franklin,Hancock,UK,Live Pounds,232019,552397,1706,55
+2023,Clam Soft,Freeport,Cumberland,UK,Live Pounds,233162,621082,1597,66
+2023,Clam Soft,Friendship,Knox,UK,Live Pounds,38314,94478,400,17
+2023,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,45582,122641,533,11
+2023,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,16162,42545,201,27
+2023,Clam Soft,Hancock,Hancock,UK,Live Pounds,34928,158316,410,37
+2023,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,133659,384359,1321,76
+2023,Clam Soft,Harrington,Washington,UK,Live Pounds,369784,874231,2798,84
+2023,Clam Soft,Jonesboro,Washington,UK,Live Pounds,178840,481821,1330,45
+2023,Clam Soft,Jonesport,Washington,UK,Live Pounds,247455,560667,2007,104
+2023,Clam Soft,Lamoine,Hancock,UK,Live Pounds,33480,74390,371,33
+2023,Clam Soft,Lubec,Washington,UK,Live Pounds,289954,725499,3080,83
+2023,Clam Soft,Machias,Washington,UK,Live Pounds,111654,305030,1345,97
+2023,Clam Soft,Machiasport,Washington,UK,Live Pounds,261889,690607,2087,72
+2023,Clam Soft,Milbridge,Washington,UK,Live Pounds,164060,365297,1491,65
+2023,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,318847,887915,3622,234
+2023,Clam Soft,Pembroke,Washington,UK,Live Pounds,21913,57501,379,40
+2023,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,85468,218161,977,28
+2023,Clam Soft,Pine Point,Cumberland,UK,Live Pounds,18454,48304,135,4
+2023,Clam Soft,Portland,Cumberland,UK,Live Pounds,28030,71070,93,16
+2023,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,55856,138051,470,18
+2023,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,404359,1053772,2373,52
+2023,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,7888,19004,110,13
+2023,Clam Soft,Sorrento,Hancock,UK,Live Pounds,5058,17214,37,12
+2023,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,87020,216754,923,27
+2023,Clam Soft,St. George,Knox,UK,Live Pounds,8847,27929,92,14
+2023,Clam Soft,Steuben,Washington,UK,Live Pounds,38149,95354,663,23
+2023,Clam Soft,Stonington,Hancock,UK,Live Pounds,35140,225516,402,25
+2023,Clam Soft,Sullivan,Hancock,UK,Live Pounds,132639,421874,971,60
+2023,Clam Soft,Surry,Hancock,UK,Live Pounds,23267,54313,305,21
+2023,Clam Soft,Swans Island,Hancock,UK,Live Pounds,16406,35409,131,15
+2023,Clam Soft,Thomaston,Knox,UK,Live Pounds,3854,14214,38,10
+2023,Clam Soft,Trenton,Hancock,UK,Live Pounds,12203,26948,98,16
+2023,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,28448,88424,255,24
+2023,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,352609,886851,4324,177
+2023,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,90380,286462,589,33
+2023,Clam Soft,Whiting,Washington,UK,Live Pounds,79619,243807,621,66
+2023,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,32233,106764,265,16
+2023,Clam Soft,Yarmouth,Cumberland,UK,Live Pounds,19640,50199,83,13
+2024,Clam Soft,Addison,Washington,UK,Live Pounds,182189,475557,1949,64
+2024,Clam Soft,Bar Harbor,Hancock,UK,Live Pounds,2454,10021,78,6
+2024,Clam Soft,Boothbay,Lincoln,UK,Live Pounds,164802,478221,1179,28
+2024,Clam Soft,Bremen,Lincoln,UK,Live Pounds,37823,98172,558,41
+2024,Clam Soft,Bristol,Lincoln,UK,Live Pounds,13077,32102,144,16
+2024,Clam Soft,Brooklin,Hancock,UK,Live Pounds,6927,17211,63,13
+2024,Clam Soft,Brooksville,Hancock,UK,Live Pounds,38139,97071,477,31
+2024,Clam Soft,Brunswick,Cumberland,UK,Live Pounds,217876,668825,2666,75
+2024,Clam Soft,Cushing,Knox,UK,Live Pounds,6128,13922,107,25
+2024,Clam Soft,Cutler,Washington,UK,Live Pounds,220260,609863,1846,87
+2024,Clam Soft,Damariscotta,Lincoln,UK,Live Pounds,3192,8720,52,13
+2024,Clam Soft,Deer Isle,Hancock,UK,Live Pounds,106081,271370,1233,54
+2024,Clam Soft,Franklin,Hancock,UK,Live Pounds,221594,592748,1624,60
+2024,Clam Soft,Freeport,Cumberland,UK,Live Pounds,280549,757188,1633,69
+2024,Clam Soft,Friendship,Knox,UK,Live Pounds,22132,54370,305,25
+2024,Clam Soft,Georgetown,Sagadahoc,UK,Live Pounds,57719,171089,671,14
+2024,Clam Soft,Gouldsboro,Hancock,UK,Live Pounds,15779,46175,187,10
+2024,Clam Soft,Hancock,Hancock,UK,Live Pounds,49270,135619,474,42
+2024,Clam Soft,Harpswell,Cumberland,UK,Live Pounds,113283,330488,1277,41
+2024,Clam Soft,Harrington,Washington,UK,Live Pounds,443346,1148509,3233,86
+2024,Clam Soft,Jonesboro,Washington,UK,Live Pounds,249469,688226,1568,35
+2024,Clam Soft,Jonesport,Washington,UK,Live Pounds,197047,496638,2006,70
+2024,Clam Soft,Lamoine,Hancock,UK,Live Pounds,42128,113657,485,39
+2024,Clam Soft,Lubec,Washington,UK,Live Pounds,432467,1182003,4546,78
+2024,Clam Soft,Machias,Washington,UK,Live Pounds,188901,501560,2164,109
+2024,Clam Soft,Machiasport,Washington,UK,Live Pounds,230066,591745,2071,116
+2024,Clam Soft,Milbridge,Washington,UK,Live Pounds,236984,603670,2257,74
+2024,Clam Soft,Other Maine,Not-Specified,UK,Live Pounds,589202,1640290,6452,288
+2024,Clam Soft,Pemaquid,Lincoln,UK,Live Pounds,3417,8510,41,8
+2024,Clam Soft,Phippsburg,Sagadahoc,UK,Live Pounds,66604,193996,810,24
+2024,Clam Soft,Portland,Cumberland,UK,Live Pounds,28731,68979,102,16
+2024,Clam Soft,Roque Bluffs,Washington,UK,Live Pounds,48394,130385,375,12
+2024,Clam Soft,Scarborough,Cumberland,UK,Live Pounds,416073,1110227,2457,40
+2024,Clam Soft,Sedgwick,Hancock,UK,Live Pounds,16046,48073,195,19
+2024,Clam Soft,Sorrento,Hancock,UK,Live Pounds,8997,25712,111,19
+2024,Clam Soft,South Bristol,Lincoln,UK,Live Pounds,46626,119581,530,22
+2024,Clam Soft,St. George,Knox,UK,Live Pounds,91700,257950,673,42
+2024,Clam Soft,Steuben,Washington,UK,Live Pounds,42752,116720,588,22
+2024,Clam Soft,Stonington,Hancock,UK,Live Pounds,43849,104871,484,23
+2024,Clam Soft,Sullivan,Hancock,UK,Live Pounds,109481,331060,910,55
+2024,Clam Soft,Surry,Hancock,UK,Live Pounds,11652,32496,133,18
+2024,Clam Soft,Swans Island,Hancock,UK,Live Pounds,15317,41722,150,10
+2024,Clam Soft,Thomaston,Knox,UK,Live Pounds,7494,20524,30,6
+2024,Clam Soft,Tremont,Hancock,UK,Live Pounds,4084,12384,55,7
+2024,Clam Soft,Trenton,Hancock,UK,Live Pounds,19830,51766,256,19
+2024,Clam Soft,Vinalhaven,Knox,UK,Live Pounds,21091,66000,210,17
+2024,Clam Soft,Waldoboro,Lincoln,UK,Live Pounds,238827,593189,3665,130
+2024,Clam Soft,West Bath,Sagadahoc,UK,Live Pounds,72498,237543,520,22
+2024,Clam Soft,Wiscasset,Lincoln,UK,Live Pounds,61263,189444,482,13
