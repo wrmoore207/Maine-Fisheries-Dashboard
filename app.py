@@ -50,19 +50,37 @@ def sidebar_filters(df: pd.DataFrame) -> pd.DataFrame:
     years = sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else []
     if years:
         year_range = st.sidebar.select_slider(
-            "Year range", options=years, value=(years[0], years[-1])
+            "Year range",
+            options=years,
+            value=(years[0], years[-1]),
+            key="flt_year_range",
         )
     else:
         year_range = (None, None)
 
     species = sorted(df["species"].dropna().unique().tolist()) if "species" in df.columns else []
-    species_sel = st.sidebar.multiselect("Species", options=species, default=species[:1] if species else [])
+    species_sel = st.sidebar.multiselect(
+        "Species",
+        options=species,
+        default=species[:1] if species else [],
+        key="flt_species",
+    )
 
     zones = sorted(df["zone"].dropna().unique().tolist()) if "zone" in df.columns else []
-    zone_sel = st.sidebar.multiselect("Lobster Zones", options=zones, default=zones)
+    zone_sel = st.sidebar.multiselect(
+        "Lobster Zones",
+        options=zones,
+        default=zones,
+        key="flt_zones",
+    )
 
     gear = sorted(df["gear"].dropna().unique().tolist()) if "gear" in df.columns else []
-    gear_sel = st.sidebar.multiselect("Gear", options=gear, default=gear)
+    gear_sel = st.sidebar.multiselect(
+        "Gear",
+        options=gear,
+        default=gear,
+        key="flt_gear",
+    )
 
     mask = pd.Series(True, index=df.index)
     if year_range[0] is not None and "year" in df.columns:
@@ -126,7 +144,8 @@ def main():
             "Metric",
             options=["value", "revenue_usd"] if "revenue_usd" in fdf.columns else ["value"],
             index=0,
-            format_func=lambda k: "Landings" if k == "value" else "Revenue (USD)"
+            format_func=lambda k: "Landings" if k == "value" else "Revenue (USD)",
+            key="ts_metric_select",  # UNIQUE
         )
 
         # Detect if we truly have monthly granularity
@@ -136,7 +155,12 @@ def main():
             st.caption("Aggregated: monthly totals")
             df_ts = fdf.copy()
             df_ts["month"] = df_ts["date"].dt.to_period("M").dt.to_timestamp()
-            color_by = st.selectbox("Break down by", options=["None", "species", "zone"], index=0)
+            color_by = st.selectbox(
+                "Break down by",
+                options=["None", "species", "zone"],
+                index=0,
+                key="ts_breakdown_monthly",  # UNIQUE (monthly branch)
+            )
             if color_by != "None" and color_by in df_ts.columns:
                 by = df_ts.groupby(["month", color_by])[metric_key].sum().reset_index()
             else:
@@ -146,13 +170,21 @@ def main():
             y_label = "Landings (lbs)" if metric_key == "value" else "Revenue (USD)"
             base = alt.Chart(by).encode(x="month:T", y=alt.Y(f"{metric_key}:Q", title=y_label))
             if color_by != "None" and color_by in by.columns:
-                chart = base.mark_line().encode(color=f"{color_by}:N", tooltip=["month:T", f"{metric_key}:Q", f"{color_by}:N"])
+                chart = base.mark_line().encode(
+                    color=f"{color_by}:N",
+                    tooltip=["month:T", f"{metric_key}:Q", f"{color_by}:N"],
+                )
             else:
                 chart = base.mark_line().encode(tooltip=["month:T", f"{metric_key}:Q"])
             st.altair_chart(chart.properties(height=350), use_container_width=True)
         else:
             st.caption("Aggregated: annual totals")
-            color_by = st.selectbox("Break down by", options=["None", "species", "zone"], index=0)
+            color_by = st.selectbox(
+                "Break down by",
+                options=["None", "species", "zone"],
+                index=0,
+                key="ts_breakdown_annual",  # UNIQUE (annual branch)
+            )
             if color_by != "None" and color_by in fdf.columns:
                 by = fdf.groupby(["year", color_by])[metric_key].sum().reset_index()
             else:
@@ -160,11 +192,19 @@ def main():
 
             import altair as alt
             y_label = "Landings (lbs)" if metric_key == "value" else "Revenue (USD)"
-            base = alt.Chart(by).encode(x=alt.X("year:O", title="Year"), y=alt.Y(f"{metric_key}:Q", title=y_label))
+            base = alt.Chart(by).encode(
+                x=alt.X("year:O", title="Year"),
+                y=alt.Y(f"{metric_key}:Q", title=y_label),
+            )
             if color_by != "None" and color_by in by.columns:
-                chart = base.mark_line(point=True).encode(color=f"{color_by}:N", tooltip=["year:O", f"{metric_key}:Q", f"{color_by}:N"])
+                chart = base.mark_line(point=True).encode(
+                    color=f"{color_by}:N",
+                    tooltip=["year:O", f"{metric_key}:Q", f"{color_by}:N"],
+                )
             else:
-                chart = base.mark_line(point=True).encode(tooltip=["year:O", f"{metric_key}:Q"])
+                chart = base.mark_line(point=True).encode(
+                    tooltip=["year:O", f"{metric_key}:Q"]
+                )
             st.altair_chart(chart.properties(height=350), use_container_width=True)
 
     # --- Table ---
@@ -175,7 +215,8 @@ def main():
             "Download CSV",
             data=fdf.to_csv(index=False).encode("utf-8"),
             file_name="filtered_landings.csv",
-            mime="text/csv"
+            mime="text/csv",
+            key="tbl_download_csv",  # UNIQUE
         )
 
     # --- Map (Zones for lobster, Ports otherwise) ---
@@ -186,7 +227,8 @@ def main():
             "Metric",
             options=["value", "revenue_usd"] if "revenue_usd" in fdf.columns else ["value"],
             index=0,
-            format_func=lambda k: "Landings" if k == "value" else "Revenue (USD)"
+            format_func=lambda k: "Landings" if k == "value" else "Revenue (USD)",
+            key="map_metric_select",  # UNIQUE (separate from Time Series)
         )
         render_map_auto(fdf, GEO_PATH, metric=metric_key, is_lobster=is_lob)
 
