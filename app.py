@@ -1,19 +1,20 @@
 # app.py
 from __future__ import annotations
-import streamlit as st
-import pandas as pd
 from pathlib import Path
+import pandas as pd
+import streamlit as st
 
+from src.io import load_processed_dir
+from src.cleaning import prepare_dataframe
 from src.queries.kpis import ytd_total, yoy_change_pct, top_by
 from src.viz.maps import render_map_auto
-from src.io import load_processed_dir
+from src.ui.controls import multiselect_with_all
+from src.queries.filters import active_ports, filter_out_zero_ports
 
-# New imports
-from src.cleaning import prepare_dataframe
-# from src.debug import zone_doctor, numbers_doctor
-
+# --- Load data ---
 PROCESSED_DIR = Path("data/processed")
 GEO_PATH = Path("data/geo/lobster_zones.geojson")
+
 
 @st.cache_data
 def load_df() -> pd.DataFrame:
@@ -28,21 +29,16 @@ def is_lobster_selection(df: pd.DataFrame) -> bool:
     if "species" not in df.columns or df["species"].dropna().empty:
         return False
     vals = (
-        df["species"]
-        .astype("string")
-        .str.lower()
-        .str.strip()
-        .dropna()
-        .unique()
-        .tolist()
+        df["species"].astype("string").str.lower().str.strip().dropna().unique().tolist()
     )
     lobsterish = [v for v in vals if "lobster" in v]
     return len(lobsterish) > 0 and len(lobsterish) == len(vals)
 
-# --- Focus controls: choose a Port or Zone to view ---
-def focus_selector(df):
+
+def focus_selector(df: pd.DataFrame):
     """
     Returns: filtered_df, focus_dim ('none'|'port'|'zone'), selected_members (list[str])
+    Note: We do NOT render a second Ports selector here—sidebar control is the source of truth.
     """
     st.markdown("#### Focus")
     focus_dim = st.radio(
@@ -52,46 +48,34 @@ def focus_selector(df):
         index=0,
     )
 
-    selected = []
-    if focus_dim != "None":
-        col = "port" if focus_dim == "Port" else "zone"
-        if col not in df.columns:
-            st.warning(f"Your data has no '{col}' column.")
-            return df, "none", []
+    if focus_dim == "None":
+        return df, "none", []
 
-        # Build clean option list
-        opts = (
-            df[col]
-            .astype("string")
-            .dropna()
-            .str.strip()
-            .replace({"": pd.NA})
-            .dropna()
-            .unique()
-            .tolist()
-        )
-        opts = sorted(opts)
+    if focus_dim == "Port":
+        # Ports are already filtered by the sidebar control
+        return df, "port", []
 
-        selected = st.multiselect(
-            f"Select {focus_dim.lower()}(s)",
-            options=opts,
-            default=opts[:1] if opts else [],
-        )
+    # Zone-specific control
+    if "zone" not in df.columns:
+        st.info("No zones available.")
+        return df, "none", []
 
-        if selected:
-            df = df[df[col].isin(selected)]
+    opts = (
+        df["zone"].astype("string").str.strip().dropna().unique().tolist()
+        if "zone" in df.columns
+        else []
+    )
+    opts = sorted(opts)
 
-        return df, col, selected
+    selected = st.multiselect("Select zone(s)", options=opts, default=opts if opts else [])
+    if selected:
+        df = df[df["zone"].isin(selected)]
 
-    return df, "none", []
+    return df, "zone", selected
 
 
-def ensure_year_and_date(df):
-    """
-    Normalizes annual data:
-      - Accepts either 'year' or 'date'.
-      - Produces integer 'year' and a 'date' field as Jan 1 of that year (for charts).
-    """
+def ensure_year_and_date(df: pd.DataFrame):
+    """Normalize to annual: ensures integer 'year' and a Jan-1 'date' for that year."""
     out = df.copy()
     if "year" not in out.columns:
         if "date" in out.columns:
@@ -103,11 +87,8 @@ def ensure_year_and_date(df):
     return out
 
 
-def timeseries_table(df, value_col="value", extra_dim="none"):
-    """
-    Renders a time-series table aggregated annually.
-    If extra_dim is 'port' or 'zone', shows both a long table and a pivoted wide table.
-    """
+def timeseries_table(df: pd.DataFrame, value_col: str = "value", extra_dim: str = "none"):
+    """Annual totals; if extra_dim is 'port' or 'zone', also show a wide pivot."""
     if value_col not in df.columns:
         st.info(f"Can't render table: missing '{value_col}' column.")
         return
@@ -129,35 +110,36 @@ def timeseries_table(df, value_col="value", extra_dim="none"):
     if extra_dim in ("port", "zone"):
         st.markdown(f"##### Annual totals by {extra_dim} (wide)")
         wide = grp.pivot(index="year", columns=extra_dim, values=value_col).fillna(0)
-        # Cast to int if your 'value' is whole pounds
         try:
             wide = wide.round(0).astype(int)
         except Exception:
             pass
         st.dataframe(wide, use_container_width=True)
 
+
 # --- Sidebar filters ---
 def sidebar_filters(df: pd.DataFrame) -> pd.DataFrame:
     st.sidebar.header("Filters")
 
-    # derive year if possible
+    # Ensure year exists if date is present
     if "year" not in df.columns and "date" in df.columns:
         df = df.copy()
         df["year"] = pd.to_datetime(df["date"], errors="coerce").dt.year
 
-    # --- Year range ---
+    # Year range
     years = sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else []
-    if years:
-        year_range = st.sidebar.select_slider(
+    year_range = (
+        st.sidebar.select_slider(
             "Year range",
             options=years,
             value=(years[0], years[-1]),
             key="flt_year_range",
         )
-    else:
-        year_range = (None, None)
+        if years
+        else (None, None)
+    )
 
-    # --- Species ---
+    # Species
     species = sorted(df["species"].dropna().unique().tolist()) if "species" in df.columns else []
     species_sel = st.sidebar.multiselect(
         "Species",
@@ -166,31 +148,47 @@ def sidebar_filters(df: pd.DataFrame) -> pd.DataFrame:
         key="flt_species",
     )
 
-    # Build a partial mask so we can detect lobster and populate focus options correctly
+    # Base mask
     mask = pd.Series(True, index=df.index)
     if year_range[0] is not None and "year" in df.columns:
         mask &= df["year"].between(year_range[0], year_range[1])
     if species_sel:
         mask &= df["species"].isin(species_sel)
 
-    df_partial = df.loc[mask]
+    df_masked = df.loc[mask].copy()
 
-    # --- Gear (optional) ---
-    gear = sorted(df_partial["gear"].dropna().unique().tolist()) if "gear" in df_partial.columns else []
-    gear_sel = st.sidebar.multiselect(
-        "Gear",
-        options=gear,
-        default=gear,  # start with all visible
-        key="flt_gear",
-    )
-    if gear_sel and "gear" in df.columns:
-        mask &= df["gear"].isin(gear_sel)
-    df_partial = df.loc[mask]
+    # Metric selection for active-port logic (hook this to a UI toggle later if you want)
+    metric_col = st.session_state.get("metric_col", "weight")  # or "weight"
 
-    # --- Focus by Port (always) or Zone (lobster only) ---
-    lobster_mode = is_lobster_selection(df_partial)  # True only when current selection is all lobster
+    # Remove zero-only ports in the current slice
+    df_nonzero = filter_out_zero_ports(df_masked, metric_col=metric_col)
 
-    # Choose focus dimension
+    # --- Ports control (ONLY in sidebar) ---
+    with st.sidebar:
+        port_options = active_ports(df_nonzero, metric_col=metric_col)
+        selected_ports = multiselect_with_all(
+            "Ports",
+            port_options,
+            default=port_options,  # behaves like All Ports by default
+            key="ports_filter",
+            help=f"Only ports with non-zero {metric_col} in the current selection are shown.",
+            all_label="All Ports",  # 👈 ensure the chip reads exactly 'All Ports'
+        )
+
+    # Apply chosen ports
+    if selected_ports:
+        df_nonzero = df_nonzero[
+            df_nonzero["port"].astype("string").str.strip().isin(selected_ports)
+        ]
+
+    # Persist selection info for downstream charts
+    st.session_state["selected_ports"] = selected_ports
+    st.session_state["port_options_all"] = port_options
+    st.session_state["ports_all"] = (set(selected_ports) == set(port_options))
+
+
+    # --- Focus by Port/Zone (Zone only shows a selector) ---
+    lobster_mode = is_lobster_selection(df_nonzero)
     focus_options = ["Port"] + (["Zone"] if lobster_mode else [])
     focus_dim = st.sidebar.selectbox(
         "Focus by",
@@ -200,35 +198,31 @@ def sidebar_filters(df: pd.DataFrame) -> pd.DataFrame:
         key="flt_focus_dim",
     )
 
-    # Choose members of the focus dimension
-    focus_col = "port" if focus_dim == "Port" else "zone"
-    focus_opts = (
-        sorted(df_partial[focus_col].dropna().astype("string").str.strip().unique().tolist())
-        if focus_col in df_partial.columns else []
-    )
+    if focus_dim == "Zone":
+        # Only show this selector for zones
+        if "zone" in df_nonzero.columns:
+            focus_opts = (
+                df_nonzero["zone"]
+                .astype("string").str.strip().dropna().unique().tolist()
+            )
+            focus_opts = sorted(focus_opts)
+        else:
+            focus_opts = []
 
-    # If zone is chosen but not available (e.g., missing column), show a disabled state
-    if focus_dim == "Zone" and not focus_opts:
-        st.sidebar.info("No zones available for current selection.")
-        focus_sel = []
-    else:
-        focus_sel = st.sidebar.multiselect(
-            f"Select {focus_dim.lower()}(s)",
-            options=focus_opts,
-            default=focus_opts,  # default to all
-            key="flt_focus_members",
-        )
+        if not focus_opts:
+            st.sidebar.info("No zones available for current selection.")
+        else:
+            focus_sel = st.sidebar.multiselect(
+                "Select zone(s)",
+                options=focus_opts,
+                default=focus_opts,
+                key="flt_focus_members",
+            )
+            if focus_sel:
+                df_nonzero = df_nonzero[df_nonzero["zone"].isin(focus_sel)]
 
-    # Apply the focus mask (only if something selected)
-    if focus_sel and focus_col in df.columns:
-        mask &= df[focus_col].isin(focus_sel)
-
-    # --- (Optional) expose raw Port/Zone filters if you still want them independently ---
-    # Commented out to keep UI minimal since the new Focus covers it.
-    # zones = sorted(df_partial["zone"].dropna().unique().tolist()) if "zone" in df_partial.columns else []
-    # ports = sorted(df_partial["port"].dropna().unique().tolist()) if "port" in df_partial.columns else []
-
-    return df.loc[mask].copy()
+    # Final filtered frame
+    return df_nonzero
 
 
 # --- KPI header (Top Zone for lobster, Top Port otherwise) ---
@@ -238,7 +232,11 @@ def kpi_header(df: pd.DataFrame):
         st.metric("YTD Landings", "—" if "date" not in df.columns else f"{ytd_total(df):,.0f}")
     with c2:
         pct = yoy_change_pct(df)
-        st.metric("YoY Change", "—" if pd.isna(pct) else f"{pct:,.1f}%", delta=None if pd.isna(pct) else f"{pct:+.1f}%")
+        st.metric(
+            "YoY Change",
+            "—" if pd.isna(pct) else f"{pct:,.1f}%",
+            delta=None if pd.isna(pct) else f"{pct:+.1f}%",
+        )
     with c3:
         if is_lobster_selection(df):
             name, v = top_by(df, group_col="zone")
@@ -246,6 +244,7 @@ def kpi_header(df: pd.DataFrame):
         else:
             name, v = top_by(df, group_col="port")
             st.metric("Top Port (by landings)", "—" if pd.isna(v) else f"{name} — {v:,.0f}")
+
 
 def main():
     st.set_page_config(page_title="Gulf of Maine Fisheries Dashboard", page_icon="🌊", layout="wide")
@@ -255,22 +254,29 @@ def main():
 
     df = load_df()
     fdf = sidebar_filters(df)
-    # zone_doctor(df, fdf)
 
     tabs = st.tabs(["Time Series", "Table", "Map"])
-    # --- Time Series (ports + total) ---
+
+    # --- Time Series ---
     with tabs[0]:
         st.subheader("Trend over time")
-
         import altair as alt
-        import pandas as pd
 
-        if "value" not in fdf.columns:
-            st.info("Expected a 'value' column (pounds).")
+        WEIGHT_COL = "weight"  # lbs
+        REVENUE_COL = "value"  # dollars
+
+        # Guard: need pounds column
+        if WEIGHT_COL not in fdf.columns:
+            st.info(f"Expected a '{WEIGHT_COL}' column (pounds).")
             st.stop()
 
-        # Ensure year exists (aggregate annually for apples-to-apples comparisons)
+        # Ensure numeric
         df_ts = fdf.copy()
+        for c in (WEIGHT_COL, REVENUE_COL):
+            if c in df_ts.columns:
+                df_ts[c] = pd.to_numeric(df_ts[c], errors="coerce")
+
+        # Ensure we have a year column
         if "year" not in df_ts.columns:
             if "date" in df_ts.columns:
                 df_ts["year"] = pd.to_datetime(df_ts["date"], errors="coerce").dt.year
@@ -278,46 +284,76 @@ def main():
                 st.info("Need a 'year' column (or a 'date' column).")
                 st.stop()
 
-        # -----------------------------
-        # Aggregations
-        # -----------------------------
-        # By port (annual)
-        agg_cols = {"value": "sum"}
-        if "revenue_usd" in df_ts.columns:
-            agg_cols["revenue_usd"] = "sum"
-
-        by_port = (
-            df_ts.groupby(["year", "port"], as_index=False)
-            .agg(agg_cols)
-            .rename(columns={"port": "series"})
+        # --- Selection context from sidebar ---
+        selected_ports = st.session_state.get("selected_ports", [])
+        port_options_all = st.session_state.get("port_options_all", selected_ports)
+        ports_all = bool(
+            st.session_state.get("ports_all", set(selected_ports) == set(port_options_all))
         )
 
-        # All ports total (annual)
-        all_ports = df_ts.groupby("year", as_index=False).agg(agg_cols)
-        all_ports["series"] = "All Ports"
+        # --- Aggregations (sum pounds; include revenue for tooltip if present) ---
+        agg_cols = {WEIGHT_COL: "sum"}
+        if REVENUE_COL in df_ts.columns:
+            agg_cols[REVENUE_COL] = "sum"
 
-        # Combine
-        by = pd.concat([by_port, all_ports], ignore_index=True)
+        # Aggregate of the CURRENT selection (whatever df_ts contains)
+        selected_agg = df_ts.groupby("year", as_index=False).agg(agg_cols)
 
-        # Tooltip-friendly display strings
-        by["value_fmt"] = by["value"].round(0).map(lambda v: f"{v:,.0f} lbs")
-        if "revenue_usd" in by.columns:
-            by["revenue_fmt"] = by["revenue_usd"].round(0).map(lambda v: f"${v:,.0f}")
+        # Decide the aggregate series label
+        if ports_all:
+            agg_label = "All Ports"
+        elif len(selected_ports) >= 2:
+            agg_label = "Selected Ports Aggregate"
+        else:
+            agg_label = None  # single port -> no extra aggregate line
+
+        # Build plotting frame
+        frames = []
+        if not ports_all:
+            # Show per-port lines when NOT in "All Ports" mode
+            by_port = (
+                df_ts.groupby(["year", "port"], as_index=False)
+                .agg(agg_cols)
+                .rename(columns={"port": "series"})
+            )
+            frames.append(by_port)
+
+        if agg_label is not None:
+            sel = selected_agg.copy()
+            sel["series"] = agg_label
+            frames.append(sel)
+
+        if not frames:
+            # Fallback to per-port
+            frames.append(
+                df_ts.groupby(["year", "port"], as_index=False)
+                .agg(agg_cols)
+                .rename(columns={"port": "series"})
+            )
+
+        by = pd.concat(frames, ignore_index=True)
+
+        # Tooltip-friendly fields
+        by["weight_fmt"] = by[WEIGHT_COL].round(0).map(lambda v: f"{v:,.0f} lbs")
+        if REVENUE_COL in by.columns:
+            by["revenue_fmt"] = by[REVENUE_COL].round(0).map(lambda v: f"${v:,.0f}")
 
         # -----------------------------
-        # Summary row (under title)
+        # Summary (compute from df_ts so it works for 1 port, many ports, or all)
         # -----------------------------
-        latest_year = int(by["year"].max())
+        latest_year = int(df_ts["year"].max())
         prev_year = latest_year - 1
 
-        latest_total = by[(by["series"] == "All Ports") & (by["year"] == latest_year)]["value"].sum()
-        prev_total = by[(by["series"] == "All Ports") & (by["year"] == prev_year)]["value"].sum()
+        latest_total_lbs = df_ts.loc[df_ts["year"] == latest_year, WEIGHT_COL].sum()
+        prev_total_lbs = df_ts.loc[df_ts["year"] == prev_year, WEIGHT_COL].sum()
 
-        delta_abs = latest_total - prev_total if pd.notna(prev_total) and prev_total != 0 else None
-        delta_pct = (delta_abs / prev_total) * 100 if delta_abs is not None else None
+        delta_abs = latest_total_lbs - prev_total_lbs if prev_total_lbs not in (None, 0) else None
+        delta_pct = (delta_abs / prev_total_lbs) * 100 if delta_abs is not None else None
 
-        ports_displayed = sorted([p for p in df_ts["port"].dropna().unique().tolist() if p != "All Ports"])
-        ports_label = ", ".join(ports_displayed) if ports_displayed else "All"
+        if ports_all:
+            ports_label = "All Ports"
+        else:
+            ports_label = ", ".join(sorted(selected_ports)) if selected_ports else "—"
 
         c1, c2, c3 = st.columns([2, 1, 1])
         with c1:
@@ -325,7 +361,7 @@ def main():
         with c2:
             st.metric(
                 label=f"Total pounds ({latest_year})",
-                value=f"{latest_total:,.0f} lbs" if pd.notna(latest_total) else "—",
+                value=f"{latest_total_lbs:,.0f} lbs"
             )
         with c3:
             if delta_pct is None:
@@ -339,13 +375,46 @@ def main():
                 )
 
         # -----------------------------
+        # Chart (Y = pounds; tooltip shows pounds and revenue if available)
+        # -----------------------------
+        tooltip = ["year:O", "series:N", "weight_fmt:N"]
+        if "revenue_fmt" in by.columns:
+            tooltip.append("revenue_fmt:N")
+
+        base = (
+            alt.Chart(by)
+            .mark_line(point=True)
+            .encode(
+                x=alt.X("year:O", title="Year"),
+                y=alt.Y(f"{WEIGHT_COL}:Q", title="Landings (lbs)"),
+                color=alt.Color("series:N", title="Series"),
+                tooltip=tooltip,
+            )
+            .properties(height=360)
+        )
+
+        # Emphasize the aggregate line when present (thicker stroke)
+        if agg_label:
+            highlight = (
+                alt.Chart(by[by["series"] == agg_label])
+                .mark_line(point=True, strokeWidth=3)
+                .encode(x="year:O", y=f"{WEIGHT_COL}:Q", tooltip=tooltip)
+            )
+            chart = base + highlight
+        else:
+            chart = base
+
+        st.altair_chart(chart, use_container_width=True)
+
+
+        # -----------------------------
         # Chart
         # -----------------------------
         tooltip = ["year:O", "series:N", "value_fmt:N"]
         if "revenue_fmt" in by.columns:
             tooltip.append("revenue_fmt:N")
 
-        chart = (
+        base = (
             alt.Chart(by)
             .mark_line(point=True)
             .encode(
@@ -357,38 +426,27 @@ def main():
             .properties(height=360)
         )
 
-        # Make "All Ports" stand out slightly (thicker stroke)
-        highlight = (
-            alt.Chart(by[by["series"] == "All Ports"])
-            .mark_line(point=True, strokeWidth=3)
-            .encode(
-                x="year:O",
-                y="value:Q",
-                color=alt.value("#4c78a8"),  # let theme pick; just ensure it's consistent
-                tooltip=tooltip,
+        # Emphasize the aggregate line when present (thicker stroke)
+        if agg_label:
+            highlight = (
+                alt.Chart(by[by["series"] == agg_label])
+                .mark_line(point=True, strokeWidth=3)
+                .encode(x="year:O", y="value:Q", tooltip=tooltip)
             )
-        )
+            chart = base + highlight
+        else:
+            chart = base
 
-        st.altair_chart(chart + highlight, use_container_width=True)
-
-
-
+        st.altair_chart(chart, use_container_width=True)
 
     # --- Table ---
-    with tabs[1]:  # assuming tabs[0]="Time Series", tabs[1]="Table"
+    with tabs[1]:
         st.subheader("Annual time series (table)")
-
-        # 1) Normalize date/year for annual reporting
-        fdf = ensure_year_and_date(fdf)  # fdf = your already-filtered df (by year range, species, etc.)
-
-        # 2) Let the user choose Port/Zone focus
-        fdf_focus, focus_dim, selected_members = focus_selector(fdf)
-
-        # 3) Render table (and a wide pivot when focusing on Port/Zone)
+        fdf_norm = ensure_year_and_date(fdf)
+        fdf_focus, focus_dim, _ = focus_selector(fdf_norm)
         timeseries_table(fdf_focus, value_col="value", extra_dim=focus_dim)
 
-
-    # --- Map (Zones for lobster, Ports otherwise) ---
+    # --- Map ---
     with tabs[2]:
         is_lob = is_lobster_selection(fdf)
         st.subheader("Map — Lobster Zones (Choropleth)" if is_lob else "Map — Ports (Bubble size by metric)")
@@ -397,9 +455,10 @@ def main():
             options=["value", "revenue_usd"] if "revenue_usd" in fdf.columns else ["value"],
             index=0,
             format_func=lambda k: "Landings" if k == "value" else "Revenue (USD)",
-            key="map_metric_select",  # UNIQUE (separate from Time Series)
+            key="map_metric_select",
         )
         render_map_auto(fdf, GEO_PATH, metric=metric_key, is_lobster=is_lob)
+
 
 if __name__ == "__main__":
     main()
