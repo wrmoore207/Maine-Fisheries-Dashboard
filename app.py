@@ -1,27 +1,27 @@
+# app.py
 from __future__ import annotations
 import streamlit as st
 import pandas as pd
 from pathlib import Path
 
-# If you use these later, keep them; otherwise you can remove to avoid lint warnings.
-# from src.queries import filters, metrics
-
 from src.queries.kpis import ytd_total, yoy_change_pct, top_by
 from src.viz.maps import render_map_auto
 from src.io import load_processed_dir
+
+# New imports
+from src.cleaning import prepare_dataframe
+# from src.debug import zone_doctor, numbers_doctor
 
 PROCESSED_DIR = Path("data/processed")
 GEO_PATH = Path("data/geo/lobster_zones.geojson")
 
 @st.cache_data
 def load_df() -> pd.DataFrame:
+    """Load, clean, and prepare the processed DMR data."""
     df = load_processed_dir(PROCESSED_DIR)
-    if "date" in df.columns:
-        df["date"] = pd.to_datetime(df["date"], errors="coerce")
-    for c in ("species", "gear", "zone", "port"):
-        if c in df.columns:
-            df[c] = df[c].astype("string").str.strip()
+    df = prepare_dataframe(df)
     return df
+
 
 # --- helper to detect lobster selection ---
 def is_lobster_selection(df: pd.DataFrame) -> bool:
@@ -255,94 +255,124 @@ def main():
 
     df = load_df()
     fdf = sidebar_filters(df)
+    # zone_doctor(df, fdf)
 
     tabs = st.tabs(["Time Series", "Table", "Map"])
-
-    # --- Time Series ---
+    # --- Time Series (ports + total) ---
     with tabs[0]:
         st.subheader("Trend over time")
-        kpi_header(fdf)
 
-        needed = [c for c in ["value"] if c not in fdf.columns]
-        if needed:
-            st.warning(f"Time series needs columns: {needed}.")
-            with st.expander("Debug: show columns & sample"):
-                st.write("Columns:", list(fdf.columns))
-                st.dataframe(fdf.head(20))
+        import altair as alt
+        import pandas as pd
+
+        if "value" not in fdf.columns:
+            st.info("Expected a 'value' column (pounds).")
             st.stop()
 
-        # ensure year exists
-        if "year" not in fdf.columns:
-            if "date" in fdf.columns:
-                fdf = fdf.copy()
-                fdf["year"] = fdf["date"].dt.year
+        # Ensure year exists (aggregate annually for apples-to-apples comparisons)
+        df_ts = fdf.copy()
+        if "year" not in df_ts.columns:
+            if "date" in df_ts.columns:
+                df_ts["year"] = pd.to_datetime(df_ts["date"], errors="coerce").dt.year
+            else:
+                st.info("Need a 'year' column (or a 'date' column).")
+                st.stop()
 
-        metric_key = st.selectbox(
-            "Metric",
-            options=["value", "revenue_usd"] if "revenue_usd" in fdf.columns else ["value"],
-            index=0,
-            format_func=lambda k: "Landings" if k == "value" else "Revenue (USD)",
-            key="ts_metric_select",  # UNIQUE
+        # -----------------------------
+        # Aggregations
+        # -----------------------------
+        # By port (annual)
+        agg_cols = {"value": "sum"}
+        if "revenue_usd" in df_ts.columns:
+            agg_cols["revenue_usd"] = "sum"
+
+        by_port = (
+            df_ts.groupby(["year", "port"], as_index=False)
+            .agg(agg_cols)
+            .rename(columns={"port": "series"})
         )
 
-        # Detect if we truly have monthly granularity
-        has_monthly = ("date" in fdf.columns) and (fdf["date"].dt.month.nunique() > 1)
+        # All ports total (annual)
+        all_ports = df_ts.groupby("year", as_index=False).agg(agg_cols)
+        all_ports["series"] = "All Ports"
 
-        if has_monthly:
-            st.caption("Aggregated: monthly totals")
-            df_ts = fdf.copy()
-            df_ts["month"] = df_ts["date"].dt.to_period("M").dt.to_timestamp()
-            color_by = st.selectbox(
-                "Break down by",
-                options=["None", "species", "zone"],
-                index=0,
-                key="ts_breakdown_monthly",  # UNIQUE (monthly branch)
+        # Combine
+        by = pd.concat([by_port, all_ports], ignore_index=True)
+
+        # Tooltip-friendly display strings
+        by["value_fmt"] = by["value"].round(0).map(lambda v: f"{v:,.0f} lbs")
+        if "revenue_usd" in by.columns:
+            by["revenue_fmt"] = by["revenue_usd"].round(0).map(lambda v: f"${v:,.0f}")
+
+        # -----------------------------
+        # Summary row (under title)
+        # -----------------------------
+        latest_year = int(by["year"].max())
+        prev_year = latest_year - 1
+
+        latest_total = by[(by["series"] == "All Ports") & (by["year"] == latest_year)]["value"].sum()
+        prev_total = by[(by["series"] == "All Ports") & (by["year"] == prev_year)]["value"].sum()
+
+        delta_abs = latest_total - prev_total if pd.notna(prev_total) and prev_total != 0 else None
+        delta_pct = (delta_abs / prev_total) * 100 if delta_abs is not None else None
+
+        ports_displayed = sorted([p for p in df_ts["port"].dropna().unique().tolist() if p != "All Ports"])
+        ports_label = ", ".join(ports_displayed) if ports_displayed else "All"
+
+        c1, c2, c3 = st.columns([2, 1, 1])
+        with c1:
+            st.markdown(f"**Ports shown:** {ports_label}")
+        with c2:
+            st.metric(
+                label=f"Total pounds ({latest_year})",
+                value=f"{latest_total:,.0f} lbs" if pd.notna(latest_total) else "—",
             )
-            if color_by != "None" and color_by in df_ts.columns:
-                by = df_ts.groupby(["month", color_by])[metric_key].sum().reset_index()
+        with c3:
+            if delta_pct is None:
+                st.metric(label="Change vs prev. year", value="—")
             else:
-                by = df_ts.groupby(["month"])[metric_key].sum().reset_index()
-
-            import altair as alt
-            y_label = "Landings (lbs)" if metric_key == "value" else "Revenue (USD)"
-            base = alt.Chart(by).encode(x="month:T", y=alt.Y(f"{metric_key}:Q", title=y_label))
-            if color_by != "None" and color_by in by.columns:
-                chart = base.mark_line().encode(
-                    color=f"{color_by}:N",
-                    tooltip=["month:T", f"{metric_key}:Q", f"{color_by}:N"],
+                sign = "▲" if delta_abs >= 0 else "▼"
+                st.metric(
+                    label=f"Change vs {prev_year}",
+                    value=f"{sign} {abs(delta_abs):,.0f} lbs",
+                    delta=f"{delta_pct:+.1f}%",
                 )
-            else:
-                chart = base.mark_line().encode(tooltip=["month:T", f"{metric_key}:Q"])
-            st.altair_chart(chart.properties(height=350), use_container_width=True)
-        else:
-            st.caption("Aggregated: annual totals")
-            color_by = st.selectbox(
-                "Break down by",
-                options=["None", "species", "zone"],
-                index=0,
-                key="ts_breakdown_annual",  # UNIQUE (annual branch)
-            )
-            if color_by != "None" and color_by in fdf.columns:
-                by = fdf.groupby(["year", color_by])[metric_key].sum().reset_index()
-            else:
-                by = fdf.groupby(["year"])[metric_key].sum().reset_index()
 
-            import altair as alt
-            y_label = "Landings (lbs)" if metric_key == "value" else "Revenue (USD)"
-            base = alt.Chart(by).encode(
+        # -----------------------------
+        # Chart
+        # -----------------------------
+        tooltip = ["year:O", "series:N", "value_fmt:N"]
+        if "revenue_fmt" in by.columns:
+            tooltip.append("revenue_fmt:N")
+
+        chart = (
+            alt.Chart(by)
+            .mark_line(point=True)
+            .encode(
                 x=alt.X("year:O", title="Year"),
-                y=alt.Y(f"{metric_key}:Q", title=y_label),
+                y=alt.Y("value:Q", title="Landings (lbs)"),
+                color=alt.Color("series:N", title="Port/Total"),
+                tooltip=tooltip,
             )
-            if color_by != "None" and color_by in by.columns:
-                chart = base.mark_line(point=True).encode(
-                    color=f"{color_by}:N",
-                    tooltip=["year:O", f"{metric_key}:Q", f"{color_by}:N"],
-                )
-            else:
-                chart = base.mark_line(point=True).encode(
-                    tooltip=["year:O", f"{metric_key}:Q"]
-                )
-            st.altair_chart(chart.properties(height=350), use_container_width=True)
+            .properties(height=360)
+        )
+
+        # Make "All Ports" stand out slightly (thicker stroke)
+        highlight = (
+            alt.Chart(by[by["series"] == "All Ports"])
+            .mark_line(point=True, strokeWidth=3)
+            .encode(
+                x="year:O",
+                y="value:Q",
+                color=alt.value("#4c78a8"),  # let theme pick; just ensure it's consistent
+                tooltip=tooltip,
+            )
+        )
+
+        st.altair_chart(chart + highlight, use_container_width=True)
+
+
+
 
     # --- Table ---
     with tabs[1]:  # assuming tabs[0]="Time Series", tabs[1]="Table"
