@@ -39,14 +39,113 @@ def is_lobster_selection(df: pd.DataFrame) -> bool:
     lobsterish = [v for v in vals if "lobster" in v]
     return len(lobsterish) > 0 and len(lobsterish) == len(vals)
 
+# --- Focus controls: choose a Port or Zone to view ---
+def focus_selector(df):
+    """
+    Returns: filtered_df, focus_dim ('none'|'port'|'zone'), selected_members (list[str])
+    """
+    st.markdown("#### Focus")
+    focus_dim = st.radio(
+        "Choose what to view in the table:",
+        options=["None", "Port", "Zone"],
+        horizontal=True,
+        index=0,
+    )
+
+    selected = []
+    if focus_dim != "None":
+        col = "port" if focus_dim == "Port" else "zone"
+        if col not in df.columns:
+            st.warning(f"Your data has no '{col}' column.")
+            return df, "none", []
+
+        # Build clean option list
+        opts = (
+            df[col]
+            .astype("string")
+            .dropna()
+            .str.strip()
+            .replace({"": pd.NA})
+            .dropna()
+            .unique()
+            .tolist()
+        )
+        opts = sorted(opts)
+
+        selected = st.multiselect(
+            f"Select {focus_dim.lower()}(s)",
+            options=opts,
+            default=opts[:1] if opts else [],
+        )
+
+        if selected:
+            df = df[df[col].isin(selected)]
+
+        return df, col, selected
+
+    return df, "none", []
+
+
+def ensure_year_and_date(df):
+    """
+    Normalizes annual data:
+      - Accepts either 'year' or 'date'.
+      - Produces integer 'year' and a 'date' field as Jan 1 of that year (for charts).
+    """
+    out = df.copy()
+    if "year" not in out.columns:
+        if "date" in out.columns:
+            out["year"] = pd.to_datetime(out["date"], errors="coerce").dt.year
+        else:
+            raise ValueError("Neither 'year' nor 'date' column found.")
+    out["year"] = pd.to_numeric(out["year"], errors="coerce").astype("Int64")
+    out["date"] = pd.to_datetime(out["year"].astype("string") + "-01-01", errors="coerce")
+    return out
+
+
+def timeseries_table(df, value_col="value", extra_dim="none"):
+    """
+    Renders a time-series table aggregated annually.
+    If extra_dim is 'port' or 'zone', shows both a long table and a pivoted wide table.
+    """
+    if value_col not in df.columns:
+        st.info(f"Can't render table: missing '{value_col}' column.")
+        return
+
+    base_cols = ["year"]
+    group_cols = base_cols + ([extra_dim] if extra_dim in ("port", "zone") else [])
+
+    grp = (
+        df.dropna(subset=["year"])
+        .groupby(group_cols, dropna=False)[value_col]
+        .sum()
+        .reset_index()
+        .sort_values(group_cols)
+    )
+
+    st.markdown("##### Annual totals (long)")
+    st.dataframe(grp, hide_index=True, use_container_width=True)
+
+    if extra_dim in ("port", "zone"):
+        st.markdown(f"##### Annual totals by {extra_dim} (wide)")
+        wide = grp.pivot(index="year", columns=extra_dim, values=value_col).fillna(0)
+        # Cast to int if your 'value' is whole pounds
+        try:
+            wide = wide.round(0).astype(int)
+        except Exception:
+            pass
+        st.dataframe(wide, use_container_width=True)
+
+# --- Sidebar filters ---
 def sidebar_filters(df: pd.DataFrame) -> pd.DataFrame:
     st.sidebar.header("Filters")
 
     # derive year if possible
     if "year" not in df.columns and "date" in df.columns:
         df = df.copy()
-        df["year"] = df["date"].dt.year
+        df["year"] = pd.to_datetime(df["date"], errors="coerce").dt.year
 
+    # --- Year range ---
     years = sorted(df["year"].dropna().unique().tolist()) if "year" in df.columns else []
     if years:
         year_range = st.sidebar.select_slider(
@@ -58,6 +157,7 @@ def sidebar_filters(df: pd.DataFrame) -> pd.DataFrame:
     else:
         year_range = (None, None)
 
+    # --- Species ---
     species = sorted(df["species"].dropna().unique().tolist()) if "species" in df.columns else []
     species_sel = st.sidebar.multiselect(
         "Species",
@@ -66,33 +166,70 @@ def sidebar_filters(df: pd.DataFrame) -> pd.DataFrame:
         key="flt_species",
     )
 
-    zones = sorted(df["zone"].dropna().unique().tolist()) if "zone" in df.columns else []
-    zone_sel = st.sidebar.multiselect(
-        "Lobster Zones",
-        options=zones,
-        default=zones,
-        key="flt_zones",
-    )
-
-    gear = sorted(df["gear"].dropna().unique().tolist()) if "gear" in df.columns else []
-    gear_sel = st.sidebar.multiselect(
-        "Gear",
-        options=gear,
-        default=gear,
-        key="flt_gear",
-    )
-
+    # Build a partial mask so we can detect lobster and populate focus options correctly
     mask = pd.Series(True, index=df.index)
     if year_range[0] is not None and "year" in df.columns:
         mask &= df["year"].between(year_range[0], year_range[1])
     if species_sel:
         mask &= df["species"].isin(species_sel)
-    if zone_sel and "zone" in df.columns:
-        mask &= df["zone"].isin(zone_sel)
+
+    df_partial = df.loc[mask]
+
+    # --- Gear (optional) ---
+    gear = sorted(df_partial["gear"].dropna().unique().tolist()) if "gear" in df_partial.columns else []
+    gear_sel = st.sidebar.multiselect(
+        "Gear",
+        options=gear,
+        default=gear,  # start with all visible
+        key="flt_gear",
+    )
     if gear_sel and "gear" in df.columns:
         mask &= df["gear"].isin(gear_sel)
+    df_partial = df.loc[mask]
+
+    # --- Focus by Port (always) or Zone (lobster only) ---
+    lobster_mode = is_lobster_selection(df_partial)  # True only when current selection is all lobster
+
+    # Choose focus dimension
+    focus_options = ["Port"] + (["Zone"] if lobster_mode else [])
+    focus_dim = st.sidebar.selectbox(
+        "Focus by",
+        options=focus_options,
+        index=0,
+        help="Choose Port for all species; Zone is available only for lobster.",
+        key="flt_focus_dim",
+    )
+
+    # Choose members of the focus dimension
+    focus_col = "port" if focus_dim == "Port" else "zone"
+    focus_opts = (
+        sorted(df_partial[focus_col].dropna().astype("string").str.strip().unique().tolist())
+        if focus_col in df_partial.columns else []
+    )
+
+    # If zone is chosen but not available (e.g., missing column), show a disabled state
+    if focus_dim == "Zone" and not focus_opts:
+        st.sidebar.info("No zones available for current selection.")
+        focus_sel = []
+    else:
+        focus_sel = st.sidebar.multiselect(
+            f"Select {focus_dim.lower()}(s)",
+            options=focus_opts,
+            default=focus_opts,  # default to all
+            key="flt_focus_members",
+        )
+
+    # Apply the focus mask (only if something selected)
+    if focus_sel and focus_col in df.columns:
+        mask &= df[focus_col].isin(focus_sel)
+
+    # --- (Optional) expose raw Port/Zone filters if you still want them independently ---
+    # Commented out to keep UI minimal since the new Focus covers it.
+    # zones = sorted(df_partial["zone"].dropna().unique().tolist()) if "zone" in df_partial.columns else []
+    # ports = sorted(df_partial["port"].dropna().unique().tolist()) if "port" in df_partial.columns else []
 
     return df.loc[mask].copy()
+
 
 # --- KPI header (Top Zone for lobster, Top Port otherwise) ---
 def kpi_header(df: pd.DataFrame):
@@ -208,16 +345,18 @@ def main():
             st.altair_chart(chart.properties(height=350), use_container_width=True)
 
     # --- Table ---
-    with tabs[1]:
-        st.subheader("Filtered table")
-        st.dataframe(fdf, use_container_width=True)
-        st.download_button(
-            "Download CSV",
-            data=fdf.to_csv(index=False).encode("utf-8"),
-            file_name="filtered_landings.csv",
-            mime="text/csv",
-            key="tbl_download_csv",  # UNIQUE
-        )
+    with tabs[1]:  # assuming tabs[0]="Time Series", tabs[1]="Table"
+        st.subheader("Annual time series (table)")
+
+        # 1) Normalize date/year for annual reporting
+        fdf = ensure_year_and_date(fdf)  # fdf = your already-filtered df (by year range, species, etc.)
+
+        # 2) Let the user choose Port/Zone focus
+        fdf_focus, focus_dim, selected_members = focus_selector(fdf)
+
+        # 3) Render table (and a wide pivot when focusing on Port/Zone)
+        timeseries_table(fdf_focus, value_col="value", extra_dim=focus_dim)
+
 
     # --- Map (Zones for lobster, Ports otherwise) ---
     with tabs[2]:
