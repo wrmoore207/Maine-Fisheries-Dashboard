@@ -1,0 +1,163 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,357091,767475,155,4
+2008,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,89395,179476,112,7
+2008,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,307733,693510,701,23
+2009,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,503678,1096805,262,10
+2009,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,12666,24801,50,5
+2009,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,279083,587980,989,19
+2010,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,712788,1508613,272,9
+2010,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,66907,9659,21,7
+2010,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,50466,123608,193,3
+2010,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,215301,305406,442,31
+2010,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,37882,109921,229,3
+2010,Oyster Eastern / American,Yarmouth,Cumberland,UK,Live Pounds,12736,28995,56,4
+2011,Oyster Eastern / American,Brooksville,Hancock,UK,Live Pounds,40649,93706,174,4
+2011,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,225153,519414,270,12
+2011,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,11580,9728,24,8
+2011,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,57471,155248,83,3
+2011,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,261989,459621,549,27
+2012,Oyster Eastern / American,Brooksville,Hancock,UK,Live Pounds,68729,156407,289,5
+2012,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,163261,360266,279,11
+2012,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,16916,27188,61,10
+2012,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,423511,1017852,591,35
+2012,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,13798,44161,92,5
+2013,Oyster Eastern / American,Brooksville,Hancock,UK,Live Pounds,84652,189684,306,4
+2013,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,394799,991881,326,12
+2013,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,11645,42038,88,5
+2013,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,55032,129230,107,6
+2013,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,359626,888785,416,27
+2013,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,26961,88214,136,7
+2014,Oyster Eastern / American,Brooksville,Hancock,UK,Live Pounds,99537,227547,334,5
+2014,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,457404,1214563,351,15
+2014,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,19777,49207,90,11
+2014,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,57263,156123,97,6
+2014,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,430523,1011724,492,27
+2014,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,51290,166284,235,8
+2014,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,37054,172200,273,3
+2015,Oyster Eastern / American,Brooksville,Hancock,UK,Live Pounds,84015,189735,266,3
+2015,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,732656,1867567,356,16
+2015,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,4495,11699,35,5
+2015,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,11860,28746,68,9
+2015,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,914139,2071947,884,36
+2015,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,52130,159548,220,7
+2015,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,22824,103420,151,5
+2016,Oyster Eastern / American,Brooksville,Hancock,UK,Live Pounds,72979,162623,179,3
+2016,Oyster Eastern / American,Brunswick,Cumberland,UK,Live Pounds,4599,9405,26,7
+2016,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,843025,2062357,260,8
+2016,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,1783,3448,17,8
+2016,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,30937,71589,177,32
+2016,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,97299,268298,166,7
+2016,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,950196,2211236,1100,45
+2016,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,35039,106362,187,15
+2017,Oyster Eastern / American,Brunswick,Cumberland,UK,Live Pounds,29345,43879,141,26
+2017,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,1174755,2987231,532,12
+2017,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,47653,137597,178,12
+2017,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,158047,94708,346,43
+2017,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,1220027,2946667,1347,50
+2017,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,43979,143734,186,14
+2017,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,41259,168787,273,22
+2018,Oyster Eastern / American,Brunswick,Cumberland,UK,Live Pounds,26058,60987,203,28
+2018,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,977710,2593334,355,15
+2018,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,40168,104756,152,17
+2018,Oyster Eastern / American,Georgetown,Sagadahoc,UK,Live Pounds,8291,31325,77,5
+2018,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,40185,92161,295,28
+2018,Oyster Eastern / American,Harpswell Center,Cumberland,UK,Live Pounds,2784,8660,18,4
+2018,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,47119,134533,113,3
+2018,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,1412285,3635475,1486,68
+2018,Oyster Eastern / American,Phippsburg,Sagadahoc,UK,Live Pounds,406,994,8,4
+2018,Oyster Eastern / American,Scarborough,Cumberland,UK,Live Pounds,70014,213979,128,6
+2018,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,58160,220560,365,22
+2019,Oyster Eastern / American,Brunswick,Cumberland,UK,Live Pounds,12809,31717,119,21
+2019,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,994602,2598442,516,20
+2019,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,46664,123558,221,14
+2019,Oyster Eastern / American,Georgetown,Sagadahoc,UK,Live Pounds,27517,100975,105,8
+2019,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,47409,124572,366,38
+2019,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,43388,123654,92,4
+2019,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,444672,173864,176,17
+2019,Oyster Eastern / American,South Bristol,Lincoln,UK,Live Pounds,136695,381618,141,7
+2019,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,86074,303253,369,12
+2020,Oyster Eastern / American,Brunswick,Cumberland,UK,Live Pounds,101119,270548,180,16
+2020,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,598848,1636822,420,26
+2020,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,54921,149479,275,14
+2020,Oyster Eastern / American,Georgetown,Sagadahoc,UK,Live Pounds,39516,150388,103,9
+2020,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,26378,73802,197,25
+2020,Oyster Eastern / American,New Meadows,Sagadahoc,UK,Live Pounds,12188,31722,33,7
+2020,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,19830,53979,61,5
+2020,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,797870,2059594,1297,48
+2020,Oyster Eastern / American,Phippsburg,Sagadahoc,UK,Live Pounds,2912,8484,36,3
+2020,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,42700,142524,150,11
+2020,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,67702,188616,271,7
+2020,Oyster Eastern / American,Yarmouth,Cumberland,UK,Live Pounds,7182,20541,58,7
+2021,Oyster Eastern / American,Bar Harbor,Hancock,UK,Live Pounds,17217,63184,103,3
+2021,Oyster Eastern / American,Bristol,Lincoln,UK,Live Pounds,41969,129759,0,3
+2021,Oyster Eastern / American,Brunswick,Cumberland,UK,Live Pounds,248485,621747,50,15
+2021,Oyster Eastern / American,Chebeague Island,Cumberland,UK,Live Pounds,14179,50931,0,3
+2021,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,652347,1849758,223,15
+2021,Oyster Eastern / American,Edgecomb,Lincoln,UK,Live Pounds,1581344,4012948,35,9
+2021,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,119364,337498,47,12
+2021,Oyster Eastern / American,Friendship,Knox,UK,Live Pounds,4793,11338,15,4
+2021,Oyster Eastern / American,Georgetown,Sagadahoc,UK,Live Pounds,70900,201860,23,7
+2021,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,147595,360449,19,19
+2021,Oyster Eastern / American,New Meadows,Sagadahoc,UK,Live Pounds,14657,45879,39,6
+2021,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,8094,22446,8,4
+2021,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,2553544,4302576,159,55
+2021,Oyster Eastern / American,Pine Point,Cumberland,UK,Live Pounds,5607,16843,0,4
+2021,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,49882,162693,53,6
+2021,Oyster Eastern / American,South Bristol,Lincoln,UK,Live Pounds,120233,324703,6,5
+2021,Oyster Eastern / American,South Thomaston,Knox,UK,Live Pounds,85823,223201,3,3
+2021,Oyster Eastern / American,Swans Island,Hancock,UK,Live Pounds,8222,25683,12,4
+2021,Oyster Eastern / American,Trenton,Hancock,UK,Live Pounds,54661,110542,30,3
+2021,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,134390,393660,13,11
+2021,Oyster Eastern / American,Yarmouth,Cumberland,UK,Live Pounds,48638,135245,41,8
+2022,Oyster Eastern / American,Bar Harbor,Hancock,UK,Live Pounds,18561,60229,61,4
+2022,Oyster Eastern / American,Brunswick,Cumberland,UK,Live Pounds,386865,969871,66,17
+2022,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,641775,1571733,232,15
+2022,Oyster Eastern / American,Edgecomb,Lincoln,UK,Live Pounds,703218,1850002,0,5
+2022,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,138552,416342,37,10
+2022,Oyster Eastern / American,Georgetown,Sagadahoc,UK,Live Pounds,90068,277768,3,10
+2022,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,59624,136320,69,25
+2022,Oyster Eastern / American,New Meadows,Sagadahoc,UK,Live Pounds,12591,41825,17,5
+2022,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,1518959,4062084,110,55
+2022,Oyster Eastern / American,Phippsburg,Sagadahoc,UK,Live Pounds,8220,28224,41,6
+2022,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,48080,154680,32,6
+2022,Oyster Eastern / American,South Bristol,Lincoln,UK,Live Pounds,337770,807197,35,7
+2022,Oyster Eastern / American,Swans Island,Hancock,UK,Live Pounds,19935,59458,3,3
+2022,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,100674,314168,5,10
+2022,Oyster Eastern / American,Yarmouth,Cumberland,UK,Live Pounds,99220,284534,54,12
+2023,Oyster Eastern / American,Boothbay,Lincoln,UK,Live Pounds,9784,29873,18,5
+2023,Oyster Eastern / American,Bremen,Lincoln,UK,Live Pounds,26545,71047,22,5
+2023,Oyster Eastern / American,Brunswick,Cumberland,UK,Live Pounds,371216,949014,27,17
+2023,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,676286,1702457,48,11
+2023,Oyster Eastern / American,Edgecomb,Lincoln,UK,Live Pounds,1490758,3967198,0,3
+2023,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,160221,509478,119,15
+2023,Oyster Eastern / American,Friendship,Knox,UK,Live Pounds,1413,3954,5,3
+2023,Oyster Eastern / American,Georgetown,Sagadahoc,UK,Live Pounds,79399,268992,60,9
+2023,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,36789,94389,19,9
+2023,Oyster Eastern / American,Islesboro,Waldo,UK,Live Pounds,947,3234,5,3
+2023,Oyster Eastern / American,New Meadows,Sagadahoc,UK,Live Pounds,17073,53994,0,3
+2023,Oyster Eastern / American,Newcastle,Lincoln,UK,Live Pounds,13048,34496,0,3
+2023,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,1048574,3001997,198,50
+2023,Oyster Eastern / American,Phippsburg,Sagadahoc,UK,Live Pounds,10725,34629,28,3
+2023,Oyster Eastern / American,Portland,Cumberland,UK,Live Pounds,36368,114650,24,6
+2023,Oyster Eastern / American,Scarborough,Cumberland,UK,Live Pounds,16867,48070,29,3
+2023,Oyster Eastern / American,South Bristol,Lincoln,UK,Live Pounds,130065,380873,4,5
+2023,Oyster Eastern / American,Swans Island,Hancock,UK,Live Pounds,14492,43823,7,3
+2023,Oyster Eastern / American,Walpole,Lincoln,UK,Live Pounds,667744,1859803,0,3
+2023,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,119048,391850,10,8
+2023,Oyster Eastern / American,Yarmouth,Cumberland,UK,Live Pounds,131681,403308,74,14
+2024,Oyster Eastern / American,Bremen,Lincoln,UK,Live Pounds,24717,271777,0,3
+2024,Oyster Eastern / American,Brunswick,Cumberland,UK,Live Pounds,579769,1476204,14,9
+2024,Oyster Eastern / American,Damariscotta,Lincoln,UK,Live Pounds,642988,1792350,50,10
+2024,Oyster Eastern / American,Edgecomb,Lincoln,UK,Live Pounds,1390378,3757144,0,4
+2024,Oyster Eastern / American,Freeport,Cumberland,UK,Live Pounds,216719,685238,59,13
+2024,Oyster Eastern / American,Friendship,Knox,UK,Live Pounds,6922,21564,28,5
+2024,Oyster Eastern / American,Georgetown,Sagadahoc,UK,Live Pounds,75763,264636,45,9
+2024,Oyster Eastern / American,Harpswell,Cumberland,UK,Live Pounds,50445,143079,12,10
+2024,Oyster Eastern / American,New Meadows,Sagadahoc,UK,Live Pounds,11819,38196,5,4
+2024,Oyster Eastern / American,Other Maine,Not-Specified,UK,Live Pounds,1666277,4673366,231,58
+2024,Oyster Eastern / American,Phippsburg,Sagadahoc,UK,Live Pounds,10843,32175,8,4
+2024,Oyster Eastern / American,Port Clyde,Knox,UK,Live Pounds,7729,27201,0,3
+2024,Oyster Eastern / American,South Bristol,Lincoln,UK,Live Pounds,173085,510819,0,3
+2024,Oyster Eastern / American,South Thomaston,Knox,UK,Live Pounds,99879,306907,15,3
+2024,Oyster Eastern / American,West Bath,Sagadahoc,UK,Live Pounds,104615,324125,0,7
+2024,Oyster Eastern / American,Yarmouth,Cumberland,UK,Live Pounds,257974,937994,24,12

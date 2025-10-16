@@ -1,0 +1,111 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Halibut Atlantic,Milbridge,Washington,UK,Live Pounds,1532,7395,17,9
+2008,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,39763,198692,379,83
+2008,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,866,5188,25,12
+2008,Halibut Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,1396,8257,13,9
+2008,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,2722,16509,50,10
+2009,Halibut Atlantic,Bar Harbor,Hancock,UK,Live Pounds,1017,5611,11,6
+2009,Halibut Atlantic,Milbridge,Washington,UK,Live Pounds,3292,15537,35,8
+2009,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,67852,298444,699,120
+2009,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,485,2995,15,7
+2009,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,2390,13361,73,20
+2009,Halibut Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,1042,5405,14,7
+2009,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,4636,27990,82,16
+2010,Halibut Atlantic,Milbridge,Washington,UK,Live Pounds,1364,8412,25,9
+2010,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,28942,172149,402,125
+2010,Halibut Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,907,5347,12,5
+2010,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,1926,11881,33,16
+2011,Halibut Atlantic,Milbridge,Washington,UK,Live Pounds,843,5275,15,8
+2011,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,34636,226734,424,128
+2011,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,1128,7310,18,8
+2012,Halibut Atlantic,Friendship,Knox,UK,Live Pounds,1529,9757,19,12
+2012,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,46027,309988,504,157
+2012,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,869,4893,17,7
+2012,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,1362,7500,18,6
+2013,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,46762,303747,503,161
+2013,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,480,3574,8,5
+2013,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,3251,22875,68,18
+2014,Halibut Atlantic,Jonesport,Washington,UK,Live Pounds,6836,50875,71,24
+2014,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,49363,321546,569,159
+2014,Halibut Atlantic,Sorrento,Hancock,UK,Live Pounds,805,5146,11,6
+2014,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,8827,60893,79,21
+2015,Halibut Atlantic,Cutler,Washington,UK,Live Pounds,2270,14742,17,6
+2015,Halibut Atlantic,Jonesport,Washington,UK,Live Pounds,10031,70804,101,36
+2015,Halibut Atlantic,Lubec,Washington,UK,Live Pounds,801,5117,10,5
+2015,Halibut Atlantic,Milbridge,Washington,UK,Live Pounds,5256,31642,55,19
+2015,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,34640,216931,355,127
+2015,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,1251,8907,22,4
+2015,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,4390,32988,80,16
+2015,Halibut Atlantic,Spruce Head,Knox,UK,Live Pounds,2309,14448,28,8
+2015,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,32098,223700,106,29
+2015,Halibut Atlantic,Vinalhaven,Knox,UK,Live Pounds,358,3314,13,4
+2016,Halibut Atlantic,Bass Harbor,Hancock,UK,Live Pounds,582,3021,6,5
+2016,Halibut Atlantic,Corea,Hancock,UK,Live Pounds,2972,16477,43,12
+2016,Halibut Atlantic,Cutler,Washington,UK,Live Pounds,3241,17888,40,11
+2016,Halibut Atlantic,Deer Isle,Hancock,UK,Live Pounds,2748,17919,30,12
+2016,Halibut Atlantic,Machiasport,Washington,UK,Live Pounds,13422,75910,86,27
+2016,Halibut Atlantic,Milbridge,Washington,UK,Live Pounds,4821,25018,68,21
+2016,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,66255,392845,696,171
+2016,Halibut Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,2971,15523,46,22
+2016,Halibut Atlantic,Steuben,Washington,UK,Live Pounds,2250,11880,30,11
+2016,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,7977,50088,80,26
+2016,Halibut Atlantic,Tenants Harbor,Knox,UK,Live Pounds,1178,7646,14,6
+2016,Halibut Atlantic,Vinalhaven,Knox,UK,Live Pounds,307,2736,9,4
+2017,Halibut Atlantic,Corea,Hancock,UK,Live Pounds,2211,12513,30,9
+2017,Halibut Atlantic,Cutler,Washington,UK,Live Pounds,5916,34353,50,15
+2017,Halibut Atlantic,Jonesport,Washington,UK,Live Pounds,15436,87957,168,40
+2017,Halibut Atlantic,Machiasport,Washington,UK,Live Pounds,8398,48210,58,18
+2017,Halibut Atlantic,Milbridge,Washington,UK,Live Pounds,2171,12968,34,13
+2017,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,20746,126327,276,94
+2017,Halibut Atlantic,Owls Head,Knox,UK,Live Pounds,1550,12261,14,7
+2017,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,1595,11425,27,8
+2017,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,3801,28161,67,14
+2017,Halibut Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,2983,17154,38,16
+2017,Halibut Atlantic,Steuben,Washington,UK,Live Pounds,1864,11922,12,7
+2017,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,4672,31557,76,20
+2017,Halibut Atlantic,Tenants Harbor,Knox,UK,Live Pounds,1060,7000,13,5
+2017,Halibut Atlantic,Vinalhaven,Knox,UK,Live Pounds,838,6240,14,9
+2018,Halibut Atlantic,Cutler,Washington,UK,Live Pounds,3981,22266,37,13
+2018,Halibut Atlantic,Friendship,Knox,UK,Live Pounds,1044,6477,10,8
+2018,Halibut Atlantic,Machiasport,Washington,UK,Live Pounds,3833,20431,43,10
+2018,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,31806,185332,366,130
+2018,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,4234,26845,60,8
+2018,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,4311,28626,61,15
+2018,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,2022,12296,39,16
+2018,Halibut Atlantic,Vinalhaven,Knox,UK,Live Pounds,795,7808,21,9
+2019,Halibut Atlantic,Cutler,Washington,UK,Live Pounds,1961,10198,19,7
+2019,Halibut Atlantic,Eastport,Washington,UK,Live Pounds,771,4286,6,3
+2019,Halibut Atlantic,Friendship,Knox,UK,Live Pounds,1592,9544,16,7
+2019,Halibut Atlantic,Machiasport,Washington,UK,Live Pounds,6815,34858,52,13
+2019,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,3117,18560,47,8
+2019,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,5238,33635,93,18
+2019,Halibut Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,1181,7458,23,14
+2019,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,3432,21324,44,17
+2020,Halibut Atlantic,Friendship,Knox,UK,Live Pounds,1287,8061,12,6
+2020,Halibut Atlantic,Jonesport,Washington,UK,Live Pounds,3113,13415,18,13
+2020,Halibut Atlantic,Machiasport,Washington,UK,Live Pounds,3567,16416,18,9
+2020,Halibut Atlantic,Milbridge,Washington,UK,Live Pounds,878,4661,11,5
+2020,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,17879,87097,155,69
+2020,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,2543,15665,39,4
+2020,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,3537,24367,55,14
+2020,Halibut Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,1300,6229,18,9
+2020,Halibut Atlantic,Spruce Head,Knox,UK,Live Pounds,1636,10585,16,4
+2021,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,25951,148987,250,94
+2021,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,1195,9511,18,4
+2021,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,2803,20468,34,12
+2021,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,1795,14346,15,10
+2022,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,21392,148762,220,86
+2022,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,1999,22090,19,7
+2022,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,3033,25546,39,13
+2022,Halibut Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,1299,13611,10,5
+2023,Halibut Atlantic,Friendship,Knox,UK,Live Pounds,2049,17279,24,6
+2023,Halibut Atlantic,New Harbor,Lincoln,UK,Live Pounds,1176,11582,13,3
+2023,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,34281,213961,342,102
+2023,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,1144,10200,18,7
+2023,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,3846,28675,48,15
+2023,Halibut Atlantic,Tenants Harbor,Knox,UK,Live Pounds,538,5708,7,4
+2024,Halibut Atlantic,Friendship,Knox,UK,Live Pounds,713,7359,11,4
+2024,Halibut Atlantic,Other Maine,Not-Specified,UK,Live Pounds,29917,174659,279,111
+2024,Halibut Atlantic,Port Clyde,Knox,UK,Live Pounds,1397,10630,22,6
+2024,Halibut Atlantic,Portland,Cumberland,UK,Live Pounds,3970,30965,77,13
+2024,Halibut Atlantic,Stonington,Hancock,UK,Live Pounds,3295,25674,38,13

@@ -1,0 +1,29 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,3351,5690,11,6
+2010,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,2235,6480,20,11
+2011,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,6573,21683,83,20
+2012,Oyster European Flat,Harpswell,Cumberland,UK,Live Pounds,10376,32640,85,9
+2012,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,4216,13865,36,11
+2013,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,33453,87713,116,7
+2014,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,26602,67367,56,9
+2015,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,23132,59129,64,8
+2016,Oyster European Flat,Harpswell,Cumberland,UK,Live Pounds,3441,8422,10,6
+2016,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,42484,109986,95,11
+2017,Oyster European Flat,Brunswick,Cumberland,UK,Live Pounds,4658,8511,29,15
+2017,Oyster European Flat,Harpswell,Cumberland,UK,Live Pounds,9945,15747,54,23
+2017,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,70510,132806,176,19
+2018,Oyster European Flat,Brunswick,Cumberland,UK,Live Pounds,932,1784,14,8
+2018,Oyster European Flat,Freeport,Cumberland,UK,Live Pounds,40019,52839,118,13
+2018,Oyster European Flat,Harpswell,Cumberland,UK,Live Pounds,25887,50583,89,23
+2018,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,40193,84137,112,18
+2019,Oyster European Flat,Harpswell,Cumberland,UK,Live Pounds,22860,45935,76,9
+2020,Oyster European Flat,Harpswell,Cumberland,UK,Live Pounds,9926,19831,39,5
+2020,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,28348,37136,96,12
+2021,Oyster European Flat,Harpswell,Cumberland,UK,Live Pounds,13751,26075,32,6
+2021,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,37369,103956,54,8
+2022,Oyster European Flat,Harpswell,Cumberland,UK,Live Pounds,18822,36794,36,9
+2022,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,6618,16052,21,9
+2023,Oyster European Flat,Harpswell,Cumberland,UK,Live Pounds,17685,39373,49,20
+2023,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,22279,44765,131,25
+2024,Oyster European Flat,Brunswick,Cumberland,UK,Live Pounds,1131,2878,7,6
+2024,Oyster European Flat,Other Maine,Not-Specified,UK,Live Pounds,20187,52238,70,14

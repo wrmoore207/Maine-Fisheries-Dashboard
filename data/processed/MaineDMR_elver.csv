@@ -1,0 +1,594 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Elver,Bangor,Penobscot,UK,Live Pounds,65,14123,25,14
+2008,Elver,Belfast,Waldo,UK,Live Pounds,443,101150,187,30
+2008,Elver,Blue Hill,Hancock,UK,Live Pounds,6,1282,4,4
+2008,Elver,Bucksport,Hancock,UK,Live Pounds,33,7241,7,6
+2008,Elver,Camden,Knox,UK,Live Pounds,249,52315,161,25
+2008,Elver,Ellsworth,Hancock,UK,Live Pounds,1315,273514,685,122
+2008,Elver,Frankfort,Waldo,UK,Live Pounds,16,3843,16,6
+2008,Elver,Gouldsboro,Hancock,UK,Live Pounds,22,4325,8,7
+2008,Elver,Machias,Washington,UK,Live Pounds,67,14787,22,7
+2008,Elver,Other Maine,Not-Specified,UK,Live Pounds,4365,932841,2362,340
+2008,Elver,Other Maine,UK,UK,Live Pounds,1,201,1,1
+2008,Elver,Steuben,Washington,UK,Live Pounds,37,7997,12,10
+2008,Elver,Warren,Knox,UK,Live Pounds,332,72734,159,43
+2009,Elver,Bangor,Penobscot,UK,Live Pounds,184,22045,64,39
+2009,Elver,Belfast,Waldo,UK,Live Pounds,293,30579,96,16
+2009,Elver,Ellsworth,Hancock,UK,Live Pounds,571,60814,354,71
+2009,Elver,Frankfort,Waldo,UK,Live Pounds,26,2801,21,8
+2009,Elver,Orland,Hancock,UK,Live Pounds,236,24748,63,10
+2009,Elver,Other Maine,Not-Specified,UK,Live Pounds,3890,378582,1681,265
+2010,Elver,Belfast,Waldo,UK,Live Pounds,140,28000,129,17
+2010,Elver,Machias,Washington,UK,Live Pounds,10,2035,4,3
+2010,Elver,Orland,Hancock,UK,Live Pounds,105,19274,67,13
+2010,Elver,Other Maine,Not-Specified,UK,Live Pounds,2845,523750,2497,322
+2010,Elver,Portland,Cumberland,UK,Live Pounds,59,11792,27,10
+2011,Elver,Bangor,Penobscot,UK,Live Pounds,103,101251,98,47
+2011,Elver,Bath,Sagadahoc,UK,Live Pounds,11,8706,12,6
+2011,Elver,Belfast,Waldo,UK,Live Pounds,273,246856,216,38
+2011,Elver,Boothbay,Lincoln,UK,Live Pounds,49,42051,88,12
+2011,Elver,Bucksport,Hancock,UK,Live Pounds,37,34599,15,10
+2011,Elver,Camden,Knox,UK,Live Pounds,137,93836,138,29
+2011,Elver,Ellsworth,Hancock,UK,Live Pounds,767,694547,667,105
+2011,Elver,Frankfort,Waldo,UK,Live Pounds,49,47080,52,13
+2011,Elver,Orland,Hancock,UK,Live Pounds,245,228358,187,23
+2011,Elver,Other Hancock,Hancock,UK,Live Pounds,320,278476,233,75
+2011,Elver,Other Maine,Not-Specified,UK,Live Pounds,2975,2570793,1982,264
+2011,Elver,Pemaquid,Lincoln,UK,Live Pounds,254,217277,238,30
+2011,Elver,Phippsburg,Sagadahoc,UK,Live Pounds,32,26855,72,6
+2011,Elver,Portland,Cumberland,UK,Live Pounds,1356,1374738,405,41
+2011,Elver,Rockland,Knox,UK,Live Pounds,14,13112,3,3
+2011,Elver,Steuben,Washington,UK,Live Pounds,42,27576,10,5
+2011,Elver,Sullivan,Hancock,UK,Live Pounds,293,253834,274,36
+2011,Elver,Waldoboro,Lincoln,UK,Live Pounds,1032,887720,1203,98
+2011,Elver,Warren,Knox,UK,Live Pounds,396,361090,203,37
+2011,Elver,Yarmouth,Cumberland,UK,Live Pounds,200,144582,70,17
+2012,Elver,Bangor,Penobscot,UK,Live Pounds,1740,3624866,980,183
+2012,Elver,Bath,Sagadahoc,UK,Live Pounds,100,196395,23,9
+2012,Elver,Belfast,Waldo,UK,Live Pounds,423,901088,235,21
+2012,Elver,Brewer,Penobscot,UK,Live Pounds,230,427080,213,92
+2012,Elver,Bucksport,Hancock,UK,Live Pounds,5,8589,7,6
+2012,Elver,Ellsworth,Hancock,UK,Live Pounds,1976,3877836,1389,153
+2012,Elver,Frankfort,Waldo,UK,Live Pounds,116,224123,71,14
+2012,Elver,Friendship,Knox,UK,Live Pounds,34,69069,30,9
+2012,Elver,Gouldsboro,Hancock,UK,Live Pounds,138,281255,105,19
+2012,Elver,Hampden,Penobscot,UK,Live Pounds,102,211543,69,11
+2012,Elver,Machias,Washington,UK,Live Pounds,137,276296,28,19
+2012,Elver,Orland,Hancock,UK,Live Pounds,509,995273,398,24
+2012,Elver,Other Hancock,Hancock,UK,Live Pounds,433,840753,131,36
+2012,Elver,Other Maine,Not-Specified,UK,Live Pounds,6630,11457263,3572,466
+2012,Elver,Other Washington,Washington,UK,Live Pounds,390,755258,196,31
+2012,Elver,Pembroke,Washington,UK,Live Pounds,353,139643,66,36
+2012,Elver,Perry,Washington,UK,Live Pounds,246,84610,171,53
+2012,Elver,Phippsburg,Sagadahoc,UK,Live Pounds,43,86429,77,5
+2012,Elver,Portland,Cumberland,UK,Live Pounds,3497,6838212,937,90
+2012,Elver,Sullivan,Hancock,UK,Live Pounds,504,991851,399,53
+2012,Elver,Surry,Hancock,UK,Live Pounds,35,74215,30,12
+2012,Elver,Waldoboro,Lincoln,UK,Live Pounds,3157,6438229,2470,116
+2012,Elver,Warren,Knox,UK,Live Pounds,655,1297098,288,42
+2012,Elver,Wiscasset,Lincoln,UK,Live Pounds,158,287646,83,8
+2013,Elver,Addison,Washington,UK,Live Pounds,15,27209,20,8
+2013,Elver,Bangor,Penobscot,UK,Live Pounds,2748,4816585,1559,333
+2013,Elver,Bar Harbor,Hancock,UK,Live Pounds,99,177165,125,30
+2013,Elver,Belfast,Waldo,UK,Live Pounds,405,747981,248,40
+2013,Elver,Blue Hill,Hancock,UK,Live Pounds,64,112656,85,22
+2013,Elver,Boothbay,Lincoln,UK,Live Pounds,2,4515,4,4
+2013,Elver,Brewer,Penobscot,UK,Live Pounds,214,378056,196,76
+2013,Elver,Brunswick,Cumberland,UK,Live Pounds,116,209057,168,15
+2013,Elver,Bucksport,Hancock,UK,Live Pounds,21,33822,12,11
+2013,Elver,Calais,Washington,UK,Live Pounds,399,676654,765,135
+2013,Elver,Camden,Knox,UK,Live Pounds,276,530757,235,48
+2013,Elver,Cherryfield,Washington,UK,Live Pounds,256,449055,41,16
+2013,Elver,Dennysville,Washington,UK,Live Pounds,5,8456,17,6
+2013,Elver,Ellsworth,Hancock,UK,Live Pounds,2732,4959261,2164,283
+2013,Elver,Falmouth,Cumberland,UK,Live Pounds,354,657505,170,51
+2013,Elver,Frankfort,Waldo,UK,Live Pounds,36,63675,37,12
+2013,Elver,Franklin,Hancock,UK,Live Pounds,422,787755,436,50
+2013,Elver,Gardiner,Kennebec,UK,Live Pounds,64,113161,57,29
+2013,Elver,Gouldsboro,Hancock,UK,Live Pounds,175,321357,181,28
+2013,Elver,Hampden,Penobscot,UK,Live Pounds,17,30391,25,19
+2013,Elver,Hancock,Hancock,UK,Live Pounds,94,174183,96,19
+2013,Elver,Jonesport,Washington,UK,Live Pounds,13,22727,27,16
+2013,Elver,Kennebunk,York,UK,Live Pounds,317,626760,59,13
+2013,Elver,Kittery,York,UK,Live Pounds,99,175719,17,5
+2013,Elver,Machias,Washington,UK,Live Pounds,688,1201022,743,138
+2013,Elver,Mount Desert,Hancock,UK,Live Pounds,34,65892,8,5
+2013,Elver,Orland,Hancock,UK,Live Pounds,481,890009,371,58
+2013,Elver,Orrington,Penobscot,UK,Live Pounds,26,45251,19,15
+2013,Elver,Other Hancock,Hancock,UK,Live Pounds,53,92937,19,9
+2013,Elver,Other Maine,Not-Specified,UK,Live Pounds,2327,4384036,1851,273
+2013,Elver,Other Maine,UK,UK,Live Pounds,1,1955,2,2
+2013,Elver,Pemaquid,Lincoln,UK,Live Pounds,298,560464,210,29
+2013,Elver,Pembroke,Washington,UK,Live Pounds,101,178325,308,92
+2013,Elver,Penobscot,Hancock,UK,Live Pounds,36,64449,65,27
+2013,Elver,Perry,Washington,UK,Live Pounds,55,93830,211,72
+2013,Elver,Portland,Cumberland,UK,Live Pounds,1688,2991122,1113,133
+2013,Elver,Steuben,Washington,UK,Live Pounds,107,201935,102,20
+2013,Elver,Sullivan,Hancock,UK,Live Pounds,313,618887,158,48
+2013,Elver,Surry,Hancock,UK,Live Pounds,100,184030,115,31
+2013,Elver,Trenton,Hancock,UK,Live Pounds,4,8106,12,5
+2013,Elver,Waldoboro,Lincoln,UK,Live Pounds,2133,3986291,1948,125
+2013,Elver,Warren,Knox,UK,Live Pounds,503,902905,377,33
+2013,Elver,Whiting,Washington,UK,Live Pounds,31,55811,32,11
+2013,Elver,Yarmouth,Cumberland,UK,Live Pounds,157,299359,163,33
+2014,Elver,Addison,Washington,UK,Live Pounds,25,20889,61,27
+2014,Elver,Bangor,Penobscot,UK,Live Pounds,1032,1072543,829,388
+2014,Elver,Bar Harbor,Hancock,UK,Live Pounds,77,65603,89,21
+2014,Elver,Bath,Sagadahoc,UK,Live Pounds,14,13986,11,7
+2014,Elver,Belfast,Waldo,UK,Live Pounds,326,274551,247,54
+2014,Elver,Blue Hill,Hancock,UK,Live Pounds,119,96976,91,22
+2014,Elver,Boothbay,Lincoln,UK,Live Pounds,42,31639,42,5
+2014,Elver,Boothbay Harbor,Lincoln,UK,Live Pounds,18,13734,12,6
+2014,Elver,Bremen,Lincoln,UK,Live Pounds,46,30565,39,9
+2014,Elver,Brewer,Penobscot,UK,Live Pounds,184,188399,83,60
+2014,Elver,Bristol,Lincoln,UK,Live Pounds,53,42472,16,9
+2014,Elver,Bucksport,Hancock,UK,Live Pounds,49,44646,72,38
+2014,Elver,Calais,Washington,UK,Live Pounds,203,185704,312,153
+2014,Elver,Camden,Knox,UK,Live Pounds,181,140643,109,35
+2014,Elver,Chamberlain,Lincoln,UK,Live Pounds,32,17622,15,8
+2014,Elver,Cherryfield,Washington,UK,Live Pounds,83,88306,16,10
+2014,Elver,Ellsworth,Hancock,UK,Live Pounds,583,536988,449,128
+2014,Elver,Falmouth,Cumberland,UK,Live Pounds,534,449302,75,34
+2014,Elver,Frankfort,Waldo,UK,Live Pounds,30,28600,46,7
+2014,Elver,Franklin,Hancock,UK,Live Pounds,238,205130,176,31
+2014,Elver,Friendship,Knox,UK,Live Pounds,46,36118,36,9
+2014,Elver,Gardiner,Kennebec,UK,Live Pounds,139,145796,49,24
+2014,Elver,Gouldsboro,Hancock,UK,Live Pounds,167,136849,193,33
+2014,Elver,Hampden,Penobscot,UK,Live Pounds,50,52969,129,84
+2014,Elver,Hancock,Hancock,UK,Live Pounds,72,62010,63,12
+2014,Elver,Jonesboro,Washington,UK,Live Pounds,2,1109,4,4
+2014,Elver,Jonesport,Washington,UK,Live Pounds,42,36825,46,22
+2014,Elver,Kennebunk,York,UK,Live Pounds,65,57411,24,11
+2014,Elver,Lincolnville,Waldo,UK,Live Pounds,20,17682,17,3
+2014,Elver,Machias,Washington,UK,Live Pounds,239,231777,271,155
+2014,Elver,Machiasport,Washington,UK,Live Pounds,25,25314,67,56
+2014,Elver,Mount Desert,Hancock,UK,Live Pounds,14,12015,17,10
+2014,Elver,Muscongus,Lincoln,UK,Live Pounds,109,81190,58,16
+2014,Elver,New Harbor,Lincoln,UK,Live Pounds,25,15938,12,5
+2014,Elver,Orland,Hancock,UK,Live Pounds,597,521251,760,213
+2014,Elver,Orrington,Penobscot,UK,Live Pounds,18,17401,28,22
+2014,Elver,Other Hancock,Hancock,UK,Live Pounds,9,7679,17,7
+2014,Elver,Other Maine,Not-Specified,UK,Live Pounds,1192,1024118,656,176
+2014,Elver,Other Penobscot,Penobscot,UK,Live Pounds,7,5338,14,9
+2014,Elver,Pemaquid,Lincoln,UK,Live Pounds,323,241317,100,30
+2014,Elver,Pembroke,Washington,UK,Live Pounds,51,39276,126,83
+2014,Elver,Penobscot,Hancock,UK,Live Pounds,65,57791,56,16
+2014,Elver,Perry,Washington,UK,Live Pounds,10,7657,73,47
+2014,Elver,Portland,Cumberland,UK,Live Pounds,231,166747,60,27
+2014,Elver,Prospect,Waldo,UK,Live Pounds,33,30188,29,11
+2014,Elver,Prospect Harbor,Hancock,UK,Live Pounds,24,20684,26,15
+2014,Elver,Rockport,Knox,UK,Live Pounds,107,82950,55,13
+2014,Elver,Saco,York,UK,Live Pounds,8,7227,5,5
+2014,Elver,Scarborough,Cumberland,UK,Live Pounds,16,12808,40,14
+2014,Elver,Searsport,Waldo,UK,Live Pounds,3,2823,7,7
+2014,Elver,Sedgwick,Hancock,UK,Live Pounds,26,24003,17,3
+2014,Elver,Sheepscot,Lincoln,UK,Live Pounds,37,37421,23,21
+2014,Elver,Steuben,Washington,UK,Live Pounds,143,127023,48,11
+2014,Elver,Stonington,Hancock,UK,Live Pounds,31,23060,36,8
+2014,Elver,Sullivan,Hancock,UK,Live Pounds,119,112088,73,21
+2014,Elver,Surry,Hancock,UK,Live Pounds,177,150581,191,60
+2014,Elver,Tenants Harbor,Knox,UK,Live Pounds,87,66495,48,6
+2014,Elver,Thomaston,Knox,UK,Live Pounds,34,29815,14,9
+2014,Elver,Waldoboro,Lincoln,UK,Live Pounds,798,617717,423,58
+2014,Elver,Warren,Knox,UK,Live Pounds,477,422579,213,47
+2014,Elver,Whiting,Washington,UK,Live Pounds,9,7937,11,3
+2014,Elver,Wiscasset,Lincoln,UK,Live Pounds,32,29178,20,8
+2014,Elver,Yarmouth,Cumberland,UK,Live Pounds,141,119856,113,25
+2015,Elver,Addison,Washington,UK,Live Pounds,13,25265,42,27
+2015,Elver,Bangor,Penobscot,UK,Live Pounds,318,777796,545,261
+2015,Elver,Bar Harbor,Hancock,UK,Live Pounds,54,116208,88,30
+2015,Elver,Belfast,Waldo,UK,Live Pounds,233,496100,302,80
+2015,Elver,Blue Hill,Hancock,UK,Live Pounds,113,238749,139,27
+2015,Elver,Boothbay,Lincoln,UK,Live Pounds,34,75008,37,10
+2015,Elver,Boothbay Harbor,Lincoln,UK,Live Pounds,4,9318,5,4
+2015,Elver,Bremen,Lincoln,UK,Live Pounds,44,96994,118,7
+2015,Elver,Brewer,Penobscot,UK,Live Pounds,40,96645,75,43
+2015,Elver,Bristol,Lincoln,UK,Live Pounds,3,6714,11,7
+2015,Elver,Bucksport,Hancock,UK,Live Pounds,20,42760,53,30
+2015,Elver,Calais,Washington,UK,Live Pounds,159,340817,619,193
+2015,Elver,Camden,Knox,UK,Live Pounds,112,227653,173,38
+2015,Elver,Corea,Hancock,UK,Live Pounds,10,19642,22,13
+2015,Elver,Ellsworth,Hancock,UK,Live Pounds,384,833962,459,131
+2015,Elver,Falmouth,Cumberland,UK,Live Pounds,143,288801,92,45
+2015,Elver,Frankfort,Waldo,UK,Live Pounds,21,48437,69,12
+2015,Elver,Franklin,Hancock,UK,Live Pounds,169,374911,176,45
+2015,Elver,Freeport,Cumberland,UK,Live Pounds,7,15146,26,9
+2015,Elver,Friendship,Knox,UK,Live Pounds,32,68881,60,11
+2015,Elver,Gardiner,Kennebec,UK,Live Pounds,48,115537,64,36
+2015,Elver,Gouldsboro,Hancock,UK,Live Pounds,80,164620,112,38
+2015,Elver,Hampden,Penobscot,UK,Live Pounds,8,18956,39,31
+2015,Elver,Hancock,Hancock,UK,Live Pounds,47,93884,57,14
+2015,Elver,Harrington,Washington,UK,Live Pounds,10,22279,7,4
+2015,Elver,Jonesport,Washington,UK,Live Pounds,20,40064,59,32
+2015,Elver,Lincolnville,Waldo,UK,Live Pounds,7,15693,19,4
+2015,Elver,Machias,Washington,UK,Live Pounds,212,479320,255,128
+2015,Elver,Machiasport,Washington,UK,Live Pounds,1,2079,3,3
+2015,Elver,Milbridge,Washington,UK,Live Pounds,1,2715,5,4
+2015,Elver,Mount Desert,Hancock,UK,Live Pounds,43,83570,41,12
+2015,Elver,Muscongus,Lincoln,UK,Live Pounds,55,115644,59,11
+2015,Elver,New Harbor,Lincoln,UK,Live Pounds,37,76937,24,7
+2015,Elver,Orland,Hancock,UK,Live Pounds,227,500446,481,165
+2015,Elver,Orrington,Penobscot,UK,Live Pounds,5,10820,16,11
+2015,Elver,Other Maine,Not-Specified,UK,Live Pounds,465,1020940,575,143
+2015,Elver,Other Penobscot,Penobscot,UK,Live Pounds,21,44096,58,39
+2015,Elver,Other Sagadahoc,Sagadahoc,UK,Live Pounds,8,16364,23,10
+2015,Elver,Pemaquid,Lincoln,UK,Live Pounds,157,340681,163,33
+2015,Elver,Pembroke,Washington,UK,Live Pounds,19,41526,53,37
+2015,Elver,Penobscot,Hancock,UK,Live Pounds,28,60715,57,22
+2015,Elver,Perry,Washington,UK,Live Pounds,15,32822,71,44
+2015,Elver,Portland,Cumberland,UK,Live Pounds,506,1063033,506,152
+2015,Elver,Prospect,Waldo,UK,Live Pounds,21,42861,68,41
+2015,Elver,Prospect Harbor,Hancock,UK,Live Pounds,79,157988,127,27
+2015,Elver,Rockland,Knox,UK,Live Pounds,4,6763,4,3
+2015,Elver,Rockport,Knox,UK,Live Pounds,106,218626,139,15
+2015,Elver,Round Pond,Lincoln,UK,Live Pounds,10,19942,24,5
+2015,Elver,Sedgwick,Hancock,UK,Live Pounds,23,47388,22,7
+2015,Elver,Sheepscot,Lincoln,UK,Live Pounds,39,91864,39,16
+2015,Elver,St. George,Knox,UK,Live Pounds,17,37186,21,5
+2015,Elver,Steuben,Washington,UK,Live Pounds,98,214962,65,16
+2015,Elver,Sullivan,Hancock,UK,Live Pounds,59,136565,47,13
+2015,Elver,Surry,Hancock,UK,Live Pounds,72,149211,229,74
+2015,Elver,Tenants Harbor,Knox,UK,Live Pounds,29,60206,23,6
+2015,Elver,Union,Knox,UK,Live Pounds,33,71314,66,22
+2015,Elver,Waldoboro,Lincoln,UK,Live Pounds,404,846483,523,56
+2015,Elver,Warren,Knox,UK,Live Pounds,226,529098,211,42
+2015,Elver,Winter Harbor,Hancock,UK,Live Pounds,8,17062,18,5
+2015,Elver,Yarmouth,Cumberland,UK,Live Pounds,98,212776,145,20
+2016,Elver,Addison,Washington,UK,Live Pounds,7,9001,11,9
+2016,Elver,Bangor,Penobscot,UK,Live Pounds,253,306309,84,40
+2016,Elver,Bar Harbor,Hancock,UK,Live Pounds,47,64857,69,18
+2016,Elver,Belfast,Waldo,UK,Live Pounds,397,578624,479,142
+2016,Elver,Blue Hill,Hancock,UK,Live Pounds,146,205207,166,55
+2016,Elver,Boothbay,Lincoln,UK,Live Pounds,21,29497,17,3
+2016,Elver,Boothbay Harbor,Lincoln,UK,Live Pounds,14,20324,21,4
+2016,Elver,Bremen,Lincoln,UK,Live Pounds,60,86304,57,7
+2016,Elver,Bristol,Lincoln,UK,Live Pounds,9,11258,9,5
+2016,Elver,Brooklin,Hancock,UK,Live Pounds,4,6197,9,3
+2016,Elver,Brunswick,Cumberland,UK,Live Pounds,71,104646,57,8
+2016,Elver,Bucksport,Hancock,UK,Live Pounds,60,51996,60,30
+2016,Elver,Calais,Washington,UK,Live Pounds,106,147740,332,117
+2016,Elver,Camden,Knox,UK,Live Pounds,235,332069,172,55
+2016,Elver,Ellsworth,Hancock,UK,Live Pounds,1037,1557433,611,151
+2016,Elver,Falmouth,Cumberland,UK,Live Pounds,871,1295318,152,56
+2016,Elver,Frankfort,Waldo,UK,Live Pounds,109,153970,141,29
+2016,Elver,Franklin,Hancock,UK,Live Pounds,251,363834,176,43
+2016,Elver,Freeport,Cumberland,UK,Live Pounds,55,79686,9,5
+2016,Elver,Friendship,Knox,UK,Live Pounds,37,52921,26,6
+2016,Elver,Gardiner,Kennebec,UK,Live Pounds,18,27134,7,5
+2016,Elver,Gouldsboro,Hancock,UK,Live Pounds,94,124901,108,33
+2016,Elver,Hampden,Penobscot,UK,Live Pounds,34,43530,27,9
+2016,Elver,Jonesboro,Washington,UK,Live Pounds,1,1763,6,6
+2016,Elver,Jonesport,Washington,UK,Live Pounds,23,30170,117,43
+2016,Elver,Kennebunk,York,UK,Live Pounds,182,287511,33,12
+2016,Elver,Machias,Washington,UK,Live Pounds,440,637280,235,108
+2016,Elver,Medomak,Lincoln,UK,Live Pounds,9,10825,9,3
+2016,Elver,New Harbor,Lincoln,UK,Live Pounds,16,22086,13,4
+2016,Elver,Orland,Hancock,UK,Live Pounds,354,506415,507,141
+2016,Elver,Orrington,Penobscot,UK,Live Pounds,8,10432,17,13
+2016,Elver,Other Maine,Not-Specified,UK,Live Pounds,1363,1872271,928,232
+2016,Elver,Pemaquid,Lincoln,UK,Live Pounds,419,610027,182,41
+2016,Elver,Pembroke,Washington,UK,Live Pounds,15,19421,68,36
+2016,Elver,Penobscot,Hancock,UK,Live Pounds,21,31602,19,8
+2016,Elver,Perry,Washington,UK,Live Pounds,10,13143,63,37
+2016,Elver,Portland,Cumberland,UK,Live Pounds,810,1137562,1033,221
+2016,Elver,Rockland,Knox,UK,Live Pounds,12,16251,8,6
+2016,Elver,Rockport,Knox,UK,Live Pounds,88,127166,42,14
+2016,Elver,Round Pond,Lincoln,UK,Live Pounds,15,22060,21,3
+2016,Elver,Scarborough,Cumberland,UK,Live Pounds,34,50065,25,15
+2016,Elver,Surry,Hancock,UK,Live Pounds,164,229082,341,110
+2016,Elver,Tenants Harbor,Knox,UK,Live Pounds,29,40095,18,6
+2016,Elver,Thomaston,Knox,UK,Live Pounds,12,19128,6,5
+2016,Elver,Union,Knox,UK,Live Pounds,19,23777,4,4
+2016,Elver,Waldoboro,Lincoln,UK,Live Pounds,762,1093923,507,84
+2016,Elver,Warren,Knox,UK,Live Pounds,538,817840,197,50
+2016,Elver,Yarmouth,Cumberland,UK,Live Pounds,120,164179,134,20
+2017,Elver,Addison,Washington,UK,Live Pounds,27,34483,23,12
+2017,Elver,Bangor,Penobscot,UK,Live Pounds,165,206769,38,30
+2017,Elver,Bar Harbor,Hancock,UK,Live Pounds,56,71661,107,20
+2017,Elver,Belfast,Waldo,UK,Live Pounds,436,545930,372,108
+2017,Elver,Blue Hill,Hancock,UK,Live Pounds,148,188168,162,45
+2017,Elver,Boothbay,Lincoln,UK,Live Pounds,25,33073,15,10
+2017,Elver,Bremen,Lincoln,UK,Live Pounds,81,113002,94,7
+2017,Elver,Bristol,Lincoln,UK,Live Pounds,13,17733,28,8
+2017,Elver,Brunswick,Cumberland,UK,Live Pounds,56,69241,63,9
+2017,Elver,Bucksport,Hancock,UK,Live Pounds,18,22374,31,17
+2017,Elver,Calais,Washington,UK,Live Pounds,101,130662,158,54
+2017,Elver,Camden,Knox,UK,Live Pounds,214,292435,160,46
+2017,Elver,Ellsworth,Hancock,UK,Live Pounds,1030,1337393,606,171
+2017,Elver,Falmouth,Cumberland,UK,Live Pounds,707,929698,159,59
+2017,Elver,Frankfort,Waldo,UK,Live Pounds,61,74561,55,9
+2017,Elver,Franklin,Hancock,UK,Live Pounds,253,327488,112,26
+2017,Elver,Freeport,Cumberland,UK,Live Pounds,1,1147,5,4
+2017,Elver,Friendship,Knox,UK,Live Pounds,33,44439,22,5
+2017,Elver,Gouldsboro,Hancock,UK,Live Pounds,162,211273,114,33
+2017,Elver,Hampden,Penobscot,UK,Live Pounds,6,7224,3,3
+2017,Elver,Jonesboro,Washington,UK,Live Pounds,3,3490,13,11
+2017,Elver,Jonesport,Washington,UK,Live Pounds,74,99396,221,89
+2017,Elver,Kennebunk,York,UK,Live Pounds,230,286110,43,16
+2017,Elver,Kennebunkport,York,UK,Live Pounds,4,5034,4,4
+2017,Elver,Lincolnville,Waldo,UK,Live Pounds,63,81944,12,3
+2017,Elver,Machias,Washington,UK,Live Pounds,376,478446,299,122
+2017,Elver,Mount Desert,Hancock,UK,Live Pounds,93,121486,67,16
+2017,Elver,Muscongus,Lincoln,UK,Live Pounds,86,112255,39,8
+2017,Elver,Orland,Hancock,UK,Live Pounds,583,807445,537,193
+2017,Elver,Orrington,Penobscot,UK,Live Pounds,6,8252,14,7
+2017,Elver,Other Hancock,Hancock,UK,Live Pounds,20,24791,16,6
+2017,Elver,Other Maine,Not-Specified,UK,Live Pounds,1318,1700041,904,290
+2017,Elver,Other Penobscot,Penobscot,UK,Live Pounds,44,56174,58,21
+2017,Elver,Pemaquid,Lincoln,UK,Live Pounds,579,786185,196,47
+2017,Elver,Penobscot,Hancock,UK,Live Pounds,96,120487,65,24
+2017,Elver,Portland,Cumberland,UK,Live Pounds,378,478149,428,141
+2017,Elver,Prospect Harbor,Hancock,UK,Live Pounds,65,83368,63,20
+2017,Elver,Rockland,Knox,UK,Live Pounds,1,1252,3,3
+2017,Elver,Rockport,Knox,UK,Live Pounds,104,144247,79,15
+2017,Elver,Sedgwick,Hancock,UK,Live Pounds,47,58209,44,5
+2017,Elver,South Portland,Cumberland,UK,Live Pounds,49,61387,51,31
+2017,Elver,South Thomaston,Knox,UK,Live Pounds,4,6130,6,3
+2017,Elver,Sullivan,Hancock,UK,Live Pounds,154,212008,62,17
+2017,Elver,Surry,Hancock,UK,Live Pounds,220,278842,374,145
+2017,Elver,Tenants Harbor,Knox,UK,Live Pounds,17,22555,17,5
+2017,Elver,Thomaston,Knox,UK,Live Pounds,26,30725,25,9
+2017,Elver,Waldoboro,Lincoln,UK,Live Pounds,565,744156,327,51
+2017,Elver,Warren,Knox,UK,Live Pounds,544,695103,175,43
+2018,Elver,Addison,Washington,UK,Live Pounds,68,170542,91,33
+2018,Elver,Bangor,Penobscot,UK,Live Pounds,145,222761,56,32
+2018,Elver,Bar Harbor,Hancock,UK,Live Pounds,125,314380,257,36
+2018,Elver,Belfast,Waldo,UK,Live Pounds,294,684731,389,90
+2018,Elver,Blue Hill,Hancock,UK,Live Pounds,225,550724,302,59
+2018,Elver,Boothbay,Lincoln,UK,Live Pounds,40,98281,77,10
+2018,Elver,Bristol,Lincoln,UK,Live Pounds,15,38136,35,19
+2018,Elver,Brooksville,Hancock,UK,Live Pounds,22,52762,28,4
+2018,Elver,Brunswick,Cumberland,UK,Live Pounds,27,65169,25,4
+2018,Elver,Bucksport,Hancock,UK,Live Pounds,3,7414,12,4
+2018,Elver,Calais,Washington,UK,Live Pounds,148,358603,214,89
+2018,Elver,Camden,Knox,UK,Live Pounds,188,440740,306,66
+2018,Elver,Cherryfield,Washington,UK,Live Pounds,218,493466,24,14
+2018,Elver,Dennysville,Washington,UK,Live Pounds,20,50644,11,6
+2018,Elver,East Machias,Washington,UK,Live Pounds,156,356200,73,37
+2018,Elver,Ellsworth,Hancock,UK,Live Pounds,1064,2517066,491,147
+2018,Elver,Falmouth,Cumberland,UK,Live Pounds,182,441088,62,22
+2018,Elver,Frankfort,Waldo,UK,Live Pounds,42,85553,79,8
+2018,Elver,Franklin,Hancock,UK,Live Pounds,344,855839,220,44
+2018,Elver,Friendship,Knox,UK,Live Pounds,46,113405,31,7
+2018,Elver,Gouldsboro,Hancock,UK,Live Pounds,186,461477,218,52
+2018,Elver,Hampden,Penobscot,UK,Live Pounds,31,60477,23,8
+2018,Elver,Harrington,Washington,UK,Live Pounds,15,35716,7,3
+2018,Elver,Jonesport,Washington,UK,Live Pounds,89,221586,385,104
+2018,Elver,Kennebunk,York,UK,Live Pounds,62,122814,17,8
+2018,Elver,Lincolnville,Waldo,UK,Live Pounds,68,157482,35,5
+2018,Elver,Machias,Washington,UK,Live Pounds,464,1136100,417,126
+2018,Elver,Mount Desert,Hancock,UK,Live Pounds,24,60076,54,16
+2018,Elver,Muscongus,Lincoln,UK,Live Pounds,132,311168,158,10
+2018,Elver,Orland,Hancock,UK,Live Pounds,478,1140317,469,120
+2018,Elver,Other Maine,Not-Specified,UK,Live Pounds,389,936535,471,137
+2018,Elver,Pemaquid,Lincoln,UK,Live Pounds,479,1149419,506,81
+2018,Elver,Pemaquid Point,Lincoln,UK,Live Pounds,21,51653,14,6
+2018,Elver,Pembroke,Washington,UK,Live Pounds,52,125507,119,61
+2018,Elver,Penobscot,Hancock,UK,Live Pounds,53,126810,67,15
+2018,Elver,Perry,Washington,UK,Live Pounds,22,50681,60,36
+2018,Elver,Portland,Cumberland,UK,Live Pounds,874,2018225,716,139
+2018,Elver,Prospect,Waldo,UK,Live Pounds,22,51572,17,11
+2018,Elver,Prospect Harbor,Hancock,UK,Live Pounds,126,313558,105,29
+2018,Elver,Rockport,Knox,UK,Live Pounds,100,242723,119,18
+2018,Elver,Round Pond,Lincoln,UK,Live Pounds,27,60995,46,6
+2018,Elver,Scarborough,Cumberland,UK,Live Pounds,23,57642,68,33
+2018,Elver,Searsport,Waldo,UK,Live Pounds,4,8912,6,6
+2018,Elver,Sheepscot,Lincoln,UK,Live Pounds,24,52805,42,7
+2018,Elver,Somesville,Hancock,UK,Live Pounds,22,50284,20,10
+2018,Elver,South Portland,Cumberland,UK,Live Pounds,2,6021,16,9
+2018,Elver,Steuben,Washington,UK,Live Pounds,208,530185,83,25
+2018,Elver,Sullivan,Hancock,UK,Live Pounds,173,440749,121,38
+2018,Elver,Surry,Hancock,UK,Live Pounds,241,600863,446,105
+2018,Elver,Tenants Harbor,Knox,UK,Live Pounds,19,47772,19,5
+2018,Elver,Thomaston,Knox,UK,Live Pounds,13,27307,19,4
+2018,Elver,Union,Knox,UK,Live Pounds,41,105166,20,17
+2018,Elver,Waldoboro,Lincoln,UK,Live Pounds,463,1120425,503,60
+2018,Elver,Warren,Knox,UK,Live Pounds,639,1386867,378,63
+2018,Elver,Whiting,Washington,UK,Live Pounds,40,98967,24,5
+2018,Elver,Winter Harbor,Hancock,UK,Live Pounds,76,190333,143,48
+2018,Elver,Yarmouth,Cumberland,UK,Live Pounds,122,276663,101,15
+2019,Elver,Addison,Washington,UK,Live Pounds,46,93594,84,26
+2019,Elver,Bar Harbor,Hancock,UK,Live Pounds,19,36296,56,16
+2019,Elver,Belfast,Waldo,UK,Live Pounds,225,477923,213,50
+2019,Elver,Blue Hill,Hancock,UK,Live Pounds,154,323238,209,38
+2019,Elver,Bristol,Lincoln,UK,Live Pounds,33,63265,68,35
+2019,Elver,Brunswick,Cumberland,UK,Live Pounds,42,92904,20,3
+2019,Elver,Calais,Washington,UK,Live Pounds,94,183173,92,38
+2019,Elver,Camden,Knox,UK,Live Pounds,306,606394,331,73
+2019,Elver,Corea,Hancock,UK,Live Pounds,13,26470,40,16
+2019,Elver,Ellsworth,Hancock,UK,Live Pounds,531,1117670,217,63
+2019,Elver,Falmouth,Cumberland,UK,Live Pounds,645,1432655,201,71
+2019,Elver,Frankfort,Waldo,UK,Live Pounds,35,71480,36,4
+2019,Elver,Franklin,Hancock,UK,Live Pounds,400,861798,187,40
+2019,Elver,Gouldsboro,Hancock,UK,Live Pounds,194,390120,125,42
+2019,Elver,Hancock,Hancock,UK,Live Pounds,99,213029,48,15
+2019,Elver,Jonesport,Washington,UK,Live Pounds,33,63144,166,52
+2019,Elver,Kennebunk,York,UK,Live Pounds,185,397596,90,41
+2019,Elver,Lincolnville,Waldo,UK,Live Pounds,51,108245,30,4
+2019,Elver,Machias,Washington,UK,Live Pounds,530,1115578,375,85
+2019,Elver,Milbridge,Washington,UK,Live Pounds,14,25155,30,8
+2019,Elver,Mount Desert,Hancock,UK,Live Pounds,111,206444,181,31
+2019,Elver,Muscongus,Lincoln,UK,Live Pounds,146,276296,77,10
+2019,Elver,Orland,Hancock,UK,Live Pounds,702,1484928,433,111
+2019,Elver,Other Hancock,Hancock,UK,Live Pounds,77,158131,79,21
+2019,Elver,Pemaquid,Lincoln,UK,Live Pounds,836,1530919,780,153
+2019,Elver,Penobscot,Hancock,UK,Live Pounds,68,142320,53,12
+2019,Elver,Portland,Cumberland,UK,Live Pounds,717,1493142,560,162
+2019,Elver,Prospect Harbor,Hancock,UK,Live Pounds,112,227103,82,22
+2019,Elver,Rockland,Knox,UK,Live Pounds,7,13259,6,6
+2019,Elver,Rockport,Knox,UK,Live Pounds,138,268388,89,23
+2019,Elver,Saco,York,UK,Live Pounds,44,95174,20,8
+2019,Elver,Steuben,Washington,UK,Live Pounds,250,530722,109,28
+2019,Elver,Sullivan,Hancock,UK,Live Pounds,293,627700,170,44
+2019,Elver,Surry,Hancock,UK,Live Pounds,150,315781,211,56
+2019,Elver,Thomaston,Knox,UK,Live Pounds,24,48207,48,6
+2019,Elver,Waldoboro,Lincoln,UK,Live Pounds,786,1625439,431,68
+2019,Elver,Warren,Knox,UK,Live Pounds,610,1325614,175,50
+2019,Elver,Winter Harbor,Hancock,UK,Live Pounds,102,210944,135,53
+2019,Elver,Yarmouth,Cumberland,UK,Live Pounds,132,277212,77,23
+2020,Elver,Addison,Washington,UK,Live Pounds,91,45490,62,31
+2020,Elver,Bangor,Penobscot,UK,Live Pounds,50,34494,13,9
+2020,Elver,Belfast,Waldo,UK,Live Pounds,316,154541,149,50
+2020,Elver,Blue Hill,Hancock,UK,Live Pounds,201,99340,98,34
+2020,Elver,Calais,Washington,UK,Live Pounds,116,55469,56,33
+2020,Elver,Camden,Knox,UK,Live Pounds,241,121145,113,40
+2020,Elver,Ellsworth,Hancock,UK,Live Pounds,941,537113,174,92
+2020,Elver,Falmouth,Cumberland,UK,Live Pounds,705,383369,81,27
+2020,Elver,Franklin,Hancock,UK,Live Pounds,380,192875,100,38
+2020,Elver,Friendship,Knox,UK,Live Pounds,26,11796,8,7
+2020,Elver,Gouldsboro,Hancock,UK,Live Pounds,194,94324,75,32
+2020,Elver,Jonesport,Washington,UK,Live Pounds,45,21172,59,33
+2020,Elver,Kennebunk,York,UK,Live Pounds,190,108934,30,16
+2020,Elver,Lincolnville,Waldo,UK,Live Pounds,74,34987,26,4
+2020,Elver,Machias,Washington,UK,Live Pounds,704,367037,234,82
+2020,Elver,Orland,Hancock,UK,Live Pounds,483,244630,161,58
+2020,Elver,Other Hancock,Hancock,UK,Live Pounds,45,22888,26,11
+2020,Elver,Other Maine,Not-Specified,UK,Live Pounds,1678,848401,736,242
+2020,Elver,Pemaquid,Lincoln,UK,Live Pounds,579,323446,259,73
+2020,Elver,Portland,Cumberland,UK,Live Pounds,582,300970,194,79
+2020,Elver,Rockport,Knox,UK,Live Pounds,108,54008,57,16
+2020,Elver,Sullivan,Hancock,UK,Live Pounds,282,144017,67,29
+2020,Elver,Surry,Hancock,UK,Live Pounds,147,76630,103,42
+2020,Elver,Waldoboro,Lincoln,UK,Live Pounds,693,369967,329,62
+2020,Elver,Warren,Knox,UK,Live Pounds,618,333644,199,49
+2020,Elver,Winter Harbor,Hancock,UK,Live Pounds,47,22676,35,16
+2020,Elver,Yarmouth,Cumberland,UK,Live Pounds,118,64159,39,15
+2021,Elver,Addison,Washington,UK,Live Pounds,53,84654,52,21
+2021,Elver,Bangor,Penobscot,UK,Live Pounds,661,1456304,382,101
+2021,Elver,Belfast,Waldo,UK,Live Pounds,257,391790,165,42
+2021,Elver,Blue Hill,Hancock,UK,Live Pounds,165,297680,169,25
+2021,Elver,Boothbay,Lincoln,UK,Live Pounds,36,63793,40,8
+2021,Elver,Bristol,Lincoln,UK,Live Pounds,19,36557,7,4
+2021,Elver,Bucksport,Hancock,UK,Live Pounds,3,5438,5,4
+2021,Elver,Calais,Washington,UK,Live Pounds,187,293801,105,42
+2021,Elver,Camden,Knox,UK,Live Pounds,191,311995,151,53
+2021,Elver,Corea,Hancock,UK,Live Pounds,6,9644,8,4
+2021,Elver,Ellsworth,Hancock,UK,Live Pounds,461,966292,204,63
+2021,Elver,Falmouth,Cumberland,UK,Live Pounds,864,1475021,255,89
+2021,Elver,Frankfort,Waldo,UK,Live Pounds,30,62077,57,4
+2021,Elver,Franklin,Hancock,UK,Live Pounds,225,460275,113,37
+2021,Elver,Friendship,Knox,UK,Live Pounds,41,74175,20,6
+2021,Elver,Gouldsboro,Hancock,UK,Live Pounds,136,231121,114,30
+2021,Elver,Hampden,Penobscot,UK,Live Pounds,42,91926,62,28
+2021,Elver,Harrington,Washington,UK,Live Pounds,16,30005,13,5
+2021,Elver,Jonesport,Washington,UK,Live Pounds,72,93885,89,34
+2021,Elver,Kennebunk,York,UK,Live Pounds,323,619877,136,46
+2021,Elver,Lincolnville,Waldo,UK,Live Pounds,82,153390,31,5
+2021,Elver,Machias,Washington,UK,Live Pounds,479,984635,237,62
+2021,Elver,Orland,Hancock,UK,Live Pounds,354,646215,212,57
+2021,Elver,Other Maine,Not-Specified,UK,Live Pounds,1329,2489056,866,227
+2021,Elver,Pemaquid,Lincoln,UK,Live Pounds,597,880750,291,73
+2021,Elver,Penobscot,Hancock,UK,Live Pounds,19,39190,17,6
+2021,Elver,Portland,Cumberland,UK,Live Pounds,357,533735,252,109
+2021,Elver,Prospect,Waldo,UK,Live Pounds,18,33487,15,5
+2021,Elver,Rockland,Knox,UK,Live Pounds,3,4926,4,4
+2021,Elver,Rockport,Knox,UK,Live Pounds,141,216960,71,25
+2021,Elver,Steuben,Washington,UK,Live Pounds,257,476579,100,34
+2021,Elver,Sullivan,Hancock,UK,Live Pounds,98,205257,70,22
+2021,Elver,Surry,Hancock,UK,Live Pounds,59,110254,91,21
+2021,Elver,Waldoboro,Lincoln,UK,Live Pounds,650,1141990,370,80
+2021,Elver,Warren,Knox,UK,Live Pounds,790,1582192,294,76
+2021,Elver,Winter Harbor,Hancock,UK,Live Pounds,88,126179,72,23
+2022,Elver,Addison,Washington,UK,Live Pounds,68,139420,34,19
+2022,Elver,Belfast,Waldo,UK,Live Pounds,238,498077,85,40
+2022,Elver,Blue Hill,Hancock,UK,Live Pounds,183,379044,58,21
+2022,Elver,Calais,Washington,UK,Live Pounds,92,176927,44,25
+2022,Elver,Camden,Knox,UK,Live Pounds,268,551577,132,35
+2022,Elver,Ellsworth,Hancock,UK,Live Pounds,619,1357560,92,50
+2022,Elver,Falmouth,Cumberland,UK,Live Pounds,780,1704076,152,79
+2022,Elver,Franklin,Hancock,UK,Live Pounds,314,666438,72,30
+2022,Elver,Friendship,Knox,UK,Live Pounds,47,105184,12,7
+2022,Elver,Gouldsboro,Hancock,UK,Live Pounds,303,623236,81,37
+2022,Elver,Jonesport,Washington,UK,Live Pounds,69,128921,60,31
+2022,Elver,Kennebunk,York,UK,Live Pounds,367,750982,77,49
+2022,Elver,Kennebunkport,York,UK,Live Pounds,16,23731,5,4
+2022,Elver,Machias,Washington,UK,Live Pounds,528,1135155,132,43
+2022,Elver,Mount Desert,Hancock,UK,Live Pounds,29,49321,13,7
+2022,Elver,Muscongus,Lincoln,UK,Live Pounds,76,158379,26,5
+2022,Elver,New Harbor,Lincoln,UK,Live Pounds,263,445378,42,14
+2022,Elver,Orland,Hancock,UK,Live Pounds,519,1121279,90,41
+2022,Elver,Other Maine,Not-Specified,UK,Live Pounds,1567,3382928,514,231
+2022,Elver,Pemaquid,Lincoln,UK,Live Pounds,308,642669,113,52
+2022,Elver,Penobscot,Hancock,UK,Live Pounds,32,71852,8,3
+2022,Elver,Portland,Cumberland,UK,Live Pounds,159,346688,55,37
+2022,Elver,Rockport,Knox,UK,Live Pounds,114,249381,26,16
+2022,Elver,Searsport,Waldo,UK,Live Pounds,6,12087,5,3
+2022,Elver,Steuben,Washington,UK,Live Pounds,242,514938,52,29
+2022,Elver,Sullivan,Hancock,UK,Live Pounds,225,494250,59,30
+2022,Elver,Surry,Hancock,UK,Live Pounds,221,485498,40,23
+2022,Elver,Waldoboro,Lincoln,UK,Live Pounds,937,2005846,264,72
+2022,Elver,Warren,Knox,UK,Live Pounds,730,1652323,121,57
+2022,Elver,Winter Harbor,Hancock,UK,Live Pounds,138,290823,55,20
+2023,Elver,Addison,Washington,UK,Live Pounds,75,149088,43,23
+2023,Elver,Belfast,Waldo,UK,Live Pounds,227,455006,103,33
+2023,Elver,Blue Hill,Hancock,UK,Live Pounds,208,426781,67,20
+2023,Elver,Bristol,Lincoln,UK,Live Pounds,332,659510,142,60
+2023,Elver,Calais,Washington,UK,Live Pounds,97,163639,47,26
+2023,Elver,Camden,Knox,UK,Live Pounds,249,471596,176,52
+2023,Elver,Ellsworth,Hancock,UK,Live Pounds,792,1604547,120,56
+2023,Elver,Falmouth,Cumberland,UK,Live Pounds,1061,2244629,240,96
+2023,Elver,Franklin,Hancock,UK,Live Pounds,406,811429,85,42
+2023,Elver,Friendship,Knox,UK,Live Pounds,35,72139,8,4
+2023,Elver,Gouldsboro,Hancock,UK,Live Pounds,277,551065,127,51
+2023,Elver,Hancock,Hancock,UK,Live Pounds,91,192385,22,12
+2023,Elver,Jonesport,Washington,UK,Live Pounds,30,57954,39,17
+2023,Elver,Kennebunk,York,UK,Live Pounds,351,707740,107,57
+2023,Elver,Lincolnville,Waldo,UK,Live Pounds,73,140868,16,3
+2023,Elver,Machias,Washington,UK,Live Pounds,498,1000333,96,38
+2023,Elver,Medomak,Lincoln,UK,Live Pounds,22,47238,7,6
+2023,Elver,Mount Desert,Hancock,UK,Live Pounds,66,129670,20,6
+2023,Elver,Muscongus,Lincoln,UK,Live Pounds,113,224534,41,4
+2023,Elver,Orland,Hancock,UK,Live Pounds,501,1001658,122,46
+2023,Elver,Other Hancock,Hancock,UK,Live Pounds,92,199563,34,12
+2023,Elver,Other Maine,Not-Specified,UK,Live Pounds,1186,2404312,492,173
+2023,Elver,Pemaquid,Lincoln,UK,Live Pounds,568,1053509,145,57
+2023,Elver,Portland,Cumberland,UK,Live Pounds,152,318501,48,19
+2023,Elver,Rockport,Knox,UK,Live Pounds,124,251220,26,14
+2023,Elver,Scarborough,Cumberland,UK,Live Pounds,73,153260,40,18
+2023,Elver,Steuben,Washington,UK,Live Pounds,211,399912,47,23
+2023,Elver,Sullivan,Hancock,UK,Live Pounds,157,329510,52,23
+2023,Elver,Surry,Hancock,UK,Live Pounds,230,481494,83,28
+2023,Elver,Waldoboro,Lincoln,UK,Live Pounds,712,1395533,278,48
+2023,Elver,Warren,Knox,UK,Live Pounds,625,1260828,101,38
+2023,Elver,Winter Harbor,Hancock,UK,Live Pounds,75,149027,49,20
+2024,Elver,Addison,Washington,UK,Live Pounds,65,73978,42,24
+2024,Elver,Bangor,Penobscot,UK,Live Pounds,35,50500,5,4
+2024,Elver,Belfast,Waldo,UK,Live Pounds,329,358625,103,43
+2024,Elver,Blue Hill,Hancock,UK,Live Pounds,247,293038,73,28
+2024,Elver,Boothbay,Lincoln,UK,Live Pounds,29,30690,13,5
+2024,Elver,Bristol,Lincoln,UK,Live Pounds,250,243200,145,79
+2024,Elver,Calais,Washington,UK,Live Pounds,51,60501,22,17
+2024,Elver,Camden,Knox,UK,Live Pounds,317,389370,124,40
+2024,Elver,Damariscotta,Lincoln,UK,Live Pounds,18,15659,21,9
+2024,Elver,Ellsworth,Hancock,UK,Live Pounds,769,1069081,91,56
+2024,Elver,Falmouth,Cumberland,UK,Live Pounds,812,1005650,142,65
+2024,Elver,Franklin,Hancock,UK,Live Pounds,369,462250,57,27
+2024,Elver,Friendship,Knox,UK,Live Pounds,42,52701,12,4
+2024,Elver,Gouldsboro,Hancock,UK,Live Pounds,231,274709,78,37
+2024,Elver,Jonesboro,Washington,UK,Live Pounds,10,11498,4,4
+2024,Elver,Jonesport,Washington,UK,Live Pounds,63,68900,47,30
+2024,Elver,Kennebunk,York,UK,Live Pounds,300,372675,87,43
+2024,Elver,Kennebunkport,York,UK,Live Pounds,30,40885,12,6
+2024,Elver,Lincolnville,Waldo,UK,Live Pounds,90,97277,33,5
+2024,Elver,Machias,Washington,UK,Live Pounds,509,697093,79,27
+2024,Elver,Mount Desert,Hancock,UK,Live Pounds,49,54275,25,7
+2024,Elver,Muscongus,Lincoln,UK,Live Pounds,123,134949,49,4
+2024,Elver,Orland,Hancock,UK,Live Pounds,591,767293,145,72
+2024,Elver,Other Hancock,Hancock,UK,Live Pounds,95,118773,39,16
+2024,Elver,Other Maine,Not-Specified,UK,Live Pounds,1216,1547838,280,125
+2024,Elver,Pemaquid,Lincoln,UK,Live Pounds,624,730788,192,77
+2024,Elver,Pembroke,Washington,UK,Live Pounds,54,56889,41,20
+2024,Elver,Portland,Cumberland,UK,Live Pounds,81,80809,51,24
+2024,Elver,Prospect Harbor,Hancock,UK,Live Pounds,125,153791,46,12
+2024,Elver,Rockport,Knox,UK,Live Pounds,110,141843,16,11
+2024,Elver,Scarborough,Cumberland,UK,Live Pounds,34,38391,21,13
+2024,Elver,South Portland,Cumberland,UK,Live Pounds,35,35769,24,16
+2024,Elver,St. George,Knox,UK,Live Pounds,210,296801,20,12
+2024,Elver,Steuben,Washington,UK,Live Pounds,315,412161,77,35
+2024,Elver,Sullivan,Hancock,UK,Live Pounds,211,278315,30,24
+2024,Elver,Surry,Hancock,UK,Live Pounds,218,253375,54,29
+2024,Elver,Tenants Harbor,Knox,UK,Live Pounds,21,18847,25,8
+2024,Elver,Waldoboro,Lincoln,UK,Live Pounds,642,752990,209,42
+2024,Elver,Warren,Knox,UK,Live Pounds,443,572468,63,31
+2024,Elver,Wells,York,UK,Live Pounds,20,19459,18,12
+2024,Elver,Winter Harbor,Hancock,UK,Live Pounds,58,67440,27,15

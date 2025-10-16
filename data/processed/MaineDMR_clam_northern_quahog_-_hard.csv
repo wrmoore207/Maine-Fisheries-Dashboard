@@ -1,0 +1,118 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,13384,21467,45,12
+2008,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,2166,1580,17,5
+2008,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,26026,28709,37,7
+2008,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,35438,20419,103,12
+2008,Clam Northern Quahog / Hard,Trenton,Hancock,UK,Live Pounds,30255,10472,60,3
+2009,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,196531,161344,230,29
+2009,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,995,1032,6,5
+2009,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,40536,38002,40,10
+2009,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,166440,78185,294,25
+2009,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,276741,190177,266,34
+2010,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,388768,196715,1181,104
+2010,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,34523,31682,121,23
+2010,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,242265,176303,622,70
+2010,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,1147242,843792,3922,166
+2011,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,85826,72607,374,39
+2011,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,36377,32207,165,37
+2011,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,96749,92610,486,39
+2011,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,235154,217496,1354,90
+2012,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,79181,73139,393,21
+2012,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,5550,5283,32,14
+2012,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,89375,75649,439,30
+2012,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,245686,241586,1125,37
+2013,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,98975,101044,425,21
+2013,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,10544,9579,45,16
+2013,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,61085,38430,227,28
+2013,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,345551,353232,1291,30
+2014,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,279469,265946,1173,38
+2014,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,18678,266767,89,22
+2014,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,101310,107095,409,37
+2014,Clam Northern Quahog / Hard,Trenton,Hancock,UK,Live Pounds,186203,17589,82,4
+2014,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,386249,415328,1149,36
+2015,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,439730,631450,2188,90
+2015,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,14556,18209,98,18
+2015,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,58930,81202,352,33
+2015,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,70280,37051,267,26
+2015,Clam Northern Quahog / Hard,Portland,Cumberland,UK,Live Pounds,176641,251249,528,16
+2015,Clam Northern Quahog / Hard,Trenton,Hancock,UK,Live Pounds,9228,20718,99,6
+2015,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,243702,323538,1076,51
+2016,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,389335,637437,2538,112
+2016,Clam Northern Quahog / Hard,Cumberland,Cumberland,UK,Live Pounds,3819,4384,35,7
+2016,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,27647,37270,211,23
+2016,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,112379,173274,1038,54
+2016,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,102296,71131,502,33
+2016,Clam Northern Quahog / Hard,Portland,Cumberland,UK,Live Pounds,142414,254980,590,17
+2016,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,210687,232687,1550,100
+2017,Clam Northern Quahog / Hard,Bremen,Lincoln,UK,Live Pounds,3512,4184,26,9
+2017,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,349208,612480,2546,118
+2017,Clam Northern Quahog / Hard,Damariscotta,Lincoln,UK,Live Pounds,3432,4823,61,7
+2017,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,29962,44652,298,35
+2017,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,134727,222308,1223,62
+2017,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,324230,257074,1456,108
+2017,Clam Northern Quahog / Hard,Phippsburg,Sagadahoc,UK,Live Pounds,2521,3214,16,3
+2017,Clam Northern Quahog / Hard,Surry,Hancock,UK,Live Pounds,1191,1164,19,6
+2017,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,334724,594225,2438,79
+2018,Clam Northern Quahog / Hard,Bremen,Lincoln,UK,Live Pounds,8102,11308,52,8
+2018,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,767394,1358142,4010,108
+2018,Clam Northern Quahog / Hard,Cumberland,Cumberland,UK,Live Pounds,55637,68089,457,41
+2018,Clam Northern Quahog / Hard,Damariscotta,Lincoln,UK,Live Pounds,3490,6365,44,9
+2018,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,13422,18771,152,31
+2018,Clam Northern Quahog / Hard,Georgetown,Sagadahoc,UK,Live Pounds,220,382,3,3
+2018,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,242392,388570,1803,72
+2018,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,213190,206640,675,49
+2018,Clam Northern Quahog / Hard,Phippsburg,Sagadahoc,UK,Live Pounds,13307,18248,85,6
+2018,Clam Northern Quahog / Hard,Waldoboro,Lincoln,UK,Live Pounds,10208,15170,228,36
+2018,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,311492,565341,2045,76
+2019,Clam Northern Quahog / Hard,Bremen,Lincoln,UK,Live Pounds,2870,5004,18,11
+2019,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,1046370,2078536,5108,112
+2019,Clam Northern Quahog / Hard,Cumberland,Cumberland,UK,Live Pounds,35275,43649,365,28
+2019,Clam Northern Quahog / Hard,Damariscotta,Lincoln,UK,Live Pounds,3642,3630,25,9
+2019,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,14818,21729,127,33
+2019,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,350425,544635,2152,61
+2019,Clam Northern Quahog / Hard,Portland,Cumberland,UK,Live Pounds,85810,158326,308,9
+2019,Clam Northern Quahog / Hard,Scarborough,Cumberland,UK,Live Pounds,362,734,5,3
+2019,Clam Northern Quahog / Hard,Trenton,Hancock,UK,Live Pounds,2301,4020,12,3
+2019,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,385781,786482,1999,55
+2019,Clam Northern Quahog / Hard,Wiscasset,Lincoln,UK,Live Pounds,5213,11632,26,6
+2020,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,626220,1102397,3096,94
+2020,Clam Northern Quahog / Hard,Damariscotta,Lincoln,UK,Live Pounds,4628,5188,43,7
+2020,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,10479,14839,119,26
+2020,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,231379,404534,1665,57
+2020,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,333103,172440,434,38
+2020,Clam Northern Quahog / Hard,Phippsburg,Sagadahoc,UK,Live Pounds,12232,17421,63,8
+2020,Clam Northern Quahog / Hard,Portland,Cumberland,UK,Live Pounds,44455,81799,219,7
+2020,Clam Northern Quahog / Hard,Waldoboro,Lincoln,UK,Live Pounds,11176,20353,81,8
+2020,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,304026,549356,1306,42
+2021,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,634082,1407972,3019,94
+2021,Clam Northern Quahog / Hard,Damariscotta,Lincoln,UK,Live Pounds,2125,3575,18,10
+2021,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,3263,5734,35,15
+2021,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,213414,496790,1541,49
+2021,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,178121,356918,742,63
+2021,Clam Northern Quahog / Hard,Waldoboro,Lincoln,UK,Live Pounds,2903,6543,29,3
+2021,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,388855,934902,2018,64
+2022,Clam Northern Quahog / Hard,Bar Harbor,Hancock,UK,Live Pounds,2310,4142,20,4
+2022,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,631282,1306329,3178,103
+2022,Clam Northern Quahog / Hard,Damariscotta,Lincoln,UK,Live Pounds,4240,6180,22,7
+2022,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,5066,9002,41,15
+2022,Clam Northern Quahog / Hard,Georgetown,Sagadahoc,UK,Live Pounds,1640,3048,12,4
+2022,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,348577,767684,2500,61
+2022,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,272675,469430,1107,93
+2022,Clam Northern Quahog / Hard,Phippsburg,Sagadahoc,UK,Live Pounds,19545,33839,114,13
+2022,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,372310,887309,2274,79
+2023,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,579508,1148303,3189,97
+2023,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,29228,46510,169,21
+2023,Clam Northern Quahog / Hard,Georgetown,Sagadahoc,UK,Live Pounds,2195,5100,18,5
+2023,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,458187,887038,2937,59
+2023,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,270845,717842,1405,80
+2023,Clam Northern Quahog / Hard,Phippsburg,Sagadahoc,UK,Live Pounds,40326,65989,247,17
+2023,Clam Northern Quahog / Hard,Scarborough,Cumberland,UK,Live Pounds,596,1371,12,3
+2023,Clam Northern Quahog / Hard,Trenton,Hancock,UK,Live Pounds,2150,5447,42,3
+2023,Clam Northern Quahog / Hard,Waldoboro,Lincoln,UK,Live Pounds,4804,8499,33,8
+2023,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,353691,694537,2012,64
+2024,Clam Northern Quahog / Hard,Brunswick,Cumberland,UK,Live Pounds,421906,761755,2733,69
+2024,Clam Northern Quahog / Hard,Freeport,Cumberland,UK,Live Pounds,19690,29873,143,16
+2024,Clam Northern Quahog / Hard,Harpswell,Cumberland,UK,Live Pounds,313861,583986,2188,42
+2024,Clam Northern Quahog / Hard,Other Maine,Not-Specified,UK,Live Pounds,306175,564479,1846,136
+2024,Clam Northern Quahog / Hard,Waldoboro,Lincoln,UK,Live Pounds,2322,3905,14,8
+2024,Clam Northern Quahog / Hard,West Bath,Sagadahoc,UK,Live Pounds,495804,954113,2536,78

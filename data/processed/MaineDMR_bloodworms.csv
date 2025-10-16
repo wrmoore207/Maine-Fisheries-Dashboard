@@ -1,0 +1,339 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Bloodworms,Addison,Washington,UK,Live Pounds,18934,208982,2393,145
+2008,Bloodworms,Bar Harbor,Hancock,UK,Live Pounds,1397,15277,110,31
+2008,Bloodworms,Bass Harbor,Hancock,UK,Live Pounds,42,449,4,3
+2008,Bloodworms,Bath,Sagadahoc,UK,Live Pounds,9408,101805,470,60
+2008,Bloodworms,Beals,Washington,UK,Live Pounds,1760,18990,1166,75
+2008,Bloodworms,Belfast,Waldo,UK,Live Pounds,4920,52021,202,49
+2008,Bloodworms,Blue Hill,Hancock,UK,Live Pounds,1206,13215,111,26
+2008,Bloodworms,Brooklin,Hancock,UK,Live Pounds,233,2501,20,13
+2008,Bloodworms,Brunswick,Cumberland,UK,Live Pounds,11307,121366,574,61
+2008,Bloodworms,Bucksport,Hancock,UK,Live Pounds,8248,88628,413,51
+2008,Bloodworms,Calais,Washington,UK,Live Pounds,2969,32606,242,39
+2008,Bloodworms,Cherryfield,Washington,UK,Live Pounds,140,1517,12,8
+2008,Bloodworms,Damariscotta,Lincoln,UK,Live Pounds,2560,28004,155,51
+2008,Bloodworms,Deer Isle,Hancock,UK,Live Pounds,1846,19651,148,33
+2008,Bloodworms,Eastport,Washington,UK,Live Pounds,3853,41749,183,25
+2008,Bloodworms,Ellsworth,Hancock,UK,Live Pounds,336,3605,28,21
+2008,Bloodworms,Franklin,Hancock,UK,Live Pounds,1611,17702,115,43
+2008,Bloodworms,Freeport,Cumberland,UK,Live Pounds,368,3906,18,13
+2008,Bloodworms,Gouldsboro,Hancock,UK,Live Pounds,5243,55779,352,48
+2008,Bloodworms,Hancock,Hancock,UK,Live Pounds,49250,536387,3982,143
+2008,Bloodworms,Harrington,Washington,UK,Live Pounds,5141,57859,673,92
+2008,Bloodworms,Jonesboro,Washington,UK,Live Pounds,89,1054,15,6
+2008,Bloodworms,Jonesport,Washington,UK,Live Pounds,6664,73473,747,101
+2008,Bloodworms,Lamoine,Hancock,UK,Live Pounds,13217,143775,986,103
+2008,Bloodworms,Lubec,Washington,UK,Live Pounds,399,4289,29,11
+2008,Bloodworms,Machias,Washington,UK,Live Pounds,261,2846,23,17
+2008,Bloodworms,Milbridge,Washington,UK,Live Pounds,7672,87186,898,110
+2008,Bloodworms,Orland,Hancock,UK,Live Pounds,106,1158,7,7
+2008,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,6143,67211,505,75
+2008,Bloodworms,Other Lincoln,Lincoln,UK,Live Pounds,182897,2021031,11922,259
+2008,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,21543,233572,1442,240
+2008,Bloodworms,Other Washington,Washington,UK,Live Pounds,1503,16485,227,57
+2008,Bloodworms,Portland,Cumberland,UK,Live Pounds,1075,11809,48,29
+2008,Bloodworms,Rockland,Knox,UK,Live Pounds,2613,28729,146,44
+2008,Bloodworms,Searsport,Waldo,UK,Live Pounds,1360,14283,71,20
+2008,Bloodworms,Sorrento,Hancock,UK,Live Pounds,279,3028,53,20
+2008,Bloodworms,Steuben,Washington,UK,Live Pounds,7361,80719,623,67
+2008,Bloodworms,Stockton Springs,Waldo,UK,Live Pounds,162,1715,9,7
+2008,Bloodworms,Stonington,Hancock,UK,Live Pounds,132,1446,7,6
+2008,Bloodworms,Sullivan,Hancock,UK,Live Pounds,4608,49808,367,79
+2008,Bloodworms,Trenton,Hancock,UK,Live Pounds,20147,220504,1568,109
+2008,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,5839,63104,363,62
+2008,Bloodworms,Westport Island,Lincoln,UK,Live Pounds,4124,44265,295,65
+2008,Bloodworms,Winter Harbor,Hancock,UK,Live Pounds,553,5849,41,13
+2008,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,20916,243800,1417,125
+2008,Bloodworms,Woolwich,Sagadahoc,UK,Live Pounds,96577,1069529,6728,215
+2009,Bloodworms,Addison,Washington,UK,Live Pounds,11340,119917,1423,121
+2009,Bloodworms,Bar Harbor,Hancock,UK,Live Pounds,925,9610,50,12
+2009,Bloodworms,Bath,Sagadahoc,UK,Live Pounds,10081,106048,716,85
+2009,Bloodworms,Beals,Washington,UK,Live Pounds,1104,11504,1003,60
+2009,Bloodworms,Belfast,Waldo,UK,Live Pounds,1766,17990,107,42
+2009,Bloodworms,Blue Hill,Hancock,UK,Live Pounds,5369,56709,245,26
+2009,Bloodworms,Boothbay,Lincoln,UK,Live Pounds,2056,22296,179,55
+2009,Bloodworms,Brooklin,Hancock,UK,Live Pounds,2524,24846,51,6
+2009,Bloodworms,Brunswick,Cumberland,UK,Live Pounds,5505,54501,364,75
+2009,Bloodworms,Bucksport,Hancock,UK,Live Pounds,2780,27288,184,49
+2009,Bloodworms,Calais,Washington,UK,Live Pounds,2330,24616,194,35
+2009,Bloodworms,Cherryfield,Washington,UK,Live Pounds,103,1086,8,7
+2009,Bloodworms,Deer Isle,Hancock,UK,Live Pounds,1111,11635,92,32
+2009,Bloodworms,Eastport,Washington,UK,Live Pounds,2713,28690,123,23
+2009,Bloodworms,Edgecomb,Lincoln,UK,Live Pounds,2110,22757,162,51
+2009,Bloodworms,Franklin,Hancock,UK,Live Pounds,1960,20713,183,46
+2009,Bloodworms,Freeport,Cumberland,UK,Live Pounds,839,9004,71,32
+2009,Bloodworms,Gouldsboro,Hancock,UK,Live Pounds,1952,20636,181,39
+2009,Bloodworms,Hancock,Hancock,UK,Live Pounds,64380,680932,5052,152
+2009,Bloodworms,Harrington,Washington,UK,Live Pounds,13070,138115,1274,105
+2009,Bloodworms,Jonesport,Washington,UK,Live Pounds,4862,51313,676,77
+2009,Bloodworms,Lamoine,Hancock,UK,Live Pounds,13456,141973,1065,99
+2009,Bloodworms,Milbridge,Washington,UK,Live Pounds,19085,202002,1710,136
+2009,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,1646,17221,130,28
+2009,Bloodworms,Other Lincoln,Lincoln,UK,Live Pounds,288851,3166424,20412,342
+2009,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,24864,262291,1676,317
+2009,Bloodworms,Other Washington,Washington,UK,Live Pounds,2610,27573,248,48
+2009,Bloodworms,Perry,Washington,UK,Live Pounds,26,273,3,3
+2009,Bloodworms,Portland,Cumberland,UK,Live Pounds,1302,13752,99,46
+2009,Bloodworms,Searsport,Waldo,UK,Live Pounds,319,3366,19,13
+2009,Bloodworms,Sorrento,Hancock,UK,Live Pounds,80,848,11,9
+2009,Bloodworms,Southwest Harbor,Hancock,UK,Live Pounds,72,750,7,6
+2009,Bloodworms,Steuben,Washington,UK,Live Pounds,10891,114683,1052,79
+2009,Bloodworms,Stockton Springs,Waldo,UK,Live Pounds,113,1089,8,3
+2009,Bloodworms,Sullivan,Hancock,UK,Live Pounds,5035,53223,467,75
+2009,Bloodworms,Surry,Hancock,UK,Live Pounds,302,3181,22,9
+2009,Bloodworms,Thomaston,Knox,UK,Live Pounds,3605,39171,285,52
+2009,Bloodworms,Trenton,Hancock,UK,Live Pounds,17224,181901,1410,87
+2009,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,3557,36870,252,74
+2009,Bloodworms,West Bath,Sagadahoc,UK,Live Pounds,3520,36736,247,63
+2009,Bloodworms,Westport Island,Lincoln,UK,Live Pounds,4731,50034,327,70
+2009,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,30511,343658,2357,156
+2009,Bloodworms,Woolwich,Sagadahoc,UK,Live Pounds,3618,38855,284,51
+2010,Bloodworms,Addison,Washington,UK,Live Pounds,9455,99976,1290,126
+2010,Bloodworms,Bar Harbor,Hancock,UK,Live Pounds,2061,21785,120,16
+2010,Bloodworms,Bath,Sagadahoc,UK,Live Pounds,3176,34819,296,102
+2010,Bloodworms,Beals,Washington,UK,Live Pounds,1183,12302,610,52
+2010,Bloodworms,Belfast,Waldo,UK,Live Pounds,2702,28719,168,28
+2010,Bloodworms,Blue Hill,Hancock,UK,Live Pounds,791,8361,63,29
+2010,Bloodworms,Brooklin,Hancock,UK,Live Pounds,3882,40514,233,52
+2010,Bloodworms,Brunswick,Cumberland,UK,Live Pounds,4836,53250,414,76
+2010,Bloodworms,Bucksport,Hancock,UK,Live Pounds,1700,18574,133,37
+2010,Bloodworms,Castine,Hancock,UK,Live Pounds,62,650,5,4
+2010,Bloodworms,Deer Isle,Hancock,UK,Live Pounds,4305,46691,286,58
+2010,Bloodworms,Eastport,Washington,UK,Live Pounds,2194,23237,127,23
+2010,Bloodworms,Ellsworth,Hancock,UK,Live Pounds,954,10146,63,22
+2010,Bloodworms,Franklin,Hancock,UK,Live Pounds,1060,11300,91,32
+2010,Bloodworms,Gouldsboro,Hancock,UK,Live Pounds,932,9860,88,29
+2010,Bloodworms,Hancock,Hancock,UK,Live Pounds,67770,716885,5351,162
+2010,Bloodworms,Harrington,Washington,UK,Live Pounds,14831,156532,1495,122
+2010,Bloodworms,Jonesport,Washington,UK,Live Pounds,11664,123209,808,98
+2010,Bloodworms,Lamoine,Hancock,UK,Live Pounds,14651,154450,1111,93
+2010,Bloodworms,Milbridge,Washington,UK,Live Pounds,13630,144080,1202,127
+2010,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,2140,22395,187,34
+2010,Bloodworms,Other Lincoln,Lincoln,UK,Live Pounds,123290,1377352,9607,292
+2010,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,34462,371247,2814,341
+2010,Bloodworms,Other Washington,Washington,UK,Live Pounds,300,3165,30,14
+2010,Bloodworms,Portland,Cumberland,UK,Live Pounds,570,6236,51,35
+2010,Bloodworms,Searsport,Waldo,UK,Live Pounds,216,2284,14,12
+2010,Bloodworms,Steuben,Washington,UK,Live Pounds,11949,126781,1080,76
+2010,Bloodworms,Stonington,Hancock,UK,Live Pounds,604,6227,23,12
+2010,Bloodworms,Sullivan,Hancock,UK,Live Pounds,1445,15286,129,51
+2010,Bloodworms,Thomaston,Knox,UK,Live Pounds,3594,39508,281,71
+2010,Bloodworms,Trenton,Hancock,UK,Live Pounds,18402,194401,1436,88
+2010,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,11904,130716,1014,129
+2010,Bloodworms,Westport Island,Lincoln,UK,Live Pounds,5741,61297,299,63
+2010,Bloodworms,Winter Harbor,Hancock,UK,Live Pounds,3076,32493,173,25
+2010,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,41980,486117,4239,231
+2010,Bloodworms,Woolwich,Sagadahoc,UK,Live Pounds,112719,1302405,8477,275
+2011,Bloodworms,Addison,Washington,UK,Live Pounds,14034,148338,1648,122
+2011,Bloodworms,Bar Harbor,Hancock,UK,Live Pounds,1784,18847,131,18
+2011,Bloodworms,Bath,Sagadahoc,UK,Live Pounds,3865,42408,322,89
+2011,Bloodworms,Beals,Washington,UK,Live Pounds,1537,16040,755,50
+2011,Bloodworms,Belfast,Waldo,UK,Live Pounds,1561,16916,105,30
+2011,Bloodworms,Blue Hill,Hancock,UK,Live Pounds,267,2816,24,13
+2011,Bloodworms,Boothbay,Lincoln,UK,Live Pounds,1638,18024,135,27
+2011,Bloodworms,Boothbay Harbor,Lincoln,UK,Live Pounds,129,1433,12,12
+2011,Bloodworms,Brooklin,Hancock,UK,Live Pounds,1417,14965,100,8
+2011,Bloodworms,Brunswick,Cumberland,UK,Live Pounds,2140,23497,189,35
+2011,Bloodworms,Bucksport,Hancock,UK,Live Pounds,393,4232,27,14
+2011,Bloodworms,Damariscotta,Lincoln,UK,Live Pounds,2213,24348,170,56
+2011,Bloodworms,Deer Isle,Hancock,UK,Live Pounds,5727,62640,169,39
+2011,Bloodworms,Eastport,Washington,UK,Live Pounds,615,6496,41,20
+2011,Bloodworms,Ellsworth,Hancock,UK,Live Pounds,586,6193,51,13
+2011,Bloodworms,Franklin,Hancock,UK,Live Pounds,1042,11030,81,27
+2011,Bloodworms,Freeport,Cumberland,UK,Live Pounds,281,3045,23,15
+2011,Bloodworms,Gouldsboro,Hancock,UK,Live Pounds,621,6590,46,23
+2011,Bloodworms,Hancock,Hancock,UK,Live Pounds,68210,720551,5160,153
+2011,Bloodworms,Harrington,Washington,UK,Live Pounds,16950,179218,1845,126
+2011,Bloodworms,Jonesboro,Washington,UK,Live Pounds,100,1060,7,6
+2011,Bloodworms,Jonesport,Washington,UK,Live Pounds,8116,85734,681,94
+2011,Bloodworms,Lamoine,Hancock,UK,Live Pounds,11972,126470,868,75
+2011,Bloodworms,Lubec,Washington,UK,Live Pounds,2643,27924,301,18
+2011,Bloodworms,Milbridge,Washington,UK,Live Pounds,18032,190604,1478,108
+2011,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,482,5140,41,21
+2011,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,13868,148218,881,191
+2011,Bloodworms,Portland,Cumberland,UK,Live Pounds,320,3481,19,16
+2011,Bloodworms,Searsport,Waldo,UK,Live Pounds,127,1411,9,9
+2011,Bloodworms,Steuben,Washington,UK,Live Pounds,6606,69792,700,51
+2011,Bloodworms,Sullivan,Hancock,UK,Live Pounds,1612,17027,120,39
+2011,Bloodworms,Trenton,Hancock,UK,Live Pounds,17859,188687,1442,86
+2011,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,13218,142698,959,123
+2011,Bloodworms,West Bath,Sagadahoc,UK,Live Pounds,1275,14015,100,43
+2011,Bloodworms,Westport Island,Lincoln,UK,Live Pounds,7529,80446,432,61
+2011,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,80748,919947,7140,235
+2011,Bloodworms,Woolwich,Sagadahoc,UK,Live Pounds,216310,2496682,16864,317
+2012,Bloodworms,Addison,Washington,UK,Live Pounds,6000,64188,910,83
+2012,Bloodworms,Bar Harbor,Hancock,UK,Live Pounds,1449,15579,106,10
+2012,Bloodworms,Bath,Sagadahoc,UK,Live Pounds,711,7756,52,22
+2012,Bloodworms,Beals,Washington,UK,Live Pounds,2196,23442,834,72
+2012,Bloodworms,Belfast,Waldo,UK,Live Pounds,709,7787,44,13
+2012,Bloodworms,Blue Hill,Hancock,UK,Live Pounds,647,6903,50,23
+2012,Bloodworms,Bristol,Lincoln,UK,Live Pounds,298,3367,17,10
+2012,Bloodworms,Brunswick,Cumberland,UK,Live Pounds,1265,13978,105,27
+2012,Bloodworms,Deer Isle,Hancock,UK,Live Pounds,211,2263,13,6
+2012,Bloodworms,Eastport,Washington,UK,Live Pounds,76,798,8,4
+2012,Bloodworms,Ellsworth,Hancock,UK,Live Pounds,254,2720,18,10
+2012,Bloodworms,Franklin,Hancock,UK,Live Pounds,335,3579,39,21
+2012,Bloodworms,Freeport,Cumberland,UK,Live Pounds,519,5591,35,16
+2012,Bloodworms,Gouldsboro,Hancock,UK,Live Pounds,375,4003,36,17
+2012,Bloodworms,Hancock,Hancock,UK,Live Pounds,59996,644797,4868,194
+2012,Bloodworms,Harrington,Washington,UK,Live Pounds,16639,178888,2082,127
+2012,Bloodworms,Jonesport,Washington,UK,Live Pounds,9427,101558,816,101
+2012,Bloodworms,Lamoine,Hancock,UK,Live Pounds,15920,169950,1207,122
+2012,Bloodworms,Lubec,Washington,UK,Live Pounds,2118,22723,249,14
+2012,Bloodworms,Milbridge,Washington,UK,Live Pounds,16855,180730,1662,83
+2012,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,3505,37909,267,63
+2012,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,21543,236015,1478,216
+2012,Bloodworms,Other Maine,UK,UK,Live Pounds,180411,2127459,14113,266
+2012,Bloodworms,Other Washington,Washington,UK,Live Pounds,900,9587,112,37
+2012,Bloodworms,Portland,Cumberland,UK,Live Pounds,268,2923,17,11
+2012,Bloodworms,Rockland,Knox,UK,Live Pounds,50,553,4,4
+2012,Bloodworms,Sorrento,Hancock,UK,Live Pounds,70,766,10,7
+2012,Bloodworms,Steuben,Washington,UK,Live Pounds,5075,54187,560,45
+2012,Bloodworms,Sullivan,Hancock,UK,Live Pounds,7101,76844,647,66
+2012,Bloodworms,Thomaston,Knox,UK,Live Pounds,1085,12504,70,16
+2012,Bloodworms,Trenton,Hancock,UK,Live Pounds,12410,133321,1055,73
+2012,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,2577,28905,221,63
+2012,Bloodworms,Westport Island,Lincoln,UK,Live Pounds,7800,84689,422,29
+2012,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,71917,849305,6105,233
+2012,Bloodworms,Woolwich,Sagadahoc,UK,Live Pounds,6325,74988,607,125
+2013,Bloodworms,Addison,Washington,UK,Live Pounds,6790,76962,1110,105
+2013,Bloodworms,Bath,Sagadahoc,UK,Live Pounds,714,8602,58,39
+2013,Bloodworms,Beals,Washington,UK,Live Pounds,2147,24081,475,49
+2013,Bloodworms,Belfast,Waldo,UK,Live Pounds,525,5983,40,12
+2013,Bloodworms,Blue Hill,Hancock,UK,Live Pounds,53,596,6,4
+2013,Bloodworms,Boothbay,Lincoln,UK,Live Pounds,506,5790,67,19
+2013,Bloodworms,Brunswick,Cumberland,UK,Live Pounds,1635,19643,128,60
+2013,Bloodworms,Bucksport,Hancock,UK,Live Pounds,84,933,10,8
+2013,Bloodworms,Franklin,Hancock,UK,Live Pounds,331,3704,30,17
+2013,Bloodworms,Freeport,Cumberland,UK,Live Pounds,934,10646,66,13
+2013,Bloodworms,Gouldsboro,Hancock,UK,Live Pounds,735,8199,58,23
+2013,Bloodworms,Hancock,Hancock,UK,Live Pounds,36943,412648,3065,105
+2013,Bloodworms,Harrington,Washington,UK,Live Pounds,20527,232452,2284,110
+2013,Bloodworms,Jonesport,Washington,UK,Live Pounds,5147,57710,522,71
+2013,Bloodworms,Lamoine,Hancock,UK,Live Pounds,8716,96691,818,62
+2013,Bloodworms,Milbridge,Washington,UK,Live Pounds,12601,140397,1179,88
+2013,Bloodworms,Mount Desert,Hancock,UK,Live Pounds,97,1071,6,5
+2013,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,6607,75269,483,43
+2013,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,15349,177668,1217,189
+2013,Bloodworms,Other Maine,UK,UK,Live Pounds,208579,2591563,15287,271
+2013,Bloodworms,Other Washington,Washington,UK,Live Pounds,4944,55879,564,57
+2013,Bloodworms,Steuben,Washington,UK,Live Pounds,4733,52495,593,36
+2013,Bloodworms,Sullivan,Hancock,UK,Live Pounds,3698,41138,333,40
+2013,Bloodworms,Thomaston,Knox,UK,Live Pounds,3128,38200,250,70
+2013,Bloodworms,Trenton,Hancock,UK,Live Pounds,11364,126998,984,49
+2013,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,14441,168520,983,113
+2013,Bloodworms,Westport Island,Lincoln,UK,Live Pounds,7775,86508,374,34
+2013,Bloodworms,Winter Harbor,Hancock,UK,Live Pounds,1803,20471,102,16
+2013,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,88297,1090078,6526,217
+2013,Bloodworms,Woolwich,Sagadahoc,UK,Live Pounds,1041,11992,92,35
+2014,Bloodworms,Addison,Washington,UK,Live Pounds,11095,139154,1584,83
+2014,Bloodworms,Bar Harbor,Hancock,UK,Live Pounds,90,1137,6,5
+2014,Bloodworms,Beals,Washington,UK,Live Pounds,298,3498,423,24
+2014,Bloodworms,Belfast,Waldo,UK,Live Pounds,1117,14937,88,17
+2014,Bloodworms,Brunswick,Cumberland,UK,Live Pounds,881,10550,77,16
+2014,Bloodworms,Hancock,Hancock,UK,Live Pounds,40498,520603,3187,133
+2014,Bloodworms,Harpswell,Cumberland,UK,Live Pounds,19,250,4,4
+2014,Bloodworms,Harrington,Washington,UK,Live Pounds,10839,136279,1544,75
+2014,Bloodworms,Jonesport,Washington,UK,Live Pounds,10960,142046,1866,92
+2014,Bloodworms,Lamoine,Hancock,UK,Live Pounds,3637,46225,417,59
+2014,Bloodworms,Milbridge,Washington,UK,Live Pounds,11127,140739,1108,73
+2014,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,23497,312057,1744,222
+2014,Bloodworms,Other Maine,UK,UK,Live Pounds,201298,2805626,15446,288
+2014,Bloodworms,Other Washington,Washington,UK,Live Pounds,6290,96281,489,53
+2014,Bloodworms,Steuben,Washington,UK,Live Pounds,1943,24026,300,34
+2014,Bloodworms,Sullivan,Hancock,UK,Live Pounds,1334,17245,119,24
+2014,Bloodworms,Thomaston,Knox,UK,Live Pounds,3573,49161,308,72
+2014,Bloodworms,Trenton,Hancock,UK,Live Pounds,7813,99418,722,41
+2014,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,5102,68087,416,78
+2014,Bloodworms,Westport Island,Lincoln,UK,Live Pounds,1243,14452,94,16
+2014,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,104648,1436925,8555,228
+2014,Bloodworms,Woolwich,Sagadahoc,UK,Live Pounds,465,5818,48,21
+2015,Bloodworms,Addison,Washington,UK,Live Pounds,2846,43254,524,64
+2015,Bloodworms,Bath,Sagadahoc,UK,Live Pounds,2826,44407,230,51
+2015,Bloodworms,Belfast,Waldo,UK,Live Pounds,1263,19993,102,44
+2015,Bloodworms,Boothbay,Lincoln,UK,Live Pounds,1258,21275,199,38
+2015,Bloodworms,Brunswick,Cumberland,UK,Live Pounds,1193,17786,115,39
+2015,Bloodworms,Deer Isle,Hancock,UK,Live Pounds,1333,20708,139,21
+2015,Bloodworms,Freeport,Cumberland,UK,Live Pounds,841,13582,77,34
+2015,Bloodworms,Hancock,Hancock,UK,Live Pounds,35070,536889,2920,152
+2015,Bloodworms,Harrington,Washington,UK,Live Pounds,3853,58195,638,56
+2015,Bloodworms,Jonesport,Washington,UK,Live Pounds,3985,60854,618,71
+2015,Bloodworms,Lamoine,Hancock,UK,Live Pounds,6710,103153,628,96
+2015,Bloodworms,Milbridge,Washington,UK,Live Pounds,8045,123179,837,54
+2015,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,60515,942357,4255,173
+2015,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,28336,398008,2235,213
+2015,Bloodworms,Other Maine,UK,UK,Live Pounds,140921,2304763,13176,299
+2015,Bloodworms,Other Waldo,Waldo,UK,Live Pounds,3937,60099,156,10
+2015,Bloodworms,Other Washington,Washington,UK,Live Pounds,1779,26996,188,45
+2015,Bloodworms,Sorrento,Hancock,UK,Live Pounds,25,383,5,4
+2015,Bloodworms,Steuben,Washington,UK,Live Pounds,1254,19189,266,24
+2015,Bloodworms,Sullivan,Hancock,UK,Live Pounds,602,9267,59,25
+2015,Bloodworms,Thomaston,Knox,UK,Live Pounds,3081,52572,250,52
+2015,Bloodworms,Trenton,Hancock,UK,Live Pounds,2962,45075,329,55
+2015,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,2527,39034,233,36
+2015,Bloodworms,Westport Island,Lincoln,UK,Live Pounds,697,10763,63,24
+2015,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,84642,1355224,7026,241
+2015,Bloodworms,Woolwich,Sagadahoc,UK,Live Pounds,246,4041,22,15
+2015,Bloodworms,Yarmouth,Cumberland,UK,Live Pounds,150,2423,13,11
+2016,Bloodworms,Addison,Washington,UK,Live Pounds,6291,96956,765,48
+2016,Bloodworms,Belfast,Waldo,UK,Live Pounds,2108,33129,156,41
+2016,Bloodworms,Blue Hill,Hancock,UK,Live Pounds,919,14165,67,9
+2016,Bloodworms,Deer Isle,Hancock,UK,Live Pounds,631,10067,54,25
+2016,Bloodworms,Freeport,Cumberland,UK,Live Pounds,1036,16183,90,28
+2016,Bloodworms,Hancock,Hancock,UK,Live Pounds,10281,158395,839,101
+2016,Bloodworms,Jonesport,Washington,UK,Live Pounds,5007,81075,582,56
+2016,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,119216,1833761,10038,247
+2016,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,144995,2392391,14692,379
+2016,Bloodworms,Other Washington,Washington,UK,Live Pounds,40060,617183,3370,116
+2016,Bloodworms,Sullivan,Hancock,UK,Live Pounds,391,6027,66,10
+2016,Bloodworms,Thomaston,Knox,UK,Live Pounds,1557,24134,100,56
+2016,Bloodworms,Trenton,Hancock,UK,Live Pounds,1766,27363,144,41
+2016,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,1111,17165,119,34
+2016,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,77930,1257077,6688,226
+2017,Bloodworms,Bar Harbor,Hancock,UK,Live Pounds,487,7506,12,10
+2017,Bloodworms,Boothbay,Lincoln,UK,Live Pounds,1138,18199,111,51
+2017,Bloodworms,Deer Isle,Hancock,UK,Live Pounds,494,7885,53,15
+2017,Bloodworms,Freeport,Cumberland,UK,Live Pounds,703,11200,72,34
+2017,Bloodworms,Jonesport,Washington,UK,Live Pounds,8499,136706,952,94
+2017,Bloodworms,Lamoine,Hancock,UK,Live Pounds,1412,22370,117,18
+2017,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,117286,1834321,10846,319
+2017,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,175615,2843566,17284,453
+2017,Bloodworms,Other Washington,Washington,UK,Live Pounds,29750,458387,3026,109
+2017,Bloodworms,Thomaston,Knox,UK,Live Pounds,658,10349,47,30
+2017,Bloodworms,Trenton,Hancock,UK,Live Pounds,2859,46884,207,16
+2017,Bloodworms,Waldoboro,Lincoln,UK,Live Pounds,410,6519,47,26
+2017,Bloodworms,Westport Island,Lincoln,UK,Live Pounds,917,14478,124,37
+2017,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,62908,1024129,6030,213
+2018,Bloodworms,Addison,Washington,UK,Live Pounds,4245,65594,642,47
+2018,Bloodworms,Hancock,Hancock,UK,Live Pounds,1599,24636,179,18
+2018,Bloodworms,Harrington,Washington,UK,Live Pounds,3596,55467,631,33
+2018,Bloodworms,Jonesport,Washington,UK,Live Pounds,7536,116846,1295,80
+2018,Bloodworms,Milbridge,Washington,UK,Live Pounds,12812,199087,1632,77
+2018,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,76705,1208500,7877,275
+2018,Bloodworms,Other Lincoln,Lincoln,UK,Live Pounds,5345,82838,512,55
+2018,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,230569,3726046,19943,588
+2018,Bloodworms,Trenton,Hancock,UK,Live Pounds,2881,44400,348,23
+2018,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,69776,1135985,6194,224
+2019,Bloodworms,Freeport,Cumberland,UK,Live Pounds,30,593,3,3
+2019,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,77024,1186600,5796,228
+2019,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,57733,950128,4562,147
+2020,Bloodworms,Jonesport,Washington,UK,Live Pounds,697,11201,464,40
+2020,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,78845,1308489,6317,186
+2020,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,300331,5251123,24909,502
+2020,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,11938,215361,997,25
+2021,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,31778,562791,4079,147
+2021,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,240058,4691913,22567,444
+2021,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,30050,536420,3117,76
+2022,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,13941,276125,1075,114
+2022,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,187549,4066835,18263,437
+2022,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,29036,595030,3193,87
+2023,Bloodworms,Hancock,Hancock,UK,Live Pounds,17495,459017,1614,157
+2023,Bloodworms,Milbridge,Washington,UK,Live Pounds,9930,246238,869,47
+2023,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,23582,575335,2187,156
+2023,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,138643,3300696,12043,336
+2023,Bloodworms,Other Washington,Washington,UK,Live Pounds,7964,168675,639,57
+2023,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,28866,741123,3074,102
+2024,Bloodworms,Hancock,Hancock,UK,Live Pounds,33463,885527,3501,173
+2024,Bloodworms,Other Hancock,Hancock,UK,Live Pounds,16232,419500,1562,129
+2024,Bloodworms,Other Maine,Not-Specified,UK,Live Pounds,100661,2811963,10381,309
+2024,Bloodworms,Wiscasset,Lincoln,UK,Live Pounds,33973,987487,3815,118

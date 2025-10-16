@@ -1,0 +1,30 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Pollock,Other Maine,Not-Specified,UK,Live Pounds,146680,86199,101,29
+2008,Pollock,Portland,Cumberland,UK,Live Pounds,3917248,2229772,1618,55
+2009,Pollock,Other Maine,Not-Specified,UK,Live Pounds,367059,234584,376,22
+2009,Pollock,Portland,Cumberland,UK,Live Pounds,2673328,1812046,1323,43
+2010,Pollock,Other Maine,Not-Specified,UK,Live Pounds,1633096,1494544,691,37
+2010,Pollock,Port Clyde,Knox,UK,Live Pounds,7259,7955,58,9
+2011,Pollock,Other Maine,Not-Specified,UK,Live Pounds,334377,281915,422,20
+2011,Pollock,Portland,Cumberland,UK,Live Pounds,1990498,1637938,661,36
+2012,Pollock,Other Maine,Not-Specified,UK,Live Pounds,2665811,2526892,1115,46
+2013,Pollock,Portland,Cumberland,UK,Live Pounds,2145503,2459640,844,28
+2014,Pollock,Other Maine,Not-Specified,UK,Live Pounds,2318515,2878378,953,28
+2015,Pollock,Eliot,York,UK,Live Pounds,49043,77719,60,4
+2015,Pollock,Portland,Cumberland,UK,Live Pounds,1321952,1870644,515,26
+2016,Pollock,Eliot,York,UK,Live Pounds,33040,59731,81,5
+2016,Pollock,Other Maine,Not-Specified,UK,Live Pounds,1016330,1603130,459,35
+2017,Pollock,Other Maine,Not-Specified,UK,Live Pounds,89603,153402,184,12
+2017,Pollock,Portland,Cumberland,UK,Live Pounds,758534,1028931,454,29
+2018,Pollock,Other Maine,Not-Specified,UK,Live Pounds,818142,987796,569,32
+2020,Pollock,Other Maine,Not-Specified,UK,Live Pounds,9127,12338,43,9
+2020,Pollock,Portland,Cumberland,UK,Live Pounds,409252,532613,336,27
+2021,Pollock,Other Maine,Not-Specified,UK,Live Pounds,17198,32506,82,6
+2021,Pollock,Portland,Cumberland,UK,Live Pounds,305618,607547,234,18
+2022,Pollock,Other Maine,Not-Specified,UK,Live Pounds,3865,8683,42,6
+2022,Pollock,Portland,Cumberland,UK,Live Pounds,363241,658886,468,29
+2023,Pollock,Other Maine,Not-Specified,UK,Live Pounds,2296,4816,44,4
+2023,Pollock,Port Clyde,Knox,UK,Live Pounds,2495,8208,43,3
+2023,Pollock,Portland,Cumberland,UK,Live Pounds,297448,489413,434,23
+2024,Pollock,Other Maine,Not-Specified,UK,Live Pounds,4041,6976,59,5
+2024,Pollock,Portland,Cumberland,UK,Live Pounds,247396,407391,444,20

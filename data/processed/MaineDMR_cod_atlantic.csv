@@ -1,0 +1,29 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,27044,44856,43,11
+2008,Cod Atlantic,Port Clyde,Knox,UK,Live Pounds,26740,41298,74,26
+2008,Cod Atlantic,Portland,Cumberland,UK,Live Pounds,1270683,3683094,1771,58
+2009,Cod Atlantic,Port Clyde,Knox,UK,Live Pounds,51573,54643,120,13
+2009,Cod Atlantic,Portland,Cumberland,UK,Live Pounds,1004741,1286654,1452,44
+2009,Cod Atlantic,York,York,UK,Live Pounds,36164,50595,47,3
+2010,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,734141,1364050,760,39
+2010,Cod Atlantic,Port Clyde,Knox,UK,Live Pounds,13989,24655,68,10
+2011,Cod Atlantic,Portland,Cumberland,UK,Live Pounds,605348,1188483,666,35
+2011,Cod Atlantic,South Bristol,Lincoln,UK,Live Pounds,5035,10068,21,4
+2013,Cod Atlantic,Portland,Cumberland,UK,Live Pounds,269712,693228,814,28
+2014,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,404122,884372,1016,32
+2015,Cod Atlantic,Eliot,York,UK,Live Pounds,3050,10657,30,4
+2015,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,251545,486095,457,23
+2016,Cod Atlantic,Eliot,York,UK,Live Pounds,2948,7357,79,4
+2016,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,163134,334144,420,31
+2017,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,18795,58769,168,11
+2017,Cod Atlantic,Portland,Cumberland,UK,Live Pounds,61517,160161,332,27
+2018,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,90017,212132,514,32
+2020,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,2364,6957,45,10
+2020,Cod Atlantic,Portland,Cumberland,UK,Live Pounds,56358,142873,280,27
+2021,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,47217,128540,295,25
+2022,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,1808,5294,43,6
+2022,Cod Atlantic,Portland,Cumberland,UK,Live Pounds,54179,158654,387,27
+2023,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,4022,9572,73,7
+2023,Cod Atlantic,Portland,Cumberland,UK,Live Pounds,91331,194083,412,22
+2024,Cod Atlantic,Other Maine,Not-Specified,UK,Live Pounds,7301,13884,64,4
+2024,Cod Atlantic,Portland,Cumberland,UK,Live Pounds,67689,127119,423,20

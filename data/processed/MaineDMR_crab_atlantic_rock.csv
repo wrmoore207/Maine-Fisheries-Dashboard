@@ -1,0 +1,136 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Crab Atlantic Rock,Bar Harbor,Hancock,UK,Live Pounds,26354,11221,310,16
+2008,Crab Atlantic Rock,Bass Harbor,Hancock,UK,Live Pounds,74015,29084,443,54
+2008,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,40300,16627,295,44
+2008,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,56622,22325,333,14
+2008,Crab Atlantic Rock,Brooksville,Hancock,UK,Live Pounds,92061,36427,311,5
+2008,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,103533,27274,200,20
+2008,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,967684,349595,8093,335
+2008,Crab Atlantic Rock,Portland,Cumberland,UK,Live Pounds,3015,1506,196,17
+2008,Crab Atlantic Rock,Southwest Harbor,Hancock,UK,Live Pounds,7119,2905,63,10
+2008,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,218552,72562,1478,86
+2009,Crab Atlantic Rock,Bar Harbor,Hancock,UK,Live Pounds,30490,16756,271,21
+2009,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,53085,19019,380,37
+2009,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,20964,9714,318,13
+2009,Crab Atlantic Rock,Brooksville,Hancock,UK,Live Pounds,154128,59199,466,4
+2009,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,782093,291251,6023,333
+2009,Crab Atlantic Rock,Port Clyde,Knox,UK,Live Pounds,40106,14984,188,20
+2009,Crab Atlantic Rock,Southwest Harbor,Hancock,UK,Live Pounds,16274,6386,157,33
+2009,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,228310,71883,1617,98
+2010,Crab Atlantic Rock,Addison,Washington,UK,Live Pounds,26949,8592,384,26
+2010,Crab Atlantic Rock,Bar Harbor,Hancock,UK,Live Pounds,40020,19195,247,19
+2010,Crab Atlantic Rock,Bass Harbor,Hancock,UK,Live Pounds,117082,55515,271,21
+2010,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,38382,14997,314,15
+2010,Crab Atlantic Rock,Brooksville,Hancock,UK,Live Pounds,84041,31078,309,5
+2010,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,44325,13658,86,11
+2010,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,743579,216612,4780,293
+2010,Crab Atlantic Rock,Owls Head,Knox,UK,Live Pounds,9261,3354,38,12
+2010,Crab Atlantic Rock,Southwest Harbor,Hancock,UK,Live Pounds,5853,2801,56,7
+2010,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,221403,74246,1645,93
+2010,Crab Atlantic Rock,Tenants Harbor,Knox,UK,Live Pounds,40137,12263,215,14
+2011,Crab Atlantic Rock,Bar Harbor,Hancock,UK,Live Pounds,20120,10036,187,18
+2011,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,168254,58173,1365,90
+2011,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,40421,19163,173,15
+2011,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,28671,9695,77,11
+2011,Crab Atlantic Rock,Lubec,Washington,UK,Live Pounds,70229,24986,272,15
+2011,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,655214,278076,3341,239
+2011,Crab Atlantic Rock,Portland,Cumberland,UK,Live Pounds,10736,5922,515,20
+2011,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,112482,43507,894,66
+2011,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,87773,30688,1470,65
+2012,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,97252,34283,977,68
+2012,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,53286,23468,232,12
+2012,Crab Atlantic Rock,Brooksville,Hancock,UK,Live Pounds,74139,24619,262,3
+2012,Crab Atlantic Rock,Cushing,Knox,UK,Live Pounds,40447,15102,232,17
+2012,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,48705,12664,73,11
+2012,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,519087,240276,2580,186
+2012,Crab Atlantic Rock,Port Clyde,Knox,UK,Live Pounds,36765,18290,160,11
+2012,Crab Atlantic Rock,Portland,Cumberland,UK,Live Pounds,7933,5748,309,12
+2012,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,35992,15271,209,29
+2012,Crab Atlantic Rock,Tenants Harbor,Knox,UK,Live Pounds,9749,4797,65,6
+2012,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,82795,27533,2213,97
+2013,Crab Atlantic Rock,Bass Harbor,Hancock,UK,Live Pounds,141170,81512,424,25
+2013,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,94804,44562,1035,74
+2013,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,32586,15668,207,17
+2013,Crab Atlantic Rock,Cundys Harbor,Cumberland,UK,Live Pounds,13241,9411,186,11
+2013,Crab Atlantic Rock,Cushing,Knox,UK,Live Pounds,34239,12386,245,16
+2013,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,11662,5398,46,8
+2013,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,423846,198115,2482,153
+2013,Crab Atlantic Rock,St. George,Knox,UK,Live Pounds,2757,1220,16,7
+2013,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,44823,23398,241,38
+2013,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,92843,39405,2293,100
+2014,Crab Atlantic Rock,Bass Harbor,Hancock,UK,Live Pounds,166337,83720,389,18
+2014,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,365912,184008,3156,127
+2014,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,67270,41198,238,17
+2014,Crab Atlantic Rock,Brooksville,Hancock,UK,Live Pounds,92067,35692,326,7
+2014,Crab Atlantic Rock,Cushing,Knox,UK,Live Pounds,41639,16165,216,17
+2014,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,11025,4569,24,5
+2014,Crab Atlantic Rock,Lubec,Washington,UK,Live Pounds,24619,9815,205,12
+2014,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,372342,184936,1956,142
+2014,Crab Atlantic Rock,Port Clyde,Knox,UK,Live Pounds,78413,38378,396,27
+2014,Crab Atlantic Rock,St. George,Knox,UK,Live Pounds,5476,2660,26,10
+2014,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,49860,23587,192,36
+2014,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,46010,18942,521,61
+2015,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,453672,226393,3355,134
+2015,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,90633,52648,249,10
+2015,Crab Atlantic Rock,Brooksville,Hancock,UK,Live Pounds,88394,35381,325,3
+2015,Crab Atlantic Rock,Cushing,Knox,UK,Live Pounds,24990,8703,122,16
+2015,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,51698,24604,262,30
+2015,Crab Atlantic Rock,Friendship,Knox,UK,Live Pounds,6303,2869,14,5
+2015,Crab Atlantic Rock,Kittery,York,UK,Live Pounds,84,55,3,3
+2015,Crab Atlantic Rock,Other Hancock,Hancock,UK,Live Pounds,23364,9482,80,4
+2015,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,438163,218225,1947,144
+2015,Crab Atlantic Rock,Port Clyde,Knox,UK,Live Pounds,30890,15135,243,21
+2015,Crab Atlantic Rock,St. George,Knox,UK,Live Pounds,16645,6911,59,11
+2015,Crab Atlantic Rock,Stockton Springs,Waldo,UK,Live Pounds,62680,33191,49,4
+2015,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,66217,34234,465,33
+2015,Crab Atlantic Rock,Tenants Harbor,Knox,UK,Live Pounds,23260,11615,125,21
+2015,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,34750,16284,542,55
+2016,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,502638,250393,3297,100
+2016,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,42375,25723,67,3
+2016,Crab Atlantic Rock,Cushing,Knox,UK,Live Pounds,57128,27442,150,20
+2016,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,34343,16855,147,21
+2016,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,641607,312399,2499,148
+2016,Crab Atlantic Rock,Port Clyde,Knox,UK,Live Pounds,21840,9917,59,10
+2016,Crab Atlantic Rock,Spruce Head,Knox,UK,Live Pounds,10494,5630,15,5
+2016,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,95482,44983,464,50
+2016,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,45221,21764,267,46
+2017,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,891155,536534,4898,156
+2017,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,50796,29052,85,4
+2017,Crab Atlantic Rock,Cushing,Knox,UK,Live Pounds,38022,19672,129,19
+2017,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,1006931,526780,3692,202
+2017,Crab Atlantic Rock,Stockton Springs,Waldo,UK,Live Pounds,28756,16820,35,5
+2017,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,102456,51251,697,63
+2017,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,58808,30562,646,62
+2018,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,923847,594725,5386,175
+2018,Crab Atlantic Rock,Cutler,Washington,UK,Live Pounds,26089,13693,81,12
+2018,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,1451286,881645,5416,317
+2018,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,131736,75210,1037,75
+2019,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,643685,322207,4437,170
+2019,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,11377,5831,62,12
+2019,Crab Atlantic Rock,Jonesport,Washington,UK,Live Pounds,113752,56876,632,37
+2019,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,113177,56283,483,48
+2019,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,47128,19984,231,49
+2020,Crab Atlantic Rock,Bar Harbor,Hancock,UK,Live Pounds,4646,2998,52,7
+2020,Crab Atlantic Rock,Bass Harbor,Hancock,UK,Live Pounds,28359,22282,73,4
+2020,Crab Atlantic Rock,Beals,Washington,UK,Live Pounds,285900,148760,2286,109
+2020,Crab Atlantic Rock,Cundys Harbor,Cumberland,UK,Live Pounds,24624,12042,212,14
+2020,Crab Atlantic Rock,Deer Isle,Hancock,UK,Live Pounds,22758,11399,126,9
+2020,Crab Atlantic Rock,Jonesport,Washington,UK,Live Pounds,118831,64171,580,39
+2020,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,500795,295676,1629,117
+2020,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,123648,69053,535,42
+2020,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,25705,12852,167,30
+2021,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,1049317,752513,5890,302
+2021,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,144267,97479,1618,90
+2021,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,6723,3511,184,24
+2022,Crab Atlantic Rock,Brooksville,Hancock,UK,Live Pounds,62895,32653,303,3
+2022,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,649252,494719,2100,192
+2022,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,124796,106874,672,42
+2022,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,104592,96343,723,71
+2023,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,35945,31166,124,5
+2023,Crab Atlantic Rock,Brooksville,Hancock,UK,Live Pounds,71211,48035,340,3
+2023,Crab Atlantic Rock,Cutler,Washington,UK,Live Pounds,5535,3281,19,9
+2023,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,1176679,592108,3100,188
+2023,Crab Atlantic Rock,Stonington,Hancock,UK,Live Pounds,157716,138208,810,54
+2023,Crab Atlantic Rock,Vinalhaven,Knox,UK,Live Pounds,28600,28560,80,12
+2024,Crab Atlantic Rock,Blue Hill,Hancock,UK,Live Pounds,30288,26279,142,4
+2024,Crab Atlantic Rock,Other Maine,Not-Specified,UK,Live Pounds,1081305,415637,2552,197

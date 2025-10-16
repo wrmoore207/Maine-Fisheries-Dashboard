@@ -1,0 +1,39 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Mussel Blue Sea,Hancock,Hancock,UK,Live Pounds,308328,243407,522,3
+2008,Mussel Blue Sea,Jonesport,Washington,UK,Live Pounds,5673271,418118,370,8
+2008,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,7026681,960714,1045,19
+2009,Mussel Blue Sea,Jonesport,Washington,UK,Live Pounds,6019811,436414,465,9
+2009,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,7367691,1577715,1565,18
+2009,Mussel Blue Sea,Sullivan,Hancock,UK,Live Pounds,480869,53342,75,3
+2009,Mussel Blue Sea,Trenton,Hancock,UK,Live Pounds,1635090,124240,102,6
+2010,Mussel Blue Sea,Harpswell,Cumberland,UK,Live Pounds,62795,54631,123,5
+2010,Mussel Blue Sea,Jonesport,Washington,UK,Live Pounds,8144042,588257,569,9
+2010,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,5746110,1406872,1236,16
+2010,Mussel Blue Sea,Portland,Cumberland,UK,Live Pounds,718440,17565,103,3
+2011,Mussel Blue Sea,Hancock,Hancock,UK,Live Pounds,466130,271048,450,3
+2011,Mussel Blue Sea,Harpswell,Cumberland,UK,Live Pounds,7567,7655,36,7
+2011,Mussel Blue Sea,Jonesport,Washington,UK,Live Pounds,9231302,661023,643,6
+2011,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,6126727,1029654,834,17
+2012,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,13871515,1797600,1656,22
+2012,Mussel Blue Sea,Portland,Cumberland,UK,Live Pounds,80650,132233,186,4
+2013,Mussel Blue Sea,Lamoine,Hancock,UK,Live Pounds,2674729,187377,154,3
+2013,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,10103825,2112367,1871,18
+2013,Mussel Blue Sea,Trenton,Hancock,UK,Live Pounds,558221,41527,57,3
+2014,Mussel Blue Sea,Lamoine,Hancock,UK,Live Pounds,2191338,181074,157,4
+2014,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,11025145,1817875,1601,20
+2014,Mussel Blue Sea,Portland,Cumberland,UK,Live Pounds,83945,153759,93,3
+2015,Mussel Blue Sea,Bar Harbor,Hancock,UK,Live Pounds,911496,773216,163,4
+2015,Mussel Blue Sea,Brooksville,Hancock,UK,Live Pounds,9372,4940,49,8
+2015,Mussel Blue Sea,Jonesport,Washington,UK,Live Pounds,8226122,554161,432,6
+2015,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,4921709,1127894,1137,13
+2016,Mussel Blue Sea,Jonesport,Washington,UK,Live Pounds,6608959,445422,331,6
+2016,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,3616865,1976984,1096,15
+2017,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,7223321,2125701,1240,16
+2018,Mussel Blue Sea,Blue Hill,Hancock,UK,Live Pounds,199919,242988,338,3
+2018,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,9604623,2495488,1048,18
+2020,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,9185540,2700386,1065,13
+2021,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,8026728,3406901,391,12
+2022,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,5518800,3968986,260,13
+2022,Mussel Blue Sea,Trenton,Hancock,UK,Live Pounds,64673,75522,3,3
+2023,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,5747990,4506481,252,9
+2024,Mussel Blue Sea,Other Maine,Not-Specified,UK,Live Pounds,7928051,4678367,376,9

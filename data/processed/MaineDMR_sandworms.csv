@@ -1,0 +1,117 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Sandworms,Addison,Washington,UK,Live Pounds,33172,159296,1217,56
+2008,Sandworms,Beals,Washington,UK,Live Pounds,75276,361324,2738,74
+2008,Sandworms,Gouldsboro,Hancock,UK,Live Pounds,1146,5523,35,11
+2008,Sandworms,Hancock,Hancock,UK,Live Pounds,1449,6956,40,14
+2008,Sandworms,Harrington,Washington,UK,Live Pounds,2628,12641,103,23
+2008,Sandworms,Jonesport,Washington,UK,Live Pounds,11127,53774,432,51
+2008,Sandworms,Lamoine,Hancock,UK,Live Pounds,3997,23547,134,18
+2008,Sandworms,Milbridge,Washington,UK,Live Pounds,1989,10316,81,15
+2008,Sandworms,Other Lincoln,Lincoln,UK,Live Pounds,37172,223016,1372,47
+2008,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,69842,397474,2148,114
+2008,Sandworms,Sorrento,Hancock,UK,Live Pounds,2583,13601,91,14
+2008,Sandworms,Trenton,Hancock,UK,Live Pounds,691,3377,21,9
+2008,Sandworms,Wiscasset,Lincoln,UK,Live Pounds,5438,32407,209,27
+2008,Sandworms,Woolwich,Sagadahoc,UK,Live Pounds,31913,191495,1034,33
+2009,Sandworms,Addison,Washington,UK,Live Pounds,31951,153379,1215,60
+2009,Sandworms,Beals,Washington,UK,Live Pounds,84082,403597,3185,73
+2009,Sandworms,Blue Hill,Hancock,UK,Live Pounds,2670,13941,89,20
+2009,Sandworms,Hancock,Hancock,UK,Live Pounds,7108,34263,144,11
+2009,Sandworms,Harrington,Washington,UK,Live Pounds,7606,36540,236,22
+2009,Sandworms,Jonesport,Washington,UK,Live Pounds,15751,76275,647,52
+2009,Sandworms,Milbridge,Washington,UK,Live Pounds,1743,8801,112,17
+2009,Sandworms,Other Lincoln,Lincoln,UK,Live Pounds,68367,410177,2378,44
+2009,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,71844,414417,2548,129
+2009,Sandworms,Sorrento,Hancock,UK,Live Pounds,483,2368,17,7
+2009,Sandworms,Steuben,Washington,UK,Live Pounds,992,4896,36,7
+2009,Sandworms,Trenton,Hancock,UK,Live Pounds,6487,38262,170,12
+2010,Sandworms,Addison,Washington,UK,Live Pounds,35933,172992,1513,65
+2010,Sandworms,Beals,Washington,UK,Live Pounds,70350,337681,2571,59
+2010,Sandworms,Gouldsboro,Hancock,UK,Live Pounds,2006,10688,52,13
+2010,Sandworms,Hancock,Hancock,UK,Live Pounds,11170,54702,284,24
+2010,Sandworms,Harrington,Washington,UK,Live Pounds,7594,36475,280,36
+2010,Sandworms,Jonesport,Washington,UK,Live Pounds,7116,34396,300,37
+2010,Sandworms,Lamoine,Hancock,UK,Live Pounds,11986,71298,379,15
+2010,Sandworms,Milbridge,Washington,UK,Live Pounds,617,3170,44,16
+2010,Sandworms,Other Lincoln,Lincoln,UK,Live Pounds,35336,212032,1219,31
+2010,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,62898,364431,2188,120
+2010,Sandworms,Steuben,Washington,UK,Live Pounds,189,1056,30,12
+2010,Sandworms,Trenton,Hancock,UK,Live Pounds,13235,79338,355,24
+2010,Sandworms,Westport Island,Lincoln,UK,Live Pounds,778,4661,38,14
+2010,Sandworms,Wiscasset,Lincoln,UK,Live Pounds,10263,61590,421,19
+2011,Sandworms,Addison,Washington,UK,Live Pounds,23194,111627,1034,48
+2011,Sandworms,Beals,Washington,UK,Live Pounds,64199,277504,2186,47
+2011,Sandworms,Hancock,Hancock,UK,Live Pounds,13090,67804,330,24
+2011,Sandworms,Harrington,Washington,UK,Live Pounds,15396,73913,515,35
+2011,Sandworms,Jonesport,Washington,UK,Live Pounds,10614,51072,368,34
+2011,Sandworms,Milbridge,Washington,UK,Live Pounds,276,1335,11,7
+2011,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,54580,316853,2058,57
+2011,Sandworms,Sorrento,Hancock,UK,Live Pounds,594,3018,20,15
+2011,Sandworms,Trenton,Hancock,UK,Live Pounds,11520,59849,278,31
+2011,Sandworms,Wiscasset,Lincoln,UK,Live Pounds,2722,16343,129,12
+2011,Sandworms,Woolwich,Sagadahoc,UK,Live Pounds,50533,303226,1809,36
+2012,Sandworms,Addison,Washington,UK,Live Pounds,11272,58616,565,54
+2012,Sandworms,Bar Harbor,Hancock,UK,Live Pounds,632,3319,16,8
+2012,Sandworms,Beals,Washington,UK,Live Pounds,42774,222422,1804,59
+2012,Sandworms,Gouldsboro,Hancock,UK,Live Pounds,628,3363,23,8
+2012,Sandworms,Hancock,Hancock,UK,Live Pounds,6833,36284,203,21
+2012,Sandworms,Harrington,Washington,UK,Live Pounds,31780,165160,1172,58
+2012,Sandworms,Jonesport,Washington,UK,Live Pounds,9291,48318,359,40
+2012,Sandworms,Milbridge,Washington,UK,Live Pounds,540,2844,25,6
+2012,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,73326,429386,2747,87
+2012,Sandworms,Other Maine,UK,UK,Live Pounds,47020,282095,1653,36
+2012,Sandworms,Sorrento,Hancock,UK,Live Pounds,8185,42828,199,22
+2012,Sandworms,Trenton,Hancock,UK,Live Pounds,2529,14907,78,19
+2012,Sandworms,Wiscasset,Lincoln,UK,Live Pounds,3623,21992,180,36
+2012,Sandworms,Woolwich,Sagadahoc,UK,Live Pounds,5406,32438,235,22
+2013,Sandworms,Addison,Washington,UK,Live Pounds,21486,113115,964,53
+2013,Sandworms,Gouldsboro,Hancock,UK,Live Pounds,482,2823,17,6
+2013,Sandworms,Hancock,Hancock,UK,Live Pounds,5870,33410,157,26
+2013,Sandworms,Harrington,Washington,UK,Live Pounds,29896,157577,1068,50
+2013,Sandworms,Jonesport,Washington,UK,Live Pounds,6765,35714,295,36
+2013,Sandworms,Milbridge,Washington,UK,Live Pounds,891,4726,42,19
+2013,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,107342,534921,3616,125
+2013,Sandworms,Other Maine,UK,UK,Live Pounds,53004,328058,2042,39
+2013,Sandworms,Other Washington,Washington,UK,Live Pounds,25886,138653,840,40
+2013,Sandworms,Steuben,Washington,UK,Live Pounds,1019,5515,45,14
+2013,Sandworms,Stonington,Hancock,UK,Live Pounds,2619,15706,87,9
+2013,Sandworms,Trenton,Hancock,UK,Live Pounds,180,1045,5,5
+2014,Sandworms,Addison,Washington,UK,Live Pounds,7880,47460,522,42
+2014,Sandworms,Hancock,Hancock,UK,Live Pounds,9020,59420,342,33
+2014,Sandworms,Harrington,Washington,UK,Live Pounds,26529,159836,1042,46
+2014,Sandworms,Jonesport,Washington,UK,Live Pounds,50823,305027,2098,63
+2014,Sandworms,Lamoine,Hancock,UK,Live Pounds,9607,68341,401,18
+2014,Sandworms,Milbridge,Washington,UK,Live Pounds,832,5265,62,25
+2014,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,116730,778947,5291,133
+2014,Sandworms,Steuben,Washington,UK,Live Pounds,957,5755,45,16
+2015,Sandworms,Addison,Washington,UK,Live Pounds,3264,23497,251,17
+2015,Sandworms,Deer Isle,Hancock,UK,Live Pounds,855,6804,37,12
+2015,Sandworms,Hancock,Hancock,UK,Live Pounds,2534,18161,118,31
+2015,Sandworms,Harrington,Washington,UK,Live Pounds,22359,160997,799,26
+2015,Sandworms,Jonesport,Washington,UK,Live Pounds,34741,250154,1205,40
+2015,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,76087,580023,3324,101
+2015,Sandworms,Other Maine,UK,UK,Live Pounds,65392,519020,3166,62
+2015,Sandworms,Trenton,Hancock,UK,Live Pounds,833,5982,67,13
+2016,Sandworms,Addison,Washington,UK,Live Pounds,3026,21787,158,14
+2016,Sandworms,Beals,Washington,UK,Live Pounds,21465,154535,909,29
+2016,Sandworms,Hancock,Hancock,UK,Live Pounds,2883,20781,125,18
+2016,Sandworms,Jonesport,Washington,UK,Live Pounds,30546,219950,1161,47
+2016,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,149887,1165604,7432,180
+2016,Sandworms,Trenton,Hancock,UK,Live Pounds,1671,12412,77,13
+2017,Sandworms,Jonesport,Washington,UK,Live Pounds,34003,244856,1229,45
+2017,Sandworms,Other Hancock,Hancock,UK,Live Pounds,23527,188098,932,45
+2017,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,144011,1100820,6589,119
+2018,Sandworms,Other Hancock,Hancock,UK,Live Pounds,18826,150633,904,53
+2018,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,167958,1266978,6760,132
+2018,Sandworms,Other Washington,Washington,UK,Live Pounds,9749,70215,522,26
+2019,Sandworms,Other Hancock,Hancock,UK,Live Pounds,13090,104666,642,47
+2020,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,235998,2102155,9616,215
+2021,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,197652,1973168,7807,178
+2022,Sandworms,Other Hancock,Hancock,UK,Live Pounds,6646,64796,190,33
+2022,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,179555,1822762,7356,181
+2023,Sandworms,Hancock,Hancock,UK,Live Pounds,16295,187752,603,42
+2023,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,142090,1586223,5414,147
+2023,Sandworms,Wiscasset,Lincoln,UK,Live Pounds,5537,66510,422,17
+2024,Sandworms,Hancock,Hancock,UK,Live Pounds,18304,220136,824,39
+2024,Sandworms,Other Maine,Not-Specified,UK,Live Pounds,170338,2043684,6321,124
+2024,Sandworms,Wiscasset,Lincoln,UK,Live Pounds,8657,108970,583,30

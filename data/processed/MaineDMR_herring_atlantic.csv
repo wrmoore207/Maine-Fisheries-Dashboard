@@ -1,0 +1,84 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,325100,41878,19,7
+2008,Herring Atlantic,Port Clyde,Knox,UK,Live Pounds,3429750,417050,90,4
+2008,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,17840964,2237781,419,15
+2008,Herring Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,919050,104549,17,4
+2008,Herring Atlantic,Rockland,Knox,UK,Live Pounds,29434451,3490485,563,15
+2008,Herring Atlantic,Stonington,Hancock,UK,Live Pounds,12730250,1518242,250,6
+2008,Herring Atlantic,Vinalhaven,Knox,UK,Live Pounds,3051014,549183,92,6
+2009,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,3669857,612560,120,15
+2009,Herring Atlantic,Port Clyde,Knox,UK,Live Pounds,2644100,325906,58,6
+2009,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,26193911,3113707,537,19
+2009,Herring Atlantic,Prospect,Waldo,UK,Live Pounds,600000,73988,8,4
+2009,Herring Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,5465960,606979,71,8
+2009,Herring Atlantic,Rockland,Knox,UK,Live Pounds,20736137,2487239,297,16
+2009,Herring Atlantic,Stonington,Hancock,UK,Live Pounds,5295769,629628,93,5
+2010,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,5086975,948473,138,10
+2010,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,28345631,4053575,515,27
+2010,Herring Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,880900,136760,20,5
+2010,Herring Atlantic,Rockland,Knox,UK,Live Pounds,20862021,3079317,277,14
+2010,Herring Atlantic,Stonington,Hancock,UK,Live Pounds,2325250,354268,61,7
+2011,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,9575136,1582116,223,12
+2011,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,49744398,7215474,970,25
+2011,Herring Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,1595200,237380,40,5
+2011,Herring Atlantic,Rockland,Knox,UK,Live Pounds,32674687,4817500,530,14
+2011,Herring Atlantic,Stonington,Hancock,UK,Live Pounds,3463600,519540,89,3
+2012,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,13675827,2193011,227,12
+2012,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,47488766,7380866,858,15
+2012,Herring Atlantic,Rockland,Knox,UK,Live Pounds,30340220,4752477,415,10
+2012,Herring Atlantic,Winter Harbor,Hancock,UK,Live Pounds,1022720,156736,25,4
+2013,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,10635533,1767643,179,14
+2013,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,51112879,7959311,912,15
+2013,Herring Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,3930100,622594,84,8
+2013,Herring Atlantic,Rockland,Knox,UK,Live Pounds,30981595,4793044,448,12
+2013,Herring Atlantic,South Portland,Cumberland,UK,Live Pounds,2198800,349432,51,4
+2014,Herring Atlantic,Jonesport,Washington,UK,Live Pounds,1881786,248216,20,5
+2014,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,3799133,661662,78,8
+2014,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,44788193,6876323,742,18
+2014,Herring Atlantic,Prospect,Waldo,UK,Live Pounds,787823,126052,24,4
+2014,Herring Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,4476670,693364,101,10
+2014,Herring Atlantic,Rockland,Knox,UK,Live Pounds,37252252,5972519,585,15
+2014,Herring Atlantic,South Portland,Cumberland,UK,Live Pounds,1824222,289500,49,8
+2014,Herring Atlantic,Stonington,Hancock,UK,Live Pounds,8458184,1304134,158,3
+2014,Herring Atlantic,Winter Harbor,Hancock,UK,Live Pounds,261600,40156,7,4
+2015,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,2786300,428890,57,8
+2015,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,51788936,8118059,1036,22
+2015,Herring Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,942300,150768,24,4
+2015,Herring Atlantic,Rockland,Knox,UK,Live Pounds,27833157,4340317,330,10
+2015,Herring Atlantic,South Portland,Cumberland,UK,Live Pounds,373600,59776,11,5
+2015,Herring Atlantic,Stonington,Hancock,UK,Live Pounds,2716780,428179,55,3
+2016,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,2351800,550584,32,5
+2016,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,37711516,10204952,578,22
+2016,Herring Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,2021200,537397,54,5
+2016,Herring Atlantic,Rockland,Knox,UK,Live Pounds,30404008,6853214,294,14
+2016,Herring Atlantic,South Portland,Cumberland,UK,Live Pounds,573200,116000,13,3
+2016,Herring Atlantic,Stonington,Hancock,UK,Live Pounds,5363400,1213394,85,4
+2017,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,1366091,410080,40,7
+2017,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,39271752,10809970,496,28
+2017,Herring Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,993100,251905,24,5
+2017,Herring Atlantic,Rockland,Knox,UK,Live Pounds,20769930,5373949,235,11
+2017,Herring Atlantic,South Portland,Cumberland,UK,Live Pounds,1008000,282900,23,4
+2017,Herring Atlantic,Stonington,Hancock,UK,Live Pounds,2006400,583794,36,3
+2018,Herring Atlantic,Jonesport,Washington,UK,Live Pounds,214200,49830,4,3
+2018,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,6296093,1672203,153,15
+2018,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,34262395,9312286,448,19
+2018,Herring Atlantic,Rockland,Knox,UK,Live Pounds,19516925,5080739,215,8
+2018,Herring Atlantic,South Portland,Cumberland,UK,Live Pounds,1908800,547170,54,7
+2019,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,8128700,3353895,76,7
+2019,Herring Atlantic,Rockland,Knox,UK,Live Pounds,4500200,2144155,60,7
+2020,Herring Atlantic,Jonesport,Washington,UK,Live Pounds,331600,118040,9,4
+2020,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,973597,350832,33,14
+2020,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,5348750,2019231,65,9
+2020,Herring Atlantic,Rockland,Knox,UK,Live Pounds,4883772,1718222,73,9
+2021,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,483750,196848,31,9
+2021,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,2387900,859280,31,6
+2021,Herring Atlantic,Rockland,Knox,UK,Live Pounds,2158200,853270,40,5
+2022,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,1245175,679809,40,12
+2022,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,2577725,1166800,27,7
+2023,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,2835657,1199559,119,16
+2023,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,6426000,1897651,56,10
+2023,Herring Atlantic,Rockland,Knox,UK,Live Pounds,5479900,1885600,64,6
+2024,Herring Atlantic,Other Maine,Not-Specified,UK,Live Pounds,2536837,1069615,90,11
+2024,Herring Atlantic,Portland,Cumberland,UK,Live Pounds,5441800,2363657,54,10
+2024,Herring Atlantic,Rockland,Knox,UK,Live Pounds,5594282,2148978,77,8
+2024,Herring Atlantic,Stonington,Hancock,UK,Live Pounds,114250,54500,6,3

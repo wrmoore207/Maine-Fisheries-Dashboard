@@ -1,0 +1,123 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2009,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,5129,28536,0,3
+2010,Tuna Atlantic Bluefin,Biddeford Pool,York,UK,Live Pounds,12399,105775,0,3
+2010,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,4058,30578,0,5
+2010,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,12626,99365,0,5
+2010,Tuna Atlantic Bluefin,Other Cumberland,Cumberland,UK,Live Pounds,16144,129917,0,7
+2010,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,41488,336059,3,24
+2010,Tuna Atlantic Bluefin,Other York,York,UK,Live Pounds,24835,189186,0,7
+2010,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,47510,331682,0,8
+2010,Tuna Atlantic Bluefin,York,York,UK,Live Pounds,9073,64443,0,5
+2011,Tuna Atlantic Bluefin,Biddeford Pool,York,UK,Live Pounds,5659,52555,2,3
+2011,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,17163,164525,13,5
+2011,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,96284,926409,104,26
+2011,Tuna Atlantic Bluefin,Other York,York,UK,Live Pounds,51305,431829,12,6
+2011,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,59549,569334,8,6
+2012,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,15173,158341,6,5
+2012,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,149326,1434632,42,14
+2012,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,54392,554361,6,5
+2013,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,83669,592152,3,5
+2013,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,57456,415641,8,3
+2015,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,285046,1535706,0,3
+2016,Tuna Atlantic Bluefin,Boothbay Harbor,Lincoln,UK,Live Pounds,21795,115964,47,11
+2016,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,22385,121161,27,6
+2016,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,20974,137399,44,13
+2016,Tuna Atlantic Bluefin,Kittery,York,UK,Live Pounds,16423,96449,38,15
+2016,Tuna Atlantic Bluefin,New Harbor,Lincoln,UK,Live Pounds,8946,54767,19,6
+2016,Tuna Atlantic Bluefin,Ogunquit,York,UK,Live Pounds,6151,34347,12,5
+2016,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,155414,988631,330,70
+2016,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,94455,645651,137,34
+2016,Tuna Atlantic Bluefin,Saco,York,UK,Live Pounds,51846,318716,110,22
+2016,Tuna Atlantic Bluefin,York,York,UK,Live Pounds,20483,142990,57,13
+2017,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,16165,98173,38,7
+2017,Tuna Atlantic Bluefin,Kittery,York,UK,Live Pounds,11064,56185,31,15
+2017,Tuna Atlantic Bluefin,Ogunquit,York,UK,Live Pounds,20288,95913,44,8
+2017,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,259724,1347325,667,157
+2017,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,120729,693250,281,57
+2017,Tuna Atlantic Bluefin,Saco,York,UK,Live Pounds,33471,166282,83,20
+2017,Tuna Atlantic Bluefin,Wells,York,UK,Live Pounds,25889,129918,63,7
+2018,Tuna Atlantic Bluefin,Cushing,Knox,UK,Live Pounds,4751,26036,13,7
+2018,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,28033,154566,69,17
+2018,Tuna Atlantic Bluefin,Jonesport,Washington,UK,Live Pounds,11266,67000,29,15
+2018,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,17091,96086,41,10
+2018,Tuna Atlantic Bluefin,Ogunquit,York,UK,Live Pounds,17273,92140,38,9
+2018,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,262966,1569351,675,184
+2018,Tuna Atlantic Bluefin,Port Clyde,Knox,UK,Live Pounds,15814,94310,40,5
+2018,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,152476,906462,342,69
+2018,Tuna Atlantic Bluefin,Saco,York,UK,Live Pounds,17281,94285,42,14
+2018,Tuna Atlantic Bluefin,Wells,York,UK,Live Pounds,17614,98299,44,10
+2019,Tuna Atlantic Bluefin,Cape Porpoise,York,UK,Live Pounds,10259,50367,33,9
+2019,Tuna Atlantic Bluefin,Cushing,Knox,UK,Live Pounds,6580,30037,22,6
+2019,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,13750,66515,38,11
+2019,Tuna Atlantic Bluefin,New Harbor,Lincoln,UK,Live Pounds,8071,40819,26,12
+2019,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,154573,685456,414,86
+2019,Tuna Atlantic Bluefin,Saco,York,UK,Live Pounds,49780,245486,153,34
+2019,Tuna Atlantic Bluefin,Spruce Head,Knox,UK,Live Pounds,3133,11936,8,3
+2019,Tuna Atlantic Bluefin,Wells,York,UK,Live Pounds,9174,52315,27,10
+2019,Tuna Atlantic Bluefin,York,York,UK,Live Pounds,19898,94490,59,16
+2020,Tuna Atlantic Bluefin,Boothbay Harbor,Lincoln,UK,Live Pounds,10947,39512,29,5
+2020,Tuna Atlantic Bluefin,Cushing,Knox,UK,Live Pounds,10551,44346,30,6
+2020,Tuna Atlantic Bluefin,Five Islands,Sagadahoc,UK,Live Pounds,3844,14876,11,4
+2020,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,27900,105626,81,25
+2020,Tuna Atlantic Bluefin,Harpswell,Cumberland,UK,Live Pounds,41594,158565,109,29
+2020,Tuna Atlantic Bluefin,Kennebunk,York,UK,Live Pounds,9049,32483,25,5
+2020,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,17288,75389,45,12
+2020,Tuna Atlantic Bluefin,Kittery,York,UK,Live Pounds,6471,19395,21,9
+2020,Tuna Atlantic Bluefin,Ogunquit,York,UK,Live Pounds,12786,43524,19,5
+2020,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,94073,378306,262,82
+2020,Tuna Atlantic Bluefin,Port Clyde,Knox,UK,Live Pounds,5473,17771,17,9
+2020,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,156412,633432,402,75
+2020,Tuna Atlantic Bluefin,Saco,York,UK,Live Pounds,39978,162876,122,29
+2020,Tuna Atlantic Bluefin,South Bristol,Lincoln,UK,Live Pounds,11476,44294,33,9
+2020,Tuna Atlantic Bluefin,Spruce Head,Knox,UK,Live Pounds,8261,37807,23,6
+2020,Tuna Atlantic Bluefin,Tenants Harbor,Knox,UK,Live Pounds,8344,31854,25,5
+2020,Tuna Atlantic Bluefin,Wells,York,UK,Live Pounds,14558,54863,35,9
+2020,Tuna Atlantic Bluefin,Yarmouth,Cumberland,UK,Live Pounds,1899,3835,5,5
+2020,Tuna Atlantic Bluefin,York,York,UK,Live Pounds,14666,55891,41,13
+2021,Tuna Atlantic Bluefin,Boothbay Harbor,Lincoln,UK,Live Pounds,6426,34655,15,3
+2021,Tuna Atlantic Bluefin,Cushing,Knox,UK,Live Pounds,14003,78922,35,5
+2021,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,13978,89979,32,11
+2021,Tuna Atlantic Bluefin,Harpswell,Cumberland,UK,Live Pounds,25479,135542,62,17
+2021,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,12055,70145,33,12
+2021,Tuna Atlantic Bluefin,Kittery,York,UK,Live Pounds,1880,11036,6,3
+2021,Tuna Atlantic Bluefin,Ogunquit,York,UK,Live Pounds,17856,107713,25,6
+2021,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,90960,491701,224,69
+2021,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,126279,702808,287,57
+2021,Tuna Atlantic Bluefin,Saco,York,UK,Live Pounds,44684,239006,120,23
+2021,Tuna Atlantic Bluefin,South Bristol,Lincoln,UK,Live Pounds,7681,46231,19,8
+2021,Tuna Atlantic Bluefin,Tenants Harbor,Knox,UK,Live Pounds,8838,48735,26,3
+2021,Tuna Atlantic Bluefin,Wells,York,UK,Live Pounds,7484,38879,15,8
+2021,Tuna Atlantic Bluefin,York,York,UK,Live Pounds,33533,184797,85,18
+2022,Tuna Atlantic Bluefin,Boothbay Harbor,Lincoln,UK,Live Pounds,12875,69627,31,13
+2022,Tuna Atlantic Bluefin,Cushing,Knox,UK,Live Pounds,7615,35205,23,6
+2022,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,10219,56061,28,11
+2022,Tuna Atlantic Bluefin,Harpswell,Cumberland,UK,Live Pounds,12719,47504,34,14
+2022,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,17085,89941,54,15
+2022,Tuna Atlantic Bluefin,Kittery,York,UK,Live Pounds,6304,32405,20,10
+2022,Tuna Atlantic Bluefin,Ogunquit,York,UK,Live Pounds,28616,139076,60,13
+2022,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,64654,325146,171,70
+2022,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,94938,535558,233,65
+2022,Tuna Atlantic Bluefin,Saco,York,UK,Live Pounds,42723,220703,116,26
+2022,Tuna Atlantic Bluefin,South Bristol,Lincoln,UK,Live Pounds,11543,59455,28,9
+2022,Tuna Atlantic Bluefin,Tenants Harbor,Knox,UK,Live Pounds,7456,31217,19,3
+2022,Tuna Atlantic Bluefin,Wells,York,UK,Live Pounds,14554,73341,34,10
+2022,Tuna Atlantic Bluefin,York,York,UK,Live Pounds,32959,176271,95,15
+2023,Tuna Atlantic Bluefin,Boothbay Harbor,Lincoln,UK,Live Pounds,6773,40265,19,6
+2023,Tuna Atlantic Bluefin,Cape Porpoise,York,UK,Live Pounds,3190,17995,10,5
+2023,Tuna Atlantic Bluefin,Cushing,Knox,UK,Live Pounds,14301,74317,38,5
+2023,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,15291,87708,41,12
+2023,Tuna Atlantic Bluefin,Kennebunkport,York,UK,Live Pounds,14658,80213,39,9
+2023,Tuna Atlantic Bluefin,Kittery,York,UK,Live Pounds,7208,36714,17,8
+2023,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,228399,1111525,523,140
+2023,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,82858,443545,195,68
+2023,Tuna Atlantic Bluefin,Saco,York,UK,Live Pounds,30531,167256,91,23
+2023,Tuna Atlantic Bluefin,Spruce Head,Knox,UK,Live Pounds,5860,29873,14,4
+2023,Tuna Atlantic Bluefin,Tenants Harbor,Knox,UK,Live Pounds,4021,20470,11,4
+2023,Tuna Atlantic Bluefin,Wells,York,UK,Live Pounds,14839,70504,45,9
+2023,Tuna Atlantic Bluefin,York,York,UK,Live Pounds,26988,141598,72,16
+2024,Tuna Atlantic Bluefin,Boothbay,Lincoln,UK,Live Pounds,47174,182561,104,57
+2024,Tuna Atlantic Bluefin,Friendship,Knox,UK,Live Pounds,6179,34597,15,8
+2024,Tuna Atlantic Bluefin,Kittery,York,UK,Live Pounds,11546,54428,31,12
+2024,Tuna Atlantic Bluefin,Other Maine,Not-Specified,UK,Live Pounds,293020,1521459,692,151
+2024,Tuna Atlantic Bluefin,Portland,Cumberland,UK,Live Pounds,126625,703625,303,60
+2024,Tuna Atlantic Bluefin,Wells,York,UK,Live Pounds,10610,50241,27,8

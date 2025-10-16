@@ -1,0 +1,114 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Sea Urchin,Cutler,Washington,UK,Live Pounds,62388,97997,82,55
+2008,Sea Urchin,Ellsworth,Hancock,UK,Live Pounds,114414,194661,182,64
+2008,Sea Urchin,Jonesport,Washington,UK,Live Pounds,960416,1748792,1428,234
+2008,Sea Urchin,Lubec,Washington,UK,Live Pounds,1050445,2040211,1250,149
+2008,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,823756,1438637,1238,205
+2008,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,47794,127464,88,29
+2009,Sea Urchin,Cutler,Washington,UK,Live Pounds,142656,203254,177,45
+2009,Sea Urchin,Jonesport,Washington,UK,Live Pounds,986911,1519626,1521,191
+2009,Sea Urchin,Lubec,Washington,UK,Live Pounds,843545,1547225,1248,157
+2009,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,849392,1380756,1150,227
+2009,Sea Urchin,Other Washington,Washington,UK,Live Pounds,342020,580124,497,122
+2009,Sea Urchin,Winter Harbor,Hancock,UK,Live Pounds,322217,635391,443,55
+2010,Sea Urchin,Ellsworth,Hancock,UK,Live Pounds,638512,1392278,1259,185
+2010,Sea Urchin,Jonesport,Washington,UK,Live Pounds,529357,1020581,871,146
+2010,Sea Urchin,Lubec,Washington,UK,Live Pounds,704907,1618575,1193,152
+2010,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,641373,1330134,974,170
+2010,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,77367,128258,180,31
+2011,Sea Urchin,Ellsworth,Hancock,UK,Live Pounds,501109,990583,922,164
+2011,Sea Urchin,Jonesport,Washington,UK,Live Pounds,336685,736271,506,80
+2011,Sea Urchin,Lubec,Washington,UK,Live Pounds,783208,1698459,1355,159
+2011,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,705899,1526467,1087,209
+2011,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,80173,161575,190,24
+2012,Sea Urchin,Ellsworth,Hancock,UK,Live Pounds,217006,507570,378,80
+2012,Sea Urchin,Jonesport,Washington,UK,Live Pounds,135048,387910,235,60
+2012,Sea Urchin,Lubec,Washington,UK,Live Pounds,729865,2071704,1135,139
+2012,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,573616,1508359,845,145
+2012,Sea Urchin,Rockland,Knox,UK,Live Pounds,71322,139679,65,12
+2012,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,151489,347310,345,43
+2012,Sea Urchin,Winter Harbor,Hancock,UK,Live Pounds,25576,61796,44,14
+2013,Sea Urchin,Ellsworth,Hancock,UK,Live Pounds,50888,135381,96,35
+2013,Sea Urchin,Jonesport,Washington,UK,Live Pounds,284154,1041275,536,71
+2013,Sea Urchin,Lubec,Washington,UK,Live Pounds,911020,2592495,1613,147
+2013,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,429720,1285837,682,121
+2013,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,271030,605423,746,42
+2013,Sea Urchin,Whiting,Washington,UK,Live Pounds,41117,120806,79,38
+2014,Sea Urchin,Jonesport,Washington,UK,Live Pounds,308714,775309,579,104
+2014,Sea Urchin,Lubec,Washington,UK,Live Pounds,501454,1492041,888,132
+2014,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,929583,2560196,1619,200
+2014,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,218552,454370,561,30
+2015,Sea Urchin,Lubec,Washington,UK,Live Pounds,743688,2171795,1384,127
+2015,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,910428,2619572,1553,164
+2015,Sea Urchin,Rockland,Knox,UK,Live Pounds,121558,245408,223,29
+2015,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,174895,350013,326,29
+2016,Sea Urchin,Blue Hill,Hancock,UK,Live Pounds,120168,447546,184,15
+2016,Sea Urchin,Bucks Harbor,Washington,UK,Live Pounds,28493,98090,51,8
+2016,Sea Urchin,Castine,Hancock,UK,Live Pounds,38674,124778,61,6
+2016,Sea Urchin,Cutler,Washington,UK,Live Pounds,53400,239244,94,17
+2016,Sea Urchin,Ellsworth,Hancock,UK,Live Pounds,36438,126549,65,36
+2016,Sea Urchin,Jonesport,Washington,UK,Live Pounds,56094,176907,113,28
+2016,Sea Urchin,Lubec,Washington,UK,Live Pounds,714901,2567344,1323,108
+2016,Sea Urchin,Milbridge,Washington,UK,Live Pounds,24807,88616,53,8
+2016,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,485585,1421399,800,126
+2016,Sea Urchin,Rockland,Knox,UK,Live Pounds,58159,151561,85,21
+2016,Sea Urchin,St. George,Knox,UK,Live Pounds,55591,121393,98,28
+2016,Sea Urchin,Stonington,Hancock,UK,Live Pounds,100161,254171,155,18
+2016,Sea Urchin,Sullivan,Hancock,UK,Live Pounds,44942,182721,81,19
+2016,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,171627,372473,307,30
+2016,Sea Urchin,Winter Harbor,Hancock,UK,Live Pounds,69273,246544,133,18
+2017,Sea Urchin,Blue Hill,Hancock,UK,Live Pounds,117833,423034,193,27
+2017,Sea Urchin,Bucks Harbor,Washington,UK,Live Pounds,7295,25239,13,8
+2017,Sea Urchin,Camden,Knox,UK,Live Pounds,51240,139195,83,5
+2017,Sea Urchin,Cutler,Washington,UK,Live Pounds,30756,122278,59,11
+2017,Sea Urchin,Ellsworth,Hancock,UK,Live Pounds,64341,208562,117,25
+2017,Sea Urchin,Jonesport,Washington,UK,Live Pounds,54962,187106,102,21
+2017,Sea Urchin,Lubec,Washington,UK,Live Pounds,556949,1846092,1048,85
+2017,Sea Urchin,Milbridge,Washington,UK,Live Pounds,29407,109338,62,8
+2017,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,499970,1433557,904,126
+2017,Sea Urchin,Rockland,Knox,UK,Live Pounds,79701,212023,111,18
+2017,Sea Urchin,Spruce Head,Knox,UK,Live Pounds,22025,48998,21,3
+2017,Sea Urchin,Stonington,Hancock,UK,Live Pounds,76155,197451,127,20
+2017,Sea Urchin,Sullivan,Hancock,UK,Live Pounds,48611,176338,88,15
+2017,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,126918,257291,221,24
+2017,Sea Urchin,Winter Harbor,Hancock,UK,Live Pounds,186299,718469,317,28
+2018,Sea Urchin,Blue Hill,Hancock,UK,Live Pounds,207452,812987,370,30
+2018,Sea Urchin,Jonesport,Washington,UK,Live Pounds,40462,137626,80,21
+2018,Sea Urchin,Lubec,Washington,UK,Live Pounds,549793,1634889,1029,73
+2018,Sea Urchin,Milbridge,Washington,UK,Live Pounds,12690,51611,25,4
+2018,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,666651,1893066,1208,152
+2018,Sea Urchin,Rockland,Knox,UK,Live Pounds,141388,382848,212,31
+2018,Sea Urchin,Spruce Head,Knox,UK,Live Pounds,33543,78422,32,3
+2018,Sea Urchin,Stonington,Hancock,UK,Live Pounds,172828,496282,292,31
+2018,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,75689,169024,93,25
+2018,Sea Urchin,Winter Harbor,Hancock,UK,Live Pounds,143366,551316,247,29
+2019,Sea Urchin,Blue Hill,Hancock,UK,Live Pounds,172308,676566,321,25
+2019,Sea Urchin,Camden,Knox,UK,Live Pounds,59976,169491,100,6
+2019,Sea Urchin,Jonesport,Washington,UK,Live Pounds,17252,60663,37,11
+2019,Sea Urchin,Lubec,Washington,UK,Live Pounds,465344,1728268,925,69
+2019,Sea Urchin,Milbridge,Washington,UK,Live Pounds,10298,38656,21,11
+2019,Sea Urchin,Rockland,Knox,UK,Live Pounds,148829,551169,224,26
+2019,Sea Urchin,Stonington,Hancock,UK,Live Pounds,330019,1054998,559,36
+2019,Sea Urchin,Tenants Harbor,Knox,UK,Live Pounds,54361,145978,83,16
+2019,Sea Urchin,Winter Harbor,Hancock,UK,Live Pounds,75853,271391,135,15
+2020,Sea Urchin,Lubec,Washington,UK,Live Pounds,425740,1306066,896,56
+2020,Sea Urchin,Milbridge,Washington,UK,Live Pounds,10135,31451,28,7
+2020,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,306615,900911,601,64
+2020,Sea Urchin,Rockland,Knox,UK,Live Pounds,221189,689899,310,32
+2020,Sea Urchin,Stonington,Hancock,UK,Live Pounds,254542,738179,468,25
+2020,Sea Urchin,Whiting,Washington,UK,Live Pounds,18100,48294,37,15
+2020,Sea Urchin,Winter Harbor,Hancock,UK,Live Pounds,45176,150414,93,9
+2021,Sea Urchin,Lubec,Washington,UK,Live Pounds,160098,483806,319,45
+2021,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,464224,1478027,898,81
+2021,Sea Urchin,Rockland,Knox,UK,Live Pounds,188776,736410,247,25
+2021,Sea Urchin,Stonington,Hancock,UK,Live Pounds,81418,207285,157,21
+2022,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,716442,2263848,1388,87
+2022,Sea Urchin,Rockland,Knox,UK,Live Pounds,117140,415433,164,24
+2023,Sea Urchin,Eastport,Washington,UK,Live Pounds,18966,46331,37,8
+2023,Sea Urchin,Lubec,Washington,UK,Live Pounds,112620,286509,230,26
+2023,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,376684,1193351,732,69
+2023,Sea Urchin,Rockland,Knox,UK,Live Pounds,82530,298211,125,18
+2023,Sea Urchin,Stonington,Hancock,UK,Live Pounds,49222,127271,101,12
+2024,Sea Urchin,Lubec,Washington,UK,Live Pounds,79030,263226,150,21
+2024,Sea Urchin,Other Maine,Not-Specified,UK,Live Pounds,395162,1267086,704,66
+2024,Sea Urchin,Rockland,Knox,UK,Live Pounds,46338,162714,69,12

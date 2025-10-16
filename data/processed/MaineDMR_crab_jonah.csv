@@ -1,0 +1,137 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Crab Jonah,Bass Harbor,Hancock,UK,Live Pounds,81629,29976,605,39
+2008,Crab Jonah,Beals,Washington,UK,Live Pounds,226820,79964,1790,73
+2008,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,996792,351218,6996,361
+2008,Crab Jonah,Southwest Harbor,Hancock,UK,Live Pounds,10116,4048,78,16
+2008,Crab Jonah,Stonington,Hancock,UK,Live Pounds,296719,112442,2539,128
+2009,Crab Jonah,Milbridge,Washington,UK,Live Pounds,50478,20159,273,19
+2009,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,1028250,337989,7260,386
+2009,Crab Jonah,Southwest Harbor,Hancock,UK,Live Pounds,11936,4646,80,22
+2009,Crab Jonah,Stonington,Hancock,UK,Live Pounds,143978,51601,1614,106
+2009,Crab Jonah,Winter Harbor,Hancock,UK,Live Pounds,21650,8924,121,9
+2010,Crab Jonah,Bass Harbor,Hancock,UK,Live Pounds,67931,26573,374,39
+2010,Crab Jonah,Deer Isle,Hancock,UK,Live Pounds,7750,2570,34,10
+2010,Crab Jonah,Milbridge,Washington,UK,Live Pounds,124516,49806,826,38
+2010,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,741035,238282,6174,297
+2010,Crab Jonah,Southwest Harbor,Hancock,UK,Live Pounds,7565,3018,44,8
+2010,Crab Jonah,Stonington,Hancock,UK,Live Pounds,114623,39371,903,91
+2010,Crab Jonah,Tenants Harbor,Knox,UK,Live Pounds,7639,2169,66,11
+2010,Crab Jonah,Winter Harbor,Hancock,UK,Live Pounds,22809,9471,109,12
+2011,Crab Jonah,Cutler,Washington,UK,Live Pounds,179403,51448,398,30
+2011,Crab Jonah,Milbridge,Washington,UK,Live Pounds,40949,17435,363,23
+2011,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,759329,265936,6495,288
+2011,Crab Jonah,Prospect Harbor,Hancock,UK,Live Pounds,7069,3429,18,6
+2011,Crab Jonah,Stonington,Hancock,UK,Live Pounds,53670,18649,506,55
+2011,Crab Jonah,Winter Harbor,Hancock,UK,Live Pounds,31396,15155,95,10
+2012,Crab Jonah,Cutler,Washington,UK,Live Pounds,57408,22818,408,25
+2012,Crab Jonah,Milbridge,Washington,UK,Live Pounds,35242,15264,226,11
+2012,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,417355,160155,4053,221
+2012,Crab Jonah,Prospect Harbor,Hancock,UK,Live Pounds,23809,11226,34,5
+2012,Crab Jonah,Stonington,Hancock,UK,Live Pounds,22324,7997,316,36
+2013,Crab Jonah,Cutler,Washington,UK,Live Pounds,20397,9326,140,20
+2013,Crab Jonah,Milbridge,Washington,UK,Live Pounds,20012,9602,84,7
+2013,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,255208,128547,2304,118
+2013,Crab Jonah,Spruce Head,Knox,UK,Live Pounds,67828,31864,273,28
+2013,Crab Jonah,Stonington,Hancock,UK,Live Pounds,14895,6757,126,26
+2014,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,312261,90546,1188,139
+2014,Crab Jonah,Steuben,Washington,UK,Live Pounds,22508,9674,64,7
+2014,Crab Jonah,Stonington,Hancock,UK,Live Pounds,13526,5811,119,24
+2015,Crab Jonah,Cushing,Knox,UK,Live Pounds,2964,1482,5,3
+2015,Crab Jonah,Milbridge,Washington,UK,Live Pounds,44425,26079,217,20
+2015,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,262232,130786,1677,168
+2016,Crab Jonah,Bass Harbor,Hancock,UK,Live Pounds,13257,6601,87,9
+2016,Crab Jonah,Gouldsboro,Hancock,UK,Live Pounds,3567,1924,13,5
+2016,Crab Jonah,Milbridge,Washington,UK,Live Pounds,23207,13833,142,17
+2016,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,436316,222946,2103,221
+2016,Crab Jonah,Port Clyde,Knox,UK,Live Pounds,27812,13896,158,13
+2016,Crab Jonah,Sorrento,Hancock,UK,Live Pounds,2234,1072,21,3
+2016,Crab Jonah,Southwest Harbor,Hancock,UK,Live Pounds,13270,5662,95,15
+2016,Crab Jonah,Stonington,Hancock,UK,Live Pounds,87905,31429,258,39
+2016,Crab Jonah,Winter Harbor,Hancock,UK,Live Pounds,17556,10662,40,4
+2017,Crab Jonah,Beals,Washington,UK,Live Pounds,27838,16767,243,5
+2017,Crab Jonah,Bunkers Harbor,Hancock,UK,Live Pounds,35126,17725,150,9
+2017,Crab Jonah,Cushing,Knox,UK,Live Pounds,34740,17226,111,18
+2017,Crab Jonah,Friendship,Knox,UK,Live Pounds,17084,8967,34,9
+2017,Crab Jonah,Milbridge,Washington,UK,Live Pounds,77382,42270,204,20
+2017,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,658927,354741,3713,253
+2017,Crab Jonah,Portland,Cumberland,UK,Live Pounds,16706,13599,58,9
+2017,Crab Jonah,South Thomaston,Knox,UK,Live Pounds,27476,15326,98,11
+2017,Crab Jonah,Stonington,Hancock,UK,Live Pounds,273399,75024,1010,56
+2018,Crab Jonah,Bass Harbor,Hancock,UK,Live Pounds,31163,16877,137,18
+2018,Crab Jonah,Cushing,Knox,UK,Live Pounds,20814,15038,53,12
+2018,Crab Jonah,Milbridge,Washington,UK,Live Pounds,61898,43021,230,21
+2018,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,613017,386489,2413,228
+2018,Crab Jonah,Portland,Cumberland,UK,Live Pounds,5468,4188,47,9
+2018,Crab Jonah,Sorrento,Hancock,UK,Live Pounds,23784,15414,60,4
+2018,Crab Jonah,Southwest Harbor,Hancock,UK,Live Pounds,27320,17189,253,26
+2018,Crab Jonah,Stonington,Hancock,UK,Live Pounds,228329,86772,1794,57
+2018,Crab Jonah,Tenants Harbor,Knox,UK,Live Pounds,49697,41195,122,10
+2019,Crab Jonah,Bass Harbor,Hancock,UK,Live Pounds,37282,19266,243,23
+2019,Crab Jonah,Milbridge,Washington,UK,Live Pounds,51486,26843,185,20
+2019,Crab Jonah,Portland,Cumberland,UK,Live Pounds,10794,6966,53,9
+2019,Crab Jonah,Southwest Harbor,Hancock,UK,Live Pounds,33724,21832,404,25
+2019,Crab Jonah,Steuben,Washington,UK,Live Pounds,11073,5537,27,6
+2019,Crab Jonah,Stonington,Hancock,UK,Live Pounds,140781,55959,1221,70
+2020,Crab Jonah,Bass Harbor,Hancock,UK,Live Pounds,4227,2405,21,5
+2020,Crab Jonah,Beals,Washington,UK,Live Pounds,149440,82221,1755,70
+2020,Crab Jonah,Cundys Harbor,Cumberland,UK,Live Pounds,10558,6076,72,16
+2020,Crab Jonah,Harpswell,Cumberland,UK,Live Pounds,15375,8400,22,6
+2020,Crab Jonah,Milbridge,Washington,UK,Live Pounds,27544,15349,151,12
+2020,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,435990,233202,2507,205
+2020,Crab Jonah,Portland,Cumberland,UK,Live Pounds,7049,5807,52,9
+2020,Crab Jonah,South Bristol,Lincoln,UK,Live Pounds,11542,7189,60,16
+2020,Crab Jonah,Steuben,Washington,UK,Live Pounds,4172,2115,14,5
+2020,Crab Jonah,Vinalhaven,Knox,UK,Live Pounds,27972,12987,78,15
+2021,Crab Jonah,Addison,Washington,UK,Live Pounds,15342,13843,285,15
+2021,Crab Jonah,Bass Harbor,Hancock,UK,Live Pounds,8589,6738,85,9
+2021,Crab Jonah,Beals,Washington,UK,Live Pounds,378771,292035,3253,144
+2021,Crab Jonah,Blue Hill,Hancock,UK,Live Pounds,70332,30364,130,18
+2021,Crab Jonah,Corea,Hancock,UK,Live Pounds,17001,15191,158,15
+2021,Crab Jonah,Friendship,Knox,UK,Live Pounds,48196,27500,204,11
+2021,Crab Jonah,Milbridge,Washington,UK,Live Pounds,37499,23189,191,12
+2021,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,646476,523272,3148,278
+2021,Crab Jonah,Port Clyde,Knox,UK,Live Pounds,25147,19411,102,9
+2021,Crab Jonah,Portland,Cumberland,UK,Live Pounds,1180,861,15,6
+2021,Crab Jonah,Spruce Head,Knox,UK,Live Pounds,73787,95512,221,26
+2021,Crab Jonah,Stonington,Hancock,UK,Live Pounds,81905,36369,1176,63
+2021,Crab Jonah,Tenants Harbor,Knox,UK,Live Pounds,19825,17058,97,13
+2022,Crab Jonah,Addison,Washington,UK,Live Pounds,27313,24829,606,23
+2022,Crab Jonah,Bass Harbor,Hancock,UK,Live Pounds,3308,2263,76,8
+2022,Crab Jonah,Beals,Washington,UK,Live Pounds,524050,549817,3768,157
+2022,Crab Jonah,Blue Hill,Hancock,UK,Live Pounds,89350,83209,221,28
+2022,Crab Jonah,Milbridge,Washington,UK,Live Pounds,51615,55952,184,6
+2022,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,897554,827633,4435,318
+2022,Crab Jonah,Portland,Cumberland,UK,Live Pounds,16160,14200,59,22
+2022,Crab Jonah,South Bristol,Lincoln,UK,Live Pounds,37077,35207,385,28
+2022,Crab Jonah,Spruce Head,Knox,UK,Live Pounds,95229,86771,292,22
+2022,Crab Jonah,Stonington,Hancock,UK,Live Pounds,302864,264911,2872,137
+2022,Crab Jonah,Tenants Harbor,Knox,UK,Live Pounds,14926,18821,62,10
+2022,Crab Jonah,Vinalhaven,Knox,UK,Live Pounds,48098,75329,324,46
+2023,Crab Jonah,Bar Harbor,Hancock,UK,Live Pounds,12026,11984,13,5
+2023,Crab Jonah,Bass Harbor,Hancock,UK,Live Pounds,8275,7653,36,6
+2023,Crab Jonah,Beals,Washington,UK,Live Pounds,106602,84319,545,59
+2023,Crab Jonah,Blue Hill,Hancock,UK,Live Pounds,11954,12929,25,6
+2023,Crab Jonah,Brooksville,Hancock,UK,Live Pounds,3558,3192,19,3
+2023,Crab Jonah,Harpswell,Cumberland,UK,Live Pounds,10258,7801,91,15
+2023,Crab Jonah,Harrington,Washington,UK,Live Pounds,2488,1922,13,5
+2023,Crab Jonah,Jonesport,Washington,UK,Live Pounds,197535,109053,866,44
+2023,Crab Jonah,Kittery,York,UK,Live Pounds,11551,9097,147,12
+2023,Crab Jonah,Milbridge,Washington,UK,Live Pounds,49100,49282,209,10
+2023,Crab Jonah,Northeast Harbor,Hancock,UK,Live Pounds,117305,90248,110,5
+2023,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,806105,595529,3210,227
+2023,Crab Jonah,Portland,Cumberland,UK,Live Pounds,37479,28807,273,18
+2023,Crab Jonah,Sorrento,Hancock,UK,Live Pounds,14263,10585,163,9
+2023,Crab Jonah,South Bristol,Lincoln,UK,Live Pounds,23609,22228,200,19
+2023,Crab Jonah,Steuben,Washington,UK,Live Pounds,421,399,5,3
+2023,Crab Jonah,Stonington,Hancock,UK,Live Pounds,100433,88477,664,78
+2023,Crab Jonah,Tenants Harbor,Knox,UK,Live Pounds,13003,13187,41,6
+2023,Crab Jonah,Vinalhaven,Knox,UK,Live Pounds,63920,54647,342,35
+2024,Crab Jonah,Cushing,Knox,UK,Live Pounds,50991,46632,98,6
+2024,Crab Jonah,Friendship,Knox,UK,Live Pounds,37336,34917,60,5
+2024,Crab Jonah,Jonesport,Washington,UK,Live Pounds,176199,101544,733,46
+2024,Crab Jonah,Northeast Harbor,Hancock,UK,Live Pounds,76979,35345,171,6
+2024,Crab Jonah,Other Maine,Not-Specified,UK,Live Pounds,627663,433433,2882,283
+2024,Crab Jonah,Portland,Cumberland,UK,Live Pounds,125857,83181,586,25
+2024,Crab Jonah,Southwest Harbor,Hancock,UK,Live Pounds,12631,7557,183,17
+2024,Crab Jonah,Stonington,Hancock,UK,Live Pounds,139675,69900,888,65
+2024,Crab Jonah,Vinalhaven,Knox,UK,Live Pounds,134706,64224,556,56

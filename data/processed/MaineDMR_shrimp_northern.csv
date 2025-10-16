@@ -1,0 +1,55 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Shrimp Northern,Georgetown,Sagadahoc,UK,Live Pounds,194781,121166,152,15
+2008,Shrimp Northern,New Harbor,Lincoln,UK,Live Pounds,538048,248291,377,20
+2008,Shrimp Northern,Other Maine,Not-Specified,UK,Live Pounds,3408014,1661983,1901,104
+2008,Shrimp Northern,Pemaquid,Lincoln,UK,Live Pounds,105375,51227,98,7
+2008,Shrimp Northern,Phippsburg,Sagadahoc,UK,Live Pounds,50985,24499,30,3
+2008,Shrimp Northern,Port Clyde,Knox,UK,Live Pounds,562449,299639,248,14
+2008,Shrimp Northern,Portland,Cumberland,UK,Live Pounds,1839482,871658,491,27
+2008,Shrimp Northern,South Bristol,Lincoln,UK,Live Pounds,1792648,887948,1136,47
+2009,Shrimp Northern,Boothbay Harbor,Lincoln,UK,Live Pounds,237850,95529,219,12
+2009,Shrimp Northern,Harpswell,Cumberland,UK,Live Pounds,28934,19835,36,4
+2009,Shrimp Northern,New Harbor,Lincoln,UK,Live Pounds,147067,48257,130,12
+2009,Shrimp Northern,Other Maine,Not-Specified,UK,Live Pounds,1795943,795597,825,61
+2009,Shrimp Northern,Portland,Cumberland,UK,Live Pounds,1286245,530562,420,27
+2009,Shrimp Northern,South Bristol,Lincoln,UK,Live Pounds,1295982,436268,810,36
+2010,Shrimp Northern,Boothbay Harbor,Lincoln,UK,Live Pounds,986508,513320,569,28
+2010,Shrimp Northern,New Harbor,Lincoln,UK,Live Pounds,631404,323173,444,21
+2010,Shrimp Northern,Other Maine,Not-Specified,UK,Live Pounds,4553457,2408636,1899,87
+2010,Shrimp Northern,Port Clyde,Knox,UK,Live Pounds,536116,310881,225,12
+2010,Shrimp Northern,Portland,Cumberland,UK,Live Pounds,2821630,1655895,706,40
+2010,Shrimp Northern,South Bristol,Lincoln,UK,Live Pounds,2638337,1390966,1284,46
+2010,Shrimp Northern,Tenants Harbor,Knox,UK,Live Pounds,104662,57135,130,10
+2011,Shrimp Northern,Boothbay Harbor,Lincoln,UK,Live Pounds,831369,600520,606,30
+2011,Shrimp Northern,New Harbor,Lincoln,UK,Live Pounds,694822,495994,699,31
+2011,Shrimp Northern,Other Maine,Not-Specified,UK,Live Pounds,3303942,2527289,1857,113
+2011,Shrimp Northern,Port Clyde,Knox,UK,Live Pounds,490326,387828,259,13
+2011,Shrimp Northern,Portland,Cumberland,UK,Live Pounds,2671402,2059208,775,38
+2011,Shrimp Northern,South Bristol,Lincoln,UK,Live Pounds,1735059,1274866,1075,43
+2011,Shrimp Northern,Stonington,Hancock,UK,Live Pounds,405158,281741,203,11
+2012,Shrimp Northern,Boothbay Harbor,Lincoln,UK,Live Pounds,216434,203859,239,26
+2012,Shrimp Northern,Bremen,Lincoln,UK,Live Pounds,133819,132118,99,13
+2012,Shrimp Northern,Friendship,Knox,UK,Live Pounds,280351,269260,165,13
+2012,Shrimp Northern,Harpswell,Cumberland,UK,Live Pounds,103682,95743,57,6
+2012,Shrimp Northern,New Harbor,Lincoln,UK,Live Pounds,509773,479103,403,30
+2012,Shrimp Northern,Other Maine,Not-Specified,UK,Live Pounds,1207702,1132084,812,95
+2012,Shrimp Northern,Port Clyde,Knox,UK,Live Pounds,257081,254245,125,12
+2012,Shrimp Northern,Portland,Cumberland,UK,Live Pounds,967060,939367,444,36
+2012,Shrimp Northern,South Bristol,Lincoln,UK,Live Pounds,988654,946998,617,40
+2012,Shrimp Northern,Stonington,Hancock,UK,Live Pounds,113223,106946,118,9
+2012,Shrimp Northern,Tenants Harbor,Knox,UK,Live Pounds,39331,37910,44,13
+2013,Shrimp Northern,Boothbay Harbor,Lincoln,UK,Live Pounds,23258,42467,89,13
+2013,Shrimp Northern,Bremen,Lincoln,UK,Live Pounds,27327,48159,67,11
+2013,Shrimp Northern,Cushing,Knox,UK,Live Pounds,11615,22925,20,3
+2013,Shrimp Northern,Friendship,Knox,UK,Live Pounds,16839,31961,42,10
+2013,Shrimp Northern,Harpswell,Cumberland,UK,Live Pounds,19038,34910,39,4
+2013,Shrimp Northern,New Harbor,Lincoln,UK,Live Pounds,60375,108038,174,20
+2013,Shrimp Northern,Other Maine,Not-Specified,UK,Live Pounds,157363,266832,289,58
+2013,Shrimp Northern,Portland,Cumberland,UK,Live Pounds,53441,101973,83,10
+2013,Shrimp Northern,Sorrento,Hancock,UK,Live Pounds,27679,48874,30,3
+2013,Shrimp Northern,South Bristol,Lincoln,UK,Live Pounds,141778,258568,304,28
+2013,Shrimp Northern,Stonington,Hancock,UK,Live Pounds,24599,44060,61,8
+2016,Shrimp Northern,Other Maine,Not-Specified,UK,Live Pounds,20581,146841,45,6
+2017,Shrimp Northern,Bristol,Lincoln,UK,Live Pounds,7177,40370,19,4
+2017,Shrimp Northern,Other Maine,Not-Specified,UK,Live Pounds,16217,107237,41,10
+2017,Shrimp Northern,Portland,Cumberland,UK,Live Pounds,28716,180570,39,6

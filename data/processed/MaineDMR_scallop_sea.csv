@@ -1,0 +1,317 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,4208,51738,95,10
+2008,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,4752,34553,103,25
+2008,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,6898,45150,65,10
+2008,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,100726,725827,1443,175
+2008,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,15750,104382,182,31
+2008,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,4156,52440,163,10
+2009,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,1770,23038,28,5
+2009,Scallop Sea,Lubec,Washington,UK,Meat Pounds,10264,67237,98,22
+2009,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,62212,466455,818,128
+2009,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,5139,35104,45,14
+2010,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,4620,57471,69,6
+2010,Scallop Sea,Cutler,Washington,UK,Meat Pounds,450,3449,10,9
+2010,Scallop Sea,Deer Isle,Hancock,UK,Meat Pounds,488,4686,9,3
+2010,Scallop Sea,Eastport,Washington,UK,Meat Pounds,211,2830,3,3
+2010,Scallop Sea,Harpswell,Cumberland,UK,Meat Pounds,1598,13336,35,4
+2010,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,33980,251186,398,61
+2010,Scallop Sea,Lubec,Washington,UK,Meat Pounds,19150,139205,224,36
+2010,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,2292,51614,104,18
+2010,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,79976,596932,842,103
+2010,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,26780,220720,257,38
+2010,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,3829,26689,44,7
+2010,Scallop Sea,Sorrento,Hancock,UK,Meat Pounds,5063,43937,53,5
+2010,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,2308,23428,39,12
+2010,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,5551,45814,82,11
+2010,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,6190,64546,141,13
+2011,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,4316,53856,91,14
+2011,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,405,3797,14,3
+2011,Scallop Sea,Harpswell,Cumberland,UK,Meat Pounds,736,7342,34,4
+2011,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,41649,395008,604,77
+2011,Scallop Sea,Lubec,Washington,UK,Meat Pounds,24395,238384,282,61
+2011,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,2301,21241,47,11
+2011,Scallop Sea,Mount Desert,Hancock,UK,Meat Pounds,867,8844,23,4
+2011,Scallop Sea,Northeast Harbor,Hancock,UK,Meat Pounds,1423,17257,18,4
+2011,Scallop Sea,Other Hancock,Hancock,UK,Meat Pounds,3733,33663,73,24
+2011,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,56285,587486,781,133
+2011,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,21194,202370,223,42
+2011,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,3402,28233,55,6
+2011,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,7119,71361,120,9
+2011,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,7274,78934,180,24
+2012,Scallop Sea,Beals,Washington,UK,Meat Pounds,22147,221119,347,66
+2012,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,10174,123011,123,30
+2012,Scallop Sea,Gouldsboro,Hancock,UK,Meat Pounds,4655,74596,50,21
+2012,Scallop Sea,Hancock,Hancock,UK,Meat Pounds,2893,32043,29,5
+2012,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,35169,340703,399,55
+2012,Scallop Sea,Lubec,Washington,UK,Meat Pounds,41895,410080,481,79
+2012,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,4088,189572,236,31
+2012,Scallop Sea,Mount Desert,Hancock,UK,Meat Pounds,35067,329454,235,54
+2012,Scallop Sea,Other Hancock,Hancock,UK,Meat Pounds,5101,61358,71,13
+2012,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,42541,500954,623,103
+2012,Scallop Sea,Owls Head,Knox,UK,Meat Pounds,1091,11575,15,4
+2012,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,25130,245595,310,67
+2012,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,11795,123438,151,14
+2012,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,14705,156338,144,30
+2012,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,4768,51667,68,14
+2012,Scallop Sea,Steuben,Washington,UK,Meat Pounds,1464,29992,21,9
+2012,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,28121,332192,456,40
+2012,Scallop Sea,Winter Harbor,Hancock,UK,Meat Pounds,1673,16051,18,8
+2013,Scallop Sea,Beals,Washington,UK,Meat Pounds,30796,344684,317,71
+2013,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,8515,159688,169,26
+2013,Scallop Sea,Corea,Hancock,UK,Meat Pounds,8021,82604,58,19
+2013,Scallop Sea,Eastport,Washington,UK,Meat Pounds,36355,465796,415,85
+2013,Scallop Sea,Gouldsboro,Hancock,UK,Meat Pounds,6259,79690,59,20
+2013,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,46491,497019,494,56
+2013,Scallop Sea,Lubec,Washington,UK,Meat Pounds,82629,950761,969,100
+2013,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,57569,598605,638,39
+2013,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,46142,504675,567,105
+2013,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,89087,964337,1036,116
+2013,Scallop Sea,Port Clyde,Knox,UK,Meat Pounds,22929,272669,144,3
+2013,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,21295,178750,178,16
+2013,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,2567,27620,47,13
+2013,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,5078,53549,57,10
+2013,Scallop Sea,Steuben,Washington,UK,Meat Pounds,6682,75895,79,10
+2013,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,34659,392810,572,42
+2013,Scallop Sea,Tenants Harbor,Knox,UK,Meat Pounds,537,5596,11,3
+2014,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,5813,81726,95,8
+2014,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,1506,18889,15,4
+2014,Scallop Sea,Cutler,Washington,UK,Meat Pounds,4880,64114,54,14
+2014,Scallop Sea,Eastport,Washington,UK,Meat Pounds,38887,486932,457,98
+2014,Scallop Sea,Edmunds,Washington,UK,Meat Pounds,5152,65530,60,25
+2014,Scallop Sea,Gouldsboro,Hancock,UK,Meat Pounds,1030,19121,14,7
+2014,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,99386,1241785,1048,89
+2014,Scallop Sea,Lubec,Washington,UK,Meat Pounds,107045,1360133,1235,102
+2014,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,92283,1167352,868,54
+2014,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,3599,46047,39,6
+2014,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,87939,1139867,955,167
+2014,Scallop Sea,Owls Head,Knox,UK,Meat Pounds,5146,62730,47,3
+2014,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,29119,368720,353,68
+2014,Scallop Sea,Port Clyde,Knox,UK,Meat Pounds,11087,146619,96,5
+2014,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,31950,365820,289,23
+2014,Scallop Sea,Sorrento,Hancock,UK,Meat Pounds,5491,73935,60,5
+2014,Scallop Sea,South Thomaston,Knox,UK,Meat Pounds,1239,15321,47,4
+2014,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,6777,90650,95,10
+2014,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,10075,124263,98,13
+2014,Scallop Sea,Steuben,Washington,UK,Meat Pounds,926,32407,31,9
+2014,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,48108,622485,737,40
+2014,Scallop Sea,Tenants Harbor,Knox,UK,Meat Pounds,4633,37535,39,3
+2014,Scallop Sea,Trescott,Washington,UK,Meat Pounds,2117,24351,40,4
+2014,Scallop Sea,Winter Harbor,Hancock,UK,Meat Pounds,1172,16246,17,6
+2015,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,3670,52637,52,11
+2015,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,2508,30845,25,3
+2015,Scallop Sea,Cutler,Washington,UK,Meat Pounds,3559,45093,42,10
+2015,Scallop Sea,Deer Isle,Hancock,UK,Meat Pounds,6754,81662,74,8
+2015,Scallop Sea,Eastport,Washington,UK,Meat Pounds,15793,207641,221,36
+2015,Scallop Sea,Edmunds,Washington,UK,Meat Pounds,5009,65431,63,11
+2015,Scallop Sea,Friendship,Knox,UK,Meat Pounds,940,11965,13,5
+2015,Scallop Sea,Gouldsboro,Hancock,UK,Meat Pounds,3418,46098,31,9
+2015,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,70434,880154,757,92
+2015,Scallop Sea,Lubec,Washington,UK,Meat Pounds,120841,1525796,1414,114
+2015,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,87953,1108705,855,48
+2015,Scallop Sea,Mount Desert,Hancock,UK,Meat Pounds,2755,36281,31,9
+2015,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,49794,631430,562,100
+2015,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,33436,424287,419,92
+2015,Scallop Sea,Perry,Washington,UK,Meat Pounds,5880,76101,79,25
+2015,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,11764,146027,123,14
+2015,Scallop Sea,Roque Bluffs,Washington,UK,Meat Pounds,3500,45041,39,5
+2015,Scallop Sea,Sorrento,Hancock,UK,Meat Pounds,2341,31766,25,5
+2015,Scallop Sea,South Thomaston,Knox,UK,Meat Pounds,1357,17245,44,7
+2015,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,5172,68781,67,13
+2015,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,34211,461006,515,32
+2015,Scallop Sea,Tenants Harbor,Knox,UK,Meat Pounds,4150,55885,48,3
+2015,Scallop Sea,Trescott,Washington,UK,Meat Pounds,6986,85383,76,11
+2015,Scallop Sea,Vinalhaven,Knox,UK,Meat Pounds,3325,41214,30,5
+2015,Scallop Sea,Whiting,Washington,UK,Meat Pounds,7152,91280,80,21
+2016,Scallop Sea,Beals,Washington,UK,Meat Pounds,46616,591282,442,59
+2016,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,9837,144736,112,10
+2016,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,6096,77179,58,5
+2016,Scallop Sea,Cutler,Washington,UK,Meat Pounds,21475,274668,178,20
+2016,Scallop Sea,Deer Isle,Hancock,UK,Meat Pounds,14274,178888,157,13
+2016,Scallop Sea,Eastport,Washington,UK,Meat Pounds,15458,195558,162,38
+2016,Scallop Sea,Harpswell,Cumberland,UK,Meat Pounds,3644,47076,47,3
+2016,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,51605,667983,498,72
+2016,Scallop Sea,Lubec,Washington,UK,Meat Pounds,94101,1187945,1102,96
+2016,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,56854,713874,568,42
+2016,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,54778,707959,592,126
+2016,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,46459,592452,561,88
+2016,Scallop Sea,Perry,Washington,UK,Meat Pounds,9472,118078,109,34
+2016,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,21213,261143,180,19
+2016,Scallop Sea,Rockland,Knox,UK,Meat Pounds,5525,71555,60,7
+2016,Scallop Sea,Roque Bluffs,Washington,UK,Meat Pounds,6332,79894,61,6
+2016,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,8944,122223,104,14
+2016,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,7354,92434,77,10
+2016,Scallop Sea,Steuben,Washington,UK,Meat Pounds,5064,70176,46,18
+2016,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,62496,820374,747,42
+2016,Scallop Sea,Trescott,Washington,UK,Meat Pounds,4051,49682,51,8
+2017,Scallop Sea,Bass Harbor,Hancock,UK,Meat Pounds,2868,36983,26,4
+2017,Scallop Sea,Beals,Washington,UK,Meat Pounds,92863,1066881,898,84
+2017,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,2510,36368,40,7
+2017,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,5412,67493,51,5
+2017,Scallop Sea,Brooksville,Hancock,UK,Meat Pounds,3054,44180,33,3
+2017,Scallop Sea,Cutler,Washington,UK,Meat Pounds,87070,983764,708,37
+2017,Scallop Sea,Deer Isle,Hancock,UK,Meat Pounds,7535,96937,77,7
+2017,Scallop Sea,Eastport,Washington,UK,Meat Pounds,21264,247652,242,39
+2017,Scallop Sea,Edmunds,Washington,UK,Meat Pounds,2804,33070,34,11
+2017,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,68068,810860,718,67
+2017,Scallop Sea,Lubec,Washington,UK,Meat Pounds,125665,1456759,1416,82
+2017,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,60464,693299,568,41
+2017,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,7888,98201,72,17
+2017,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,81942,924975,767,111
+2017,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,44095,507925,544,65
+2017,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,20764,254355,212,26
+2017,Scallop Sea,Rockland,Knox,UK,Meat Pounds,4429,55401,38,5
+2017,Scallop Sea,Sorrento,Hancock,UK,Meat Pounds,2629,34194,26,3
+2017,Scallop Sea,South Bristol,Lincoln,UK,Meat Pounds,839,9743,9,4
+2017,Scallop Sea,South Thomaston,Knox,UK,Meat Pounds,1367,17243,38,4
+2017,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,18130,242450,208,21
+2017,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,11915,146509,119,11
+2017,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,60209,763424,686,34
+2017,Scallop Sea,Trescott,Washington,UK,Meat Pounds,11231,130333,102,17
+2017,Scallop Sea,Whiting,Washington,UK,Meat Pounds,47951,553813,529,69
+2017,Scallop Sea,Winter Harbor,Hancock,UK,Meat Pounds,2703,34210,29,7
+2018,Scallop Sea,Addison,Washington,UK,Meat Pounds,3806,40835,31,6
+2018,Scallop Sea,Beals,Washington,UK,Meat Pounds,82140,825692,820,62
+2018,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,1203,17105,24,5
+2018,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,3962,45557,40,4
+2018,Scallop Sea,Bucks Harbor,Washington,UK,Meat Pounds,2402,22442,22,6
+2018,Scallop Sea,Cutler,Washington,UK,Meat Pounds,42449,400392,356,15
+2018,Scallop Sea,Deer Isle,Hancock,UK,Meat Pounds,5989,66168,73,7
+2018,Scallop Sea,Eastport,Washington,UK,Meat Pounds,17217,181045,210,31
+2018,Scallop Sea,Edmunds,Washington,UK,Meat Pounds,4260,47849,49,16
+2018,Scallop Sea,Gouldsboro,Hancock,UK,Meat Pounds,5743,71199,75,13
+2018,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,22995,238061,239,34
+2018,Scallop Sea,Lubec,Washington,UK,Meat Pounds,53562,549649,602,59
+2018,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,78515,763038,709,53
+2018,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,7561,78226,73,11
+2018,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,83985,933127,927,99
+2018,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,41697,442447,510,81
+2018,Scallop Sea,Perry,Washington,UK,Meat Pounds,5565,59184,75,18
+2018,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,22356,237491,215,20
+2018,Scallop Sea,Rockland,Knox,UK,Meat Pounds,757,8869,6,3
+2018,Scallop Sea,Roque Bluffs,Washington,UK,Meat Pounds,4520,47733,51,6
+2018,Scallop Sea,Sorrento,Hancock,UK,Meat Pounds,5949,79936,85,4
+2018,Scallop Sea,South Bristol,Lincoln,UK,Meat Pounds,541,5068,6,3
+2018,Scallop Sea,South Thomaston,Knox,UK,Meat Pounds,5624,56863,82,9
+2018,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,28589,295143,278,17
+2018,Scallop Sea,Steuben,Washington,UK,Meat Pounds,13327,143012,120,17
+2018,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,54018,624477,745,36
+2018,Scallop Sea,Tenants Harbor,Knox,UK,Meat Pounds,8867,97289,74,4
+2018,Scallop Sea,Vinalhaven,Knox,UK,Meat Pounds,2243,23362,21,7
+2018,Scallop Sea,Winter Harbor,Hancock,UK,Meat Pounds,9228,99491,94,9
+2019,Scallop Sea,Bar Harbor,Hancock,UK,Meat Pounds,335,31955,31,6
+2019,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,669,64716,64,7
+2019,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,754,66048,65,6
+2019,Scallop Sea,Brooksville,Hancock,UK,Meat Pounds,137,12571,21,3
+2019,Scallop Sea,Bucks Harbor,Washington,UK,Meat Pounds,111,9724,8,3
+2019,Scallop Sea,Cutler,Washington,UK,Meat Pounds,3447,270433,269,19
+2019,Scallop Sea,Deer Isle,Hancock,UK,Meat Pounds,343,31333,30,5
+2019,Scallop Sea,Eastport,Washington,UK,Meat Pounds,1552,131972,161,26
+2019,Scallop Sea,Gouldsboro,Hancock,UK,Meat Pounds,246,21565,24,5
+2019,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,2905,250734,238,32
+2019,Scallop Sea,Lubec,Washington,UK,Meat Pounds,3599,311061,352,34
+2019,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,927,75470,94,22
+2019,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,251,24601,25,3
+2019,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,2046,178348,214,43
+2019,Scallop Sea,Perry,Washington,UK,Meat Pounds,690,58651,72,12
+2019,Scallop Sea,Port Clyde,Knox,UK,Meat Pounds,459,36244,35,3
+2019,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,1342,119190,103,17
+2019,Scallop Sea,Rockland,Knox,UK,Meat Pounds,143,11781,12,6
+2019,Scallop Sea,South Thomaston,Knox,UK,Meat Pounds,223,18761,26,6
+2019,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,1382,117468,133,21
+2019,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,3077,251491,244,14
+2019,Scallop Sea,Steuben,Washington,UK,Meat Pounds,320,29036,27,6
+2019,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,8650,811008,984,41
+2019,Scallop Sea,Vinalhaven,Knox,UK,Meat Pounds,471,38897,38,7
+2020,Scallop Sea,Addison,Washington,UK,Meat Pounds,6854,78294,63,6
+2020,Scallop Sea,Bass Harbor,Hancock,UK,Meat Pounds,9511,95499,109,11
+2020,Scallop Sea,Beals,Washington,UK,Meat Pounds,102447,1038464,938,49
+2020,Scallop Sea,Blue Hill,Hancock,UK,Meat Pounds,4975,53739,54,10
+2020,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,10151,101148,113,6
+2020,Scallop Sea,Brooksville,Hancock,UK,Meat Pounds,1011,10291,12,3
+2020,Scallop Sea,Cutler,Washington,UK,Meat Pounds,69785,654691,606,29
+2020,Scallop Sea,Eastport,Washington,UK,Meat Pounds,30480,328045,362,25
+2020,Scallop Sea,Edmunds,Washington,UK,Meat Pounds,15390,158462,184,17
+2020,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,32183,333514,282,28
+2020,Scallop Sea,Lubec,Washington,UK,Meat Pounds,67132,678439,748,37
+2020,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,27600,277809,235,21
+2020,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,4479,55330,48,10
+2020,Scallop Sea,Other Hancock,Hancock,UK,Meat Pounds,3092,39677,28,7
+2020,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,64317,698339,662,79
+2020,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,40999,466526,483,63
+2020,Scallop Sea,Perry,Washington,UK,Meat Pounds,5171,51042,67,15
+2020,Scallop Sea,Port Clyde,Knox,UK,Meat Pounds,1131,11334,19,3
+2020,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,29409,305867,157,22
+2020,Scallop Sea,South Thomaston,Knox,UK,Meat Pounds,1048,11896,30,3
+2020,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,9736,91578,113,11
+2020,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,27897,289233,240,13
+2020,Scallop Sea,Steuben,Washington,UK,Meat Pounds,7617,63904,46,5
+2020,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,103327,1097374,1189,47
+2021,Scallop Sea,Beals,Washington,UK,Meat Pounds,74740,1156187,741,37
+2021,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,2740,57080,31,4
+2021,Scallop Sea,Bucks Harbor,Washington,UK,Meat Pounds,13166,232874,100,15
+2021,Scallop Sea,Cutler,Washington,UK,Meat Pounds,59118,885040,516,29
+2021,Scallop Sea,Eastport,Washington,UK,Meat Pounds,39538,623926,475,36
+2021,Scallop Sea,Edmunds,Washington,UK,Meat Pounds,14535,235635,173,17
+2021,Scallop Sea,Gouldsboro,Hancock,UK,Meat Pounds,2271,45992,23,6
+2021,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,23047,388668,225,28
+2021,Scallop Sea,Lubec,Washington,UK,Meat Pounds,60146,924076,690,45
+2021,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,13356,208641,111,14
+2021,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,6865,108888,73,11
+2021,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,77196,1283928,803,88
+2021,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,58475,916706,699,77
+2021,Scallop Sea,Perry,Washington,UK,Meat Pounds,16792,312588,208,30
+2021,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,22367,334794,153,15
+2021,Scallop Sea,South Thomaston,Knox,UK,Meat Pounds,1865,25641,37,3
+2021,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,21793,332946,212,18
+2021,Scallop Sea,Steuben,Washington,UK,Meat Pounds,2727,47980,32,5
+2021,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,68581,1175552,822,47
+2021,Scallop Sea,Winter Harbor,Hancock,UK,Meat Pounds,1582,25761,24,3
+2022,Scallop Sea,Beals,Washington,UK,Meat Pounds,51036,761412,511,39
+2022,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,3849,66099,47,5
+2022,Scallop Sea,Bucks Harbor,Washington,UK,Meat Pounds,6211,82010,59,15
+2022,Scallop Sea,Cutler,Washington,UK,Meat Pounds,46406,688389,403,27
+2022,Scallop Sea,Eastport,Washington,UK,Meat Pounds,25290,383519,303,35
+2022,Scallop Sea,Edmunds,Washington,UK,Meat Pounds,4821,79565,54,12
+2022,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,36000,530031,347,39
+2022,Scallop Sea,Lubec,Washington,UK,Meat Pounds,44649,676860,486,54
+2022,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,4254,66717,45,7
+2022,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,89696,1785534,733,79
+2022,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,32313,541270,386,46
+2022,Scallop Sea,Perry,Washington,UK,Meat Pounds,34887,534146,442,48
+2022,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,23342,421944,198,21
+2022,Scallop Sea,Southwest Harbor,Hancock,UK,Meat Pounds,2699,54275,37,11
+2022,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,35801,601932,338,19
+2022,Scallop Sea,Steuben,Washington,UK,Meat Pounds,7671,129764,71,8
+2022,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,94891,1693009,1178,49
+2022,Scallop Sea,Yarmouth,Cumberland,UK,Meat Pounds,425,10994,12,3
+2023,Scallop Sea,Beals,Washington,UK,Meat Pounds,53939,681673,550,38
+2023,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,3096,41306,40,5
+2023,Scallop Sea,Cutler,Washington,UK,Meat Pounds,135915,1671150,1159,65
+2023,Scallop Sea,Eastport,Washington,UK,Meat Pounds,35267,448984,427,36
+2023,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,23091,300704,208,36
+2023,Scallop Sea,Lubec,Washington,UK,Meat Pounds,83388,1051235,914,53
+2023,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,3782,52168,39,6
+2023,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,183191,2877904,1666,166
+2023,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,23205,326771,277,38
+2023,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,20794,304563,190,23
+2023,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,47410,632841,456,24
+2023,Scallop Sea,Steuben,Washington,UK,Meat Pounds,5996,77397,60,7
+2023,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,74342,1116608,961,44
+2023,Scallop Sea,Tenants Harbor,Knox,UK,Meat Pounds,7445,111856,83,5
+2024,Scallop Sea,Beals,Washington,UK,Meat Pounds,41970,669812,433,28
+2024,Scallop Sea,Brooklin,Hancock,UK,Meat Pounds,3310,57210,51,3
+2024,Scallop Sea,Cutler,Washington,UK,Meat Pounds,55155,761695,456,35
+2024,Scallop Sea,Eastport,Washington,UK,Meat Pounds,38517,652373,456,45
+2024,Scallop Sea,Edmunds,Washington,UK,Meat Pounds,2505,30566,22,8
+2024,Scallop Sea,Gouldsboro,Hancock,UK,Meat Pounds,2705,53919,29,9
+2024,Scallop Sea,Harpswell,Cumberland,UK,Meat Pounds,989,17470,17,3
+2024,Scallop Sea,Jonesport,Washington,UK,Meat Pounds,18903,272138,189,27
+2024,Scallop Sea,Lubec,Washington,UK,Meat Pounds,49690,819583,585,46
+2024,Scallop Sea,Machiasport,Washington,UK,Meat Pounds,8325,177043,85,12
+2024,Scallop Sea,Milbridge,Washington,UK,Meat Pounds,4245,65807,31,5
+2024,Scallop Sea,Other Maine,Not-Specified,UK,Meat Pounds,132111,2590582,1429,157
+2024,Scallop Sea,Pembroke,Washington,UK,Meat Pounds,28274,490042,350,47
+2024,Scallop Sea,Portland,Cumberland,UK,Meat Pounds,21986,317530,246,22
+2024,Scallop Sea,Spruce Head,Knox,UK,Meat Pounds,49196,743150,463,27
+2024,Scallop Sea,Stonington,Hancock,UK,Meat Pounds,69569,1241485,887,36
+2024,Scallop Sea,Tenants Harbor,Knox,UK,Meat Pounds,6116,90363,50,5

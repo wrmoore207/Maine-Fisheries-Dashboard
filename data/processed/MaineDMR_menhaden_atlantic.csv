@@ -1,0 +1,311 @@
+year,species,port,county,lob_zone,weight_type,weight,value,trip_n,harv_n
+2008,Menhaden Atlantic,Other Maine,Not-Specified,UK,Live Pounds,454840,46291,19,6
+2008,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,3855215,394346,99,6
+2009,Menhaden Atlantic,Other Maine,Not-Specified,UK,Live Pounds,166942,21482,11,5
+2016,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,3531700,919835,44,4
+2017,Menhaden Atlantic,Other Maine,Not-Specified,UK,Live Pounds,1124234,402686,169,6
+2017,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,1289200,279154,18,4
+2018,Menhaden Atlantic,Boothbay Harbor,Lincoln,UK,Live Pounds,460923,138277,0,8
+2018,Menhaden Atlantic,Bremen,Lincoln,UK,Live Pounds,678502,203551,0,7
+2018,Menhaden Atlantic,Brunswick,Cumberland,UK,Live Pounds,7400,2220,0,3
+2018,Menhaden Atlantic,Cape Porpoise,York,UK,Live Pounds,73050,21915,0,3
+2018,Menhaden Atlantic,Cushing,Knox,UK,Live Pounds,36950,11085,0,5
+2018,Menhaden Atlantic,Edgecomb,Lincoln,UK,Live Pounds,14430,4329,0,3
+2018,Menhaden Atlantic,Friendship,Knox,UK,Live Pounds,2136445,640934,125,12
+2018,Menhaden Atlantic,Harpswell,Cumberland,UK,Live Pounds,2917710,875313,0,19
+2018,Menhaden Atlantic,New Harbor,Lincoln,UK,Live Pounds,269380,80814,0,6
+2018,Menhaden Atlantic,Other Maine,Not-Specified,UK,Live Pounds,1743478,523043,37,41
+2018,Menhaden Atlantic,Phippsburg,Sagadahoc,UK,Live Pounds,518883,155665,0,15
+2018,Menhaden Atlantic,Port Clyde,Knox,UK,Live Pounds,205740,61722,1,8
+2018,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,3580620,1074186,56,12
+2018,Menhaden Atlantic,Scarborough,Cumberland,UK,Live Pounds,1137600,341280,0,3
+2018,Menhaden Atlantic,Sebasco,Sagadahoc,UK,Live Pounds,89140,26742,0,4
+2018,Menhaden Atlantic,South Bristol,Lincoln,UK,Live Pounds,537290,161187,35,6
+2018,Menhaden Atlantic,Spruce Head,Knox,UK,Live Pounds,5600,1680,0,3
+2018,Menhaden Atlantic,St. George,Knox,UK,Live Pounds,9040,2712,0,3
+2018,Menhaden Atlantic,Stonington,Hancock,UK,Live Pounds,89435,26831,0,7
+2018,Menhaden Atlantic,Tenants Harbor,Knox,UK,Live Pounds,32160,9648,9,3
+2018,Menhaden Atlantic,Vinalhaven,Knox,UK,Live Pounds,141030,42309,0,4
+2018,Menhaden Atlantic,West Point,Sagadahoc,UK,Live Pounds,122610,36783,0,3
+2018,Menhaden Atlantic,Yarmouth,Cumberland,UK,Live Pounds,11225,3368,0,5
+2019,Menhaden Atlantic,Bailey Island,Cumberland,UK,Live Pounds,264017,71549,1,6
+2019,Menhaden Atlantic,Bass Harbor,Hancock,UK,Live Pounds,736600,199619,28,5
+2019,Menhaden Atlantic,Blue Hill,Hancock,UK,Live Pounds,615,167,0,3
+2019,Menhaden Atlantic,Boothbay,Lincoln,UK,Live Pounds,884460,239689,0,5
+2019,Menhaden Atlantic,Boothbay Harbor,Lincoln,UK,Live Pounds,803745,217815,0,14
+2019,Menhaden Atlantic,Bremen,Lincoln,UK,Live Pounds,685467,185762,0,11
+2019,Menhaden Atlantic,Cape Porpoise,York,UK,Live Pounds,186795,50621,0,4
+2019,Menhaden Atlantic,Cliff Island,Cumberland,UK,Live Pounds,4865,1318,0,4
+2019,Menhaden Atlantic,Cundys Harbor,Cumberland,UK,Live Pounds,509296,138019,0,9
+2019,Menhaden Atlantic,Cushing,Knox,UK,Live Pounds,361159,97874,1,11
+2019,Menhaden Atlantic,Deer Isle,Hancock,UK,Live Pounds,21355,5787,0,9
+2019,Menhaden Atlantic,Edgecomb,Lincoln,UK,Live Pounds,36100,9783,0,3
+2019,Menhaden Atlantic,Freeport,Cumberland,UK,Live Pounds,355005,96206,0,3
+2019,Menhaden Atlantic,Friendship,Knox,UK,Live Pounds,2315353,627461,175,16
+2019,Menhaden Atlantic,Harpswell,Cumberland,UK,Live Pounds,3166690,858173,0,28
+2019,Menhaden Atlantic,Kittery,York,UK,Live Pounds,17080,4629,0,3
+2019,Menhaden Atlantic,Lamoine,Hancock,UK,Live Pounds,27900,7561,0,3
+2019,Menhaden Atlantic,Long Island,Cumberland,UK,Live Pounds,46944,12722,0,6
+2019,Menhaden Atlantic,Milbridge,Washington,UK,Live Pounds,31830,8626,0,8
+2019,Menhaden Atlantic,New Harbor,Lincoln,UK,Live Pounds,509270,138012,0,10
+2019,Menhaden Atlantic,North Haven,Knox,UK,Live Pounds,77920,21116,0,4
+2019,Menhaden Atlantic,Owls Head,Knox,UK,Live Pounds,143400,38861,0,3
+2019,Menhaden Atlantic,Phippsburg,Sagadahoc,UK,Live Pounds,467484,126688,0,14
+2019,Menhaden Atlantic,Port Clyde,Knox,UK,Live Pounds,337709,91519,2,12
+2019,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,6374160,1727397,119,28
+2019,Menhaden Atlantic,Rockland,Knox,UK,Live Pounds,506085,137149,3,6
+2019,Menhaden Atlantic,Round Pond,Lincoln,UK,Live Pounds,425750,115378,0,3
+2019,Menhaden Atlantic,Scarborough,Cumberland,UK,Live Pounds,912600,247315,1,4
+2019,Menhaden Atlantic,Sebasco,Sagadahoc,UK,Live Pounds,221301,59973,14,8
+2019,Menhaden Atlantic,Small Point,Sagadahoc,UK,Live Pounds,99718,27023,0,3
+2019,Menhaden Atlantic,Sorrento,Hancock,UK,Live Pounds,431200,116855,62,3
+2019,Menhaden Atlantic,South Bristol,Lincoln,UK,Live Pounds,1070568,290124,50,8
+2019,Menhaden Atlantic,Spruce Head,Knox,UK,Live Pounds,505075,136875,34,8
+2019,Menhaden Atlantic,St. George,Knox,UK,Live Pounds,41750,11314,6,3
+2019,Menhaden Atlantic,Steuben,Washington,UK,Live Pounds,74570,20208,0,3
+2019,Menhaden Atlantic,Stonington,Hancock,UK,Live Pounds,501390,135877,2,19
+2019,Menhaden Atlantic,Tenants Harbor,Knox,UK,Live Pounds,195967,53107,14,6
+2019,Menhaden Atlantic,Vinalhaven,Knox,UK,Live Pounds,748700,202898,0,14
+2019,Menhaden Atlantic,Waldoboro,Lincoln,UK,Live Pounds,3920,1062,0,3
+2019,Menhaden Atlantic,West Point,Sagadahoc,UK,Live Pounds,113920,30872,0,3
+2019,Menhaden Atlantic,Yarmouth,Cumberland,UK,Live Pounds,17296,4687,0,5
+2020,Menhaden Atlantic,Addison,Washington,UK,Live Pounds,10500,2762,0,4
+2020,Menhaden Atlantic,Bailey Island,Cumberland,UK,Live Pounds,798785,210080,0,7
+2020,Menhaden Atlantic,Blue Hill,Hancock,UK,Live Pounds,75540,19867,0,6
+2020,Menhaden Atlantic,Boothbay,Lincoln,UK,Live Pounds,28125,7397,0,5
+2020,Menhaden Atlantic,Boothbay Harbor,Lincoln,UK,Live Pounds,1754898,461538,0,17
+2020,Menhaden Atlantic,Bremen,Lincoln,UK,Live Pounds,816990,214868,0,11
+2020,Menhaden Atlantic,Cape Porpoise,York,UK,Live Pounds,174077,45782,0,4
+2020,Menhaden Atlantic,Cliff Island,Cumberland,UK,Live Pounds,1485,391,0,4
+2020,Menhaden Atlantic,Cundys Harbor,Cumberland,UK,Live Pounds,860430,226293,0,12
+2020,Menhaden Atlantic,Cushing,Knox,UK,Live Pounds,573820,150915,19,11
+2020,Menhaden Atlantic,Deer Isle,Hancock,UK,Live Pounds,219865,57824,0,7
+2020,Menhaden Atlantic,Freeport,Cumberland,UK,Live Pounds,70495,18540,0,7
+2020,Menhaden Atlantic,Friendship,Knox,UK,Live Pounds,2344605,616631,185,22
+2020,Menhaden Atlantic,Harpswell,Cumberland,UK,Live Pounds,2992730,787088,0,30
+2020,Menhaden Atlantic,Islesboro,Waldo,UK,Live Pounds,49615,13049,0,5
+2020,Menhaden Atlantic,Islesford,Hancock,UK,Live Pounds,21380,5623,16,3
+2020,Menhaden Atlantic,Jonesport,Washington,UK,Live Pounds,12000,3156,0,3
+2020,Menhaden Atlantic,Kennebunkport,York,UK,Live Pounds,368035,96793,23,4
+2020,Menhaden Atlantic,Long Island,Cumberland,UK,Live Pounds,67087,17644,0,3
+2020,Menhaden Atlantic,Matinicus Isle,Knox,UK,Live Pounds,25000,6575,0,3
+2020,Menhaden Atlantic,Milbridge,Washington,UK,Live Pounds,102005,26827,0,12
+2020,Menhaden Atlantic,New Harbor,Lincoln,UK,Live Pounds,807785,212447,5,13
+2020,Menhaden Atlantic,North Haven,Knox,UK,Live Pounds,101660,26737,0,5
+2020,Menhaden Atlantic,Other Maine,Not-Specified,UK,Live Pounds,1472488,387264,16,53
+2020,Menhaden Atlantic,Owls Head,Knox,UK,Live Pounds,271850,71497,0,5
+2020,Menhaden Atlantic,Phippsburg,Sagadahoc,UK,Live Pounds,579885,152510,3,15
+2020,Menhaden Atlantic,Port Clyde,Knox,UK,Live Pounds,747140,196498,48,13
+2020,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,4596092,1208772,93,32
+2020,Menhaden Atlantic,Rockland,Knox,UK,Live Pounds,715872,188274,0,13
+2020,Menhaden Atlantic,Round Pond,Lincoln,UK,Live Pounds,468282,123158,0,6
+2020,Menhaden Atlantic,Scarborough,Cumberland,UK,Live Pounds,398170,104719,0,4
+2020,Menhaden Atlantic,Sebasco,Sagadahoc,UK,Live Pounds,141940,37330,13,9
+2020,Menhaden Atlantic,Small Point,Sagadahoc,UK,Live Pounds,52385,13777,0,3
+2020,Menhaden Atlantic,Sorrento,Hancock,UK,Live Pounds,598150,157313,91,5
+2020,Menhaden Atlantic,South Bristol,Lincoln,UK,Live Pounds,1076785,283194,64,9
+2020,Menhaden Atlantic,Spruce Head,Knox,UK,Live Pounds,684805,180104,0,10
+2020,Menhaden Atlantic,Spruce Head Island,Knox,UK,Live Pounds,152750,40173,0,5
+2020,Menhaden Atlantic,St. George,Knox,UK,Live Pounds,102590,26981,7,4
+2020,Menhaden Atlantic,Steuben,Washington,UK,Live Pounds,85150,22394,0,5
+2020,Menhaden Atlantic,Stonington,Hancock,UK,Live Pounds,1445514,380170,0,31
+2020,Menhaden Atlantic,Tenants Harbor,Knox,UK,Live Pounds,203111,53418,21,11
+2020,Menhaden Atlantic,Vinalhaven,Knox,UK,Live Pounds,919096,241722,25,24
+2020,Menhaden Atlantic,Waldoboro,Lincoln,UK,Live Pounds,20510,5394,0,3
+2020,Menhaden Atlantic,West Point,Sagadahoc,UK,Live Pounds,128730,33856,0,9
+2020,Menhaden Atlantic,Westport Island,Lincoln,UK,Live Pounds,5350,1407,0,3
+2020,Menhaden Atlantic,Yarmouth,Cumberland,UK,Live Pounds,29285,7702,0,6
+2021,Menhaden Atlantic,Bailey Island,Cumberland,UK,Live Pounds,665090,286654,22,9
+2021,Menhaden Atlantic,Bass Harbor,Hancock,UK,Live Pounds,28560,12309,0,3
+2021,Menhaden Atlantic,Belfast,Waldo,UK,Live Pounds,203931,87894,0,4
+2021,Menhaden Atlantic,Blue Hill,Hancock,UK,Live Pounds,27345,11786,0,3
+2021,Menhaden Atlantic,Boothbay,Lincoln,UK,Live Pounds,19640,8465,0,3
+2021,Menhaden Atlantic,Boothbay Harbor,Lincoln,UK,Live Pounds,744859,321035,0,16
+2021,Menhaden Atlantic,Bremen,Lincoln,UK,Live Pounds,858050,369820,0,9
+2021,Menhaden Atlantic,Chebeague Island,Cumberland,UK,Live Pounds,23100,9956,0,3
+2021,Menhaden Atlantic,Cundys Harbor,Cumberland,UK,Live Pounds,793108,341830,0,17
+2021,Menhaden Atlantic,Cushing,Knox,UK,Live Pounds,500590,215754,0,7
+2021,Menhaden Atlantic,Deer Isle,Hancock,UK,Live Pounds,104090,44863,0,5
+2021,Menhaden Atlantic,Freeport,Cumberland,UK,Live Pounds,282974,121962,0,5
+2021,Menhaden Atlantic,Friendship,Knox,UK,Live Pounds,2221961,957665,123,22
+2021,Menhaden Atlantic,Harpswell,Cumberland,UK,Live Pounds,2427345,1046186,5,30
+2021,Menhaden Atlantic,Jonesport,Washington,UK,Live Pounds,34546,14889,0,4
+2021,Menhaden Atlantic,Lamoine,Hancock,UK,Live Pounds,91980,39643,0,5
+2021,Menhaden Atlantic,Long Island,Cumberland,UK,Live Pounds,70510,30390,0,4
+2021,Menhaden Atlantic,Milbridge,Washington,UK,Live Pounds,295110,127192,0,8
+2021,Menhaden Atlantic,New Harbor,Lincoln,UK,Live Pounds,737775,317981,0,11
+2021,Menhaden Atlantic,North Haven,Knox,UK,Live Pounds,135213,58277,0,3
+2021,Menhaden Atlantic,Other Maine,Not-Specified,UK,Live Pounds,1849169,796992,58,62
+2021,Menhaden Atlantic,Owls Head,Knox,UK,Live Pounds,168063,72435,0,4
+2021,Menhaden Atlantic,Phippsburg,Sagadahoc,UK,Live Pounds,343432,148019,0,14
+2021,Menhaden Atlantic,Port Clyde,Knox,UK,Live Pounds,573640,247239,0,9
+2021,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,3161582,1362642,113,45
+2021,Menhaden Atlantic,Rockland,Knox,UK,Live Pounds,763803,329199,3,19
+2021,Menhaden Atlantic,Searsport,Waldo,UK,Live Pounds,2995,1291,0,4
+2021,Menhaden Atlantic,Sebasco,Sagadahoc,UK,Live Pounds,184950,79713,6,7
+2021,Menhaden Atlantic,Small Point,Sagadahoc,UK,Live Pounds,74500,32110,0,4
+2021,Menhaden Atlantic,Sorrento,Hancock,UK,Live Pounds,1210651,521791,88,7
+2021,Menhaden Atlantic,South Bristol,Lincoln,UK,Live Pounds,959312,413463,65,8
+2021,Menhaden Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,143221,61728,21,6
+2021,Menhaden Atlantic,Spruce Head,Knox,UK,Live Pounds,558965,240914,0,9
+2021,Menhaden Atlantic,Spruce Head Island,Knox,UK,Live Pounds,1072230,462131,0,9
+2021,Menhaden Atlantic,St. George,Knox,UK,Live Pounds,56690,24433,5,3
+2021,Menhaden Atlantic,Stockton Springs,Waldo,UK,Live Pounds,7671,3306,0,3
+2021,Menhaden Atlantic,Stonington,Hancock,UK,Live Pounds,1689276,728078,0,30
+2021,Menhaden Atlantic,Swans Island,Hancock,UK,Live Pounds,14680,6327,0,6
+2021,Menhaden Atlantic,Tenants Harbor,Knox,UK,Live Pounds,588114,253477,31,18
+2021,Menhaden Atlantic,Vinalhaven,Knox,UK,Live Pounds,409199,176365,19,14
+2021,Menhaden Atlantic,Waldoboro,Lincoln,UK,Live Pounds,22660,9766,0,4
+2021,Menhaden Atlantic,West Point,Sagadahoc,UK,Live Pounds,40600,17499,0,5
+2021,Menhaden Atlantic,Yarmouth,Cumberland,UK,Live Pounds,9780,4215,0,6
+2022,Menhaden Atlantic,Addison,Washington,UK,Live Pounds,328180,176889,11,4
+2022,Menhaden Atlantic,Bailey Island,Cumberland,UK,Live Pounds,366246,197407,12,11
+2022,Menhaden Atlantic,Bass Harbor,Hancock,UK,Live Pounds,163115,87919,0,4
+2022,Menhaden Atlantic,Belfast,Waldo,UK,Live Pounds,332056,178978,0,8
+2022,Menhaden Atlantic,Blue Hill,Hancock,UK,Live Pounds,232500,125317,3,9
+2022,Menhaden Atlantic,Boothbay Harbor,Lincoln,UK,Live Pounds,646258,348333,0,16
+2022,Menhaden Atlantic,Bremen,Lincoln,UK,Live Pounds,814664,439104,0,20
+2022,Menhaden Atlantic,Cape Porpoise,York,UK,Live Pounds,49050,26438,0,3
+2022,Menhaden Atlantic,Chebeague Island,Cumberland,UK,Live Pounds,59120,31866,0,5
+2022,Menhaden Atlantic,Corea,Hancock,UK,Live Pounds,141265,76142,0,4
+2022,Menhaden Atlantic,Cundys Harbor,Cumberland,UK,Live Pounds,888046,478657,19,25
+2022,Menhaden Atlantic,Cushing,Knox,UK,Live Pounds,602210,324591,0,13
+2022,Menhaden Atlantic,Deer Isle,Hancock,UK,Live Pounds,353220,190385,0,13
+2022,Menhaden Atlantic,Freeport,Cumberland,UK,Live Pounds,153240,82596,0,7
+2022,Menhaden Atlantic,Friendship,Knox,UK,Live Pounds,2005447,1080936,35,34
+2022,Menhaden Atlantic,Gouldsboro,Hancock,UK,Live Pounds,72205,38918,0,6
+2022,Menhaden Atlantic,Hancock,Hancock,UK,Live Pounds,202470,109131,0,5
+2022,Menhaden Atlantic,Harpswell,Cumberland,UK,Live Pounds,1398885,753999,0,30
+2022,Menhaden Atlantic,Harrington,Washington,UK,Live Pounds,23980,12925,0,3
+2022,Menhaden Atlantic,Islesboro,Waldo,UK,Live Pounds,126100,67968,0,3
+2022,Menhaden Atlantic,Islesford,Hancock,UK,Live Pounds,175566,94630,14,3
+2022,Menhaden Atlantic,Jonesport,Washington,UK,Live Pounds,435740,234864,0,7
+2022,Menhaden Atlantic,Lamoine,Hancock,UK,Live Pounds,365470,196988,0,6
+2022,Menhaden Atlantic,Lincolnville,Waldo,UK,Live Pounds,156970,84607,0,3
+2022,Menhaden Atlantic,Long Island,Cumberland,UK,Live Pounds,42340,22821,0,4
+2022,Menhaden Atlantic,Milbridge,Washington,UK,Live Pounds,335875,181037,8,14
+2022,Menhaden Atlantic,New Harbor,Lincoln,UK,Live Pounds,1304050,702883,7,17
+2022,Menhaden Atlantic,North Haven,Knox,UK,Live Pounds,194184,104665,0,8
+2022,Menhaden Atlantic,Northeast Harbor,Hancock,UK,Live Pounds,164300,88558,9,6
+2022,Menhaden Atlantic,Other Maine,Not-Specified,UK,Live Pounds,1132885,610625,100,58
+2022,Menhaden Atlantic,Other Washington,Washington,UK,Live Pounds,82300,44360,0,3
+2022,Menhaden Atlantic,Owls Head,Knox,UK,Live Pounds,489940,264078,0,7
+2022,Menhaden Atlantic,Phippsburg,Sagadahoc,UK,Live Pounds,267181,144011,0,17
+2022,Menhaden Atlantic,Pigeon Hill,Washington,UK,Live Pounds,44100,23770,5,3
+2022,Menhaden Atlantic,Port Clyde,Knox,UK,Live Pounds,564257,304135,6,19
+2022,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,2804111,1511416,131,58
+2022,Menhaden Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,120300,64842,0,3
+2022,Menhaden Atlantic,Rockland,Knox,UK,Live Pounds,653368,352165,29,15
+2022,Menhaden Atlantic,Round Pond,Lincoln,UK,Live Pounds,435140,234540,0,4
+2022,Menhaden Atlantic,Searsport,Waldo,UK,Live Pounds,23120,12462,0,3
+2022,Menhaden Atlantic,Sebasco,Sagadahoc,UK,Live Pounds,112644,60715,0,10
+2022,Menhaden Atlantic,Small Point,Sagadahoc,UK,Live Pounds,65180,35132,0,4
+2022,Menhaden Atlantic,Sorrento,Hancock,UK,Live Pounds,858554,462761,36,8
+2022,Menhaden Atlantic,South Bristol,Lincoln,UK,Live Pounds,717745,386865,39,8
+2022,Menhaden Atlantic,South Thomaston,Knox,UK,Live Pounds,7075,3813,0,3
+2022,Menhaden Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,304665,164214,41,12
+2022,Menhaden Atlantic,Spruce Head,Knox,UK,Live Pounds,539070,290559,0,11
+2022,Menhaden Atlantic,Spruce Head Island,Knox,UK,Live Pounds,976710,526447,0,15
+2022,Menhaden Atlantic,Steuben,Washington,UK,Live Pounds,164380,88601,0,6
+2022,Menhaden Atlantic,Stockton Springs,Waldo,UK,Live Pounds,21852,11778,0,3
+2022,Menhaden Atlantic,Stonington,Hancock,UK,Live Pounds,1794111,967026,12,38
+2022,Menhaden Atlantic,Swans Island,Hancock,UK,Live Pounds,232414,125271,6,14
+2022,Menhaden Atlantic,Tenants Harbor,Knox,UK,Live Pounds,899760,484971,13,25
+2022,Menhaden Atlantic,Vinalhaven,Knox,UK,Live Pounds,713641,384652,0,22
+2022,Menhaden Atlantic,Waldoboro,Lincoln,UK,Live Pounds,2200,1186,0,3
+2022,Menhaden Atlantic,West Point,Sagadahoc,UK,Live Pounds,122180,65855,0,6
+2022,Menhaden Atlantic,Winter Harbor,Hancock,UK,Live Pounds,246615,132925,6,6
+2022,Menhaden Atlantic,Yarmouth,Cumberland,UK,Live Pounds,3290,1773,0,3
+2023,Menhaden Atlantic,Addison,Washington,UK,Live Pounds,383368,170216,0,4
+2023,Menhaden Atlantic,Bailey Island,Cumberland,UK,Live Pounds,570745,253411,25,7
+2023,Menhaden Atlantic,Bass Harbor,Hancock,UK,Live Pounds,58340,25903,0,4
+2023,Menhaden Atlantic,Belfast,Waldo,UK,Live Pounds,467173,207425,0,6
+2023,Menhaden Atlantic,Blue Hill,Hancock,UK,Live Pounds,237263,105345,4,5
+2023,Menhaden Atlantic,Boothbay,Lincoln,UK,Live Pounds,31200,13853,0,3
+2023,Menhaden Atlantic,Boothbay Harbor,Lincoln,UK,Live Pounds,1206441,535660,0,13
+2023,Menhaden Atlantic,Bremen,Lincoln,UK,Live Pounds,1096555,486870,0,12
+2023,Menhaden Atlantic,Chebeague Island,Cumberland,UK,Live Pounds,6650,2953,0,3
+2023,Menhaden Atlantic,Corea,Hancock,UK,Live Pounds,154880,68767,0,3
+2023,Menhaden Atlantic,Cundys Harbor,Cumberland,UK,Live Pounds,244030,108349,9,15
+2023,Menhaden Atlantic,Cushing,Knox,UK,Live Pounds,651902,289444,0,9
+2023,Menhaden Atlantic,Deer Isle,Hancock,UK,Live Pounds,276175,122621,0,5
+2023,Menhaden Atlantic,Freeport,Cumberland,UK,Live Pounds,72883,32360,0,4
+2023,Menhaden Atlantic,Friendship,Knox,UK,Live Pounds,1957231,869011,66,23
+2023,Menhaden Atlantic,Harpswell,Cumberland,UK,Live Pounds,1669181,741116,0,21
+2023,Menhaden Atlantic,Harrington,Washington,UK,Live Pounds,1595,708,0,3
+2023,Menhaden Atlantic,Jonesport,Washington,UK,Live Pounds,287250,127539,0,3
+2023,Menhaden Atlantic,Lamoine,Hancock,UK,Live Pounds,271950,120746,0,7
+2023,Menhaden Atlantic,Milbridge,Washington,UK,Live Pounds,467855,207728,0,10
+2023,Menhaden Atlantic,Mount Desert,Hancock,UK,Live Pounds,126709,56259,0,3
+2023,Menhaden Atlantic,New Harbor,Lincoln,UK,Live Pounds,1503304,667467,13,16
+2023,Menhaden Atlantic,North Haven,Knox,UK,Live Pounds,327928,145600,4,5
+2023,Menhaden Atlantic,Other Maine,Not-Specified,UK,Live Pounds,2499432,1109747,178,60
+2023,Menhaden Atlantic,Owls Head,Knox,UK,Live Pounds,647735,287594,0,6
+2023,Menhaden Atlantic,Phippsburg,Sagadahoc,UK,Live Pounds,99201,44045,3,7
+2023,Menhaden Atlantic,Port Clyde,Knox,UK,Live Pounds,818581,363450,0,9
+2023,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,2137972,949260,58,40
+2023,Menhaden Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,268355,119150,7,3
+2023,Menhaden Atlantic,Rockland,Knox,UK,Live Pounds,957218,425005,33,17
+2023,Menhaden Atlantic,Round Pond,Lincoln,UK,Live Pounds,386890,171779,0,4
+2023,Menhaden Atlantic,Sebasco,Sagadahoc,UK,Live Pounds,53761,23870,0,8
+2023,Menhaden Atlantic,Sorrento,Hancock,UK,Live Pounds,984200,436985,44,8
+2023,Menhaden Atlantic,South Bristol,Lincoln,UK,Live Pounds,875429,388690,42,7
+2023,Menhaden Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,379800,168631,32,12
+2023,Menhaden Atlantic,Spruce Head,Knox,UK,Live Pounds,418525,185825,0,7
+2023,Menhaden Atlantic,Spruce Head Island,Knox,UK,Live Pounds,1320299,586213,0,8
+2023,Menhaden Atlantic,Steuben,Washington,UK,Live Pounds,324870,144242,0,6
+2023,Menhaden Atlantic,Stonington,Hancock,UK,Live Pounds,2502200,1110977,35,26
+2023,Menhaden Atlantic,Tenants Harbor,Knox,UK,Live Pounds,1055701,468731,0,13
+2023,Menhaden Atlantic,Vinalhaven,Knox,UK,Live Pounds,759660,337289,0,14
+2023,Menhaden Atlantic,West Point,Sagadahoc,UK,Live Pounds,80000,35520,0,3
+2023,Menhaden Atlantic,Winter Harbor,Hancock,UK,Live Pounds,219100,97280,15,3
+2023,Menhaden Atlantic,Yarmouth,Cumberland,UK,Live Pounds,1380,613,0,3
+2024,Menhaden Atlantic,Addison,Washington,UK,Live Pounds,323050,166371,0,6
+2024,Menhaden Atlantic,Bailey Island,Cumberland,UK,Live Pounds,345205,177781,11,6
+2024,Menhaden Atlantic,Belfast,Waldo,UK,Live Pounds,413193,212794,0,7
+2024,Menhaden Atlantic,Blue Hill,Hancock,UK,Live Pounds,106149,54667,0,3
+2024,Menhaden Atlantic,Boothbay Harbor,Lincoln,UK,Live Pounds,660339,340075,0,11
+2024,Menhaden Atlantic,Bremen,Lincoln,UK,Live Pounds,419311,215945,17,12
+2024,Menhaden Atlantic,Cape Porpoise,York,UK,Live Pounds,47290,24354,0,3
+2024,Menhaden Atlantic,Corea,Hancock,UK,Live Pounds,178500,91928,7,4
+2024,Menhaden Atlantic,Cranberry Isles,Hancock,UK,Live Pounds,15882,8179,0,3
+2024,Menhaden Atlantic,Cundys Harbor,Cumberland,UK,Live Pounds,520075,267839,19,15
+2024,Menhaden Atlantic,Cushing,Knox,UK,Live Pounds,461500,237673,0,8
+2024,Menhaden Atlantic,Deer Isle,Hancock,UK,Live Pounds,219025,112798,0,5
+2024,Menhaden Atlantic,Freeport,Cumberland,UK,Live Pounds,55850,28763,0,3
+2024,Menhaden Atlantic,Friendship,Knox,UK,Live Pounds,1826029,940405,88,26
+2024,Menhaden Atlantic,Harpswell,Cumberland,UK,Live Pounds,1552155,799360,4,22
+2024,Menhaden Atlantic,Islesford,Hancock,UK,Live Pounds,186200,95893,0,3
+2024,Menhaden Atlantic,Jonesport,Washington,UK,Live Pounds,504820,259982,0,3
+2024,Menhaden Atlantic,Lamoine,Hancock,UK,Live Pounds,217280,111899,0,4
+2024,Menhaden Atlantic,Lincolnville,Waldo,UK,Live Pounds,219295,112937,0,0
+2024,Menhaden Atlantic,Long Island,Cumberland,UK,Live Pounds,4750,2446,0,3
+2024,Menhaden Atlantic,Milbridge,Washington,UK,Live Pounds,377610,194469,23,10
+2024,Menhaden Atlantic,New Harbor,Lincoln,UK,Live Pounds,748140,385292,46,17
+2024,Menhaden Atlantic,North Haven,Knox,UK,Live Pounds,347780,179107,3,5
+2024,Menhaden Atlantic,Northeast Harbor,Hancock,UK,Live Pounds,152510,78543,19,4
+2024,Menhaden Atlantic,Other Maine,Not-Specified,UK,Live Pounds,2477002,1275656,331,66
+2024,Menhaden Atlantic,Owls Head,Knox,UK,Live Pounds,588727,303194,27,7
+2024,Menhaden Atlantic,Phippsburg,Sagadahoc,UK,Live Pounds,140818,72521,0,8
+2024,Menhaden Atlantic,Port Clyde,Knox,UK,Live Pounds,629852,324374,3,12
+2024,Menhaden Atlantic,Portland,Cumberland,UK,Live Pounds,2520611,1298115,152,44
+2024,Menhaden Atlantic,Prospect Harbor,Hancock,UK,Live Pounds,321300,165470,46,3
+2024,Menhaden Atlantic,Rockland,Knox,UK,Live Pounds,808760,416511,23,12
+2024,Menhaden Atlantic,Round Pond,Lincoln,UK,Live Pounds,292850,150818,0,5
+2024,Menhaden Atlantic,Searsport,Waldo,UK,Live Pounds,44400,22866,0,3
+2024,Menhaden Atlantic,Sebasco,Sagadahoc,UK,Live Pounds,76515,39405,4,9
+2024,Menhaden Atlantic,Small Point,Sagadahoc,UK,Live Pounds,46915,24161,0,3
+2024,Menhaden Atlantic,Sorrento,Hancock,UK,Live Pounds,918950,473259,71,5
+2024,Menhaden Atlantic,South Bristol,Lincoln,UK,Live Pounds,613098,315745,24,7
+2024,Menhaden Atlantic,South Harpswell,Cumberland,UK,Live Pounds,125300,64530,19,3
+2024,Menhaden Atlantic,Southwest Harbor,Hancock,UK,Live Pounds,83640,43075,9,6
+2024,Menhaden Atlantic,Spruce Head,Knox,UK,Live Pounds,356770,183737,0,8
+2024,Menhaden Atlantic,Spruce Head Island,Knox,UK,Live Pounds,944450,486392,0,7
+2024,Menhaden Atlantic,Steuben,Washington,UK,Live Pounds,215280,110869,0,6
+2024,Menhaden Atlantic,Stonington,Hancock,UK,Live Pounds,2459796,1266795,85,27
+2024,Menhaden Atlantic,Swans Island,Hancock,UK,Live Pounds,122220,62943,15,3
+2024,Menhaden Atlantic,Tenants Harbor,Knox,UK,Live Pounds,1078831,555598,125,16
+2024,Menhaden Atlantic,Vinalhaven,Knox,UK,Live Pounds,843876,434596,130,21
+2024,Menhaden Atlantic,West Point,Sagadahoc,UK,Live Pounds,71020,36575,4,4
+2024,Menhaden Atlantic,Winter Harbor,Hancock,UK,Live Pounds,382550,197013,68,3
+2024,Menhaden Atlantic,Yarmouth,Cumberland,UK,Live Pounds,3470,1787,0,4
