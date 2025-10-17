@@ -1,22 +1,38 @@
 # app.py
 from __future__ import annotations
+
 import streamlit as st
 import pandas as pd
 from pathlib import Path
+import plotly.express as px
 
-from src.queries.aggregations import (
-    available_years, available_species, state_totals, yoy_change,
-    statewide_trend, species_mix, zones_annual, zone_kpis, region_table
-)
-from src.viz.charts import line_state_trend, pie_species_mix, small_multiples_zones
+from src.queries.filters import coerce_categories, apply_overview_filters, port_to_zone
+from src.queries.metrics import kpis_block, yoy_by_zone
+from src.viz.maps import load_geojson, render_lobster_zone_map
 
+# -----------------------------------------------------------------------------
+# Page config (must be first Streamlit call)
+# -----------------------------------------------------------------------------
+st.set_page_config(page_title="Gulf of Maine Fisheries Dashboard", layout="wide")
+
+# -----------------------------------------------------------------------------
+# Paths
+# -----------------------------------------------------------------------------
+PROCESSED_DIR = Path("data/processed")
+# Adjust if your GeoJSON lives elsewhere; common alt: Path("data/geospatial/lobster_zones.geojson")
+GEO_PATH = Path("data/geo/lobster_zones.geojson")
+
+# -----------------------------------------------------------------------------
+# Data loading
+# -----------------------------------------------------------------------------
 @st.cache_data(show_spinner=False)
 def load_df(processed_dir: Path) -> pd.DataFrame:
+    """Load and lightly normalize all CSVs in data/processed."""
     paths = sorted(processed_dir.glob("*.csv"))
 
-    # Cache-buster: build a fingerprint from file path + size + mtime
+    # Cache-buster: make cache depend on file list + size + mtime
     sig = [(str(p), p.stat().st_size, int(p.stat().st_mtime)) for p in paths]
-    _ = hash(tuple(sig))  # noqa: F841  # ensures cache depends on file state
+    _ = hash(tuple(sig))  # noqa: F841
 
     if not paths:
         return pd.DataFrame()
@@ -34,6 +50,8 @@ def load_df(processed_dir: Path) -> pd.DataFrame:
                     .str.strip()
                     .str.replace(r"\s+", " ", regex=True)
                 )
+
+        # Title-case species for nicer UI labels
         if "species" in df.columns:
             df["species"] = df["species"].str.title()
 
@@ -49,13 +67,14 @@ def load_df(processed_dir: Path) -> pd.DataFrame:
     out = pd.concat(dfs, ignore_index=True)
 
     # Keep only columns we use (ignore extras quietly)
-    want = ["year","species","port","county","lob_zone","weight","value","trip_n","harv_n"]
+    want = ["year", "species", "port", "county", "lob_zone", "weight", "value", "trip_n", "harv_n"]
     keep = [c for c in want if c in out.columns]
     return out[keep]
 
-PROCESSED_DIR = Path("data/processed")
-df = load_df(PROCESSED_DIR)
-st.set_page_config(page_title="Gulf of Maine Fisheries Dashboard", layout="wide")
+
+# Load + normalize categories (including renaming lob_zone -> zone)
+raw_df = load_df(PROCESSED_DIR)
+df = coerce_categories(raw_df)
 
 st.title("Gulf of Maine Fisheries Dashboard (Maine)")
 
@@ -63,138 +82,188 @@ if df.empty:
     st.warning("No processed data found in data/processed/*.csv")
     st.stop()
 
-# -------- Global controls (sidebar) --------
-years = available_years(df)
-species_all = available_species(df)
-
+# -----------------------------------------------------------------------------
+# Sidebar filters (shared)
+# -----------------------------------------------------------------------------
 with st.sidebar:
     st.header("Filters")
 
-    year_sel = st.selectbox("Year", years, index=len(years)-1 if years else 0)
+    species_all = sorted(df["species"].dropna().unique().tolist()) if "species" in df.columns else []
+    ports_all   = sorted(df["port"].dropna().unique().tolist())    if "port" in df.columns else []
+    years_all   = sorted(df["year"].dropna().unique().tolist())    if "year" in df.columns else []
 
-    # --- Species (dynamic) ---
-    st.caption("Filter by Species (leave empty = All Species)")
-    species_query = st.text_input("Search species", placeholder="e.g., Lobster, Haddock, Scallop ...")
-    species_all = available_species(df)
-    if species_query:
-        species_choices = [s for s in species_all if species_query.lower() in s.lower()]
+    sb_species = st.multiselect("Species", species_all, default=[])
+    sb_ports   = st.multiselect("Ports", ports_all, default=[])
+
+    if years_all:
+        sb_years = st.slider(
+            "Year range",
+            min_value=int(min(years_all)),
+            max_value=int(max(years_all)),
+            value=(int(max(min(years_all), max(years_all) - 5)), int(max(years_all))),
+        )
     else:
-        species_choices = species_all
+        sb_years = None
 
-    species_sel = st.multiselect("Species", species_choices, default=[])
+# -----------------------------------------------------------------------------
+# Tabs
+# -----------------------------------------------------------------------------
+tabs = st.tabs(["Overview", "Lobster Zones", "Report"])
 
-    metric_label = st.radio("Measure", options=["Weight (lbs)", "Revenue ($)"])
-    metric = "weight" if "Weight" in metric_label else "value"
-
-
-tabs = st.tabs(["Overview", "Lobster Zones", "Regions / Ports", "Table"])
-
-# -------- Overview --------
+# -----------------------------------------------------------------------------
+# Overview Tab
+# -----------------------------------------------------------------------------
 with tabs[0]:
-    st.subheader("Overview")
+    st.subheader("Project Overview")
 
-    # KPIs
-    kpi_container = st.container()
-    with kpi_container:
-        col1, col2, col3 = st.columns(3)
-        # State totals (curr year)
-        totals_curr = state_totals(df, year_sel, metric)
-        totals_all = state_totals(df, None, metric)  # for YoY reference
-        yoy = yoy_change(df, year_sel, metric)
-        curr_val = float(totals_curr[metric].sum()) if not totals_curr.empty else 0.0
+    st.markdown(
+        """
+**Purpose & Scope**  
+This dashboard explores commercial fisheries in the Gulf of Maine with a focus on trends over time, spatial patterns (lobster zones), and species composition. It’s designed to help analysts and stakeholders quickly understand scale, change, and context.
 
-        col1.metric("Total State Poundage (lbs)", f"{float(totals_curr['weight'].sum()):,.0f}")
-        col2.metric("Total State Revenue ($)", f"${float(totals_curr['value'].sum()):,.0f}")
-        col3.metric(f"YoY Change ({'lbs' if metric=='weight' else '$'})",
-                    f"{(yoy*100):.1f}%" if yoy is not None else "—")
+**Data Notes**  
+- Source: Maine Department of Marine Resources (processed CSV).  
+- Core fields: `year`, `species`, `port`, `county`, `zone` (lobster), `weight`, `value`.  
+- Metrics: *weight* (total pounds landed), *value* (USD), with simple year-over-year change.
+        """
+    )
 
-    # Statewide annual trend (selected measure)
-    st.markdown("### Statewide Trend")
-    trend_df = statewide_trend(df, species_sel, metric)
-    st.altair_chart(line_state_trend(trend_df, metric), use_container_width=True)
+    # Reactive slice (KPIs reflect sidebar selections)
+    f_overview = apply_overview_filters(df, sb_species, sb_ports, sb_years)
+    kpis = kpis_block(f_overview)
 
-    # Species mix pie (statewide for selected year)
-    st.markdown("### Species Mix (Statewide)")
-    mix_df = species_mix(df, year_sel, region_type=None, region_vals=None)
-    st.altair_chart(pie_species_mix(mix_df, metric, title=f"Species Share — {year_sel}"), use_container_width=True)
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Total Weight (current period)", f"{kpis['total_weight']:,.0f} lb")
+    c2.metric("Total Value (current period)",  f"${kpis['total_value']:,.0f}")
+    c3.metric("YOY Weight", f"{0.0 if kpis['yoy_weight_change'] is None else kpis['yoy_weight_change']:.1f}%")
+    c4.metric("YOY Value",  f"{0.0 if kpis['yoy_value_change']  is None else kpis['yoy_value_change']:.1f}%")
 
-# -------- Lobster Zones (small multiples + KPI row) --------
+    # State-level context (totals across Maine for selected year range)
+    st.markdown("### State-Level Totals (for selected year range)")
+    if sb_years and "year" in df.columns:
+        base = df[(df["year"] >= sb_years[0]) & (df["year"] <= sb_years[1])]
+    else:
+        base = df
+
+    state_totals = (
+        base.groupby("year", dropna=True)[["weight", "value"]]
+        .sum()
+        .reset_index()
+        .sort_values("year")
+    )
+
+    if not state_totals.empty:
+        line = px.line(
+            state_totals,
+            x="year",
+            y="weight",
+            markers=True,
+            title="Total Weight by Year (state-level within selected range)",
+        )
+        st.plotly_chart(line, use_container_width=True)
+    else:
+        st.info("No data in the selected range.")
+
+# -----------------------------------------------------------------------------
+# Lobster Zones Tab
+# -----------------------------------------------------------------------------
 with tabs[1]:
     st.subheader("Lobster Zones")
-    zones_df = zones_annual(df, species_sel, metric)
-    st.altair_chart(small_multiples_zones(zones_df, metric), use_container_width=True)
 
-    st.markdown("### Zone KPIs")
-    kpi = zone_kpis(df, year_sel, metric)
-    if kpi.empty:
-        st.info("No lobster zone data for the selected year.")
+    # Default to species that include "lobster" (covers "Lobster American")
+    lobster_defaults = [s for s in species_all if "lobster" in s.lower()]
+    lz_species = st.multiselect(
+        "Species (affects YOY in the map)",
+        species_all,
+        default=lobster_defaults if lobster_defaults else (species_all[:1] if species_all else []),
+    )
+
+    # Year for YOY comparison (year vs previous year) -> selectbox instead of slider
+    if years_all:
+        years_sorted = sorted(int(y) for y in years_all)
+        lz_year = st.selectbox(
+            "Map Year (YOY compares to previous year)",
+            options=years_sorted,
+            index=len(years_sorted) - 1,  # default to latest
+        )
     else:
-        # Show as cards in a grid-like layout
-        ncols = 6
-        cols = st.columns(ncols)
-        for i, (_, row) in enumerate(kpi.iterrows()):
-            with cols[i % ncols]:
-                st.metric(
-                    label=f"Zone {row['lob_zone']}",
-                    value=f"{row[metric]:,.0f} {'lbs' if metric=='weight' else '$'}",
-                    help=f"Weight: {row['weight']:,.0f} lbs • Revenue: ${row['value']:,.0f}"
-                )
+        lz_year = None
 
-# -------- Regions / Ports (scaffold) --------
+    # Compute YOY by zone and show choropleth
+    zone_yoy = yoy_by_zone(df, lz_species, lz_year)
+
+    if zone_yoy.empty:
+        st.warning("No zone data available for the selected inputs.")
+    else:
+        try:
+            gjson = load_geojson(GEO_PATH)
+        except FileNotFoundError:
+            st.error(f"Could not find GeoJSON at {GEO_PATH}. Check GEO_PATH.")
+        else:
+            deck = render_lobster_zone_map(zone_yoy, gjson)  # auto-detects & normalizes
+            st.pydeck_chart(deck, use_container_width=True)
+
+            with st.expander("Debug: Map join details"):
+                dbg = getattr(deck, "_gom_debug", {})
+                st.write("Zone prop used:", dbg.get("zone_prop_used"))
+                st.write("Matched features:", dbg.get("matched_features"))
+                st.write("Unmatched features:", dbg.get("unmatched_features"))
+                st.dataframe(zone_yoy)
+
+            # Simple legend
+            st.markdown(
+                """
+**Legend**  
+- **Green**: YOY increase  
+- **Red**: YOY decrease  
+- **Gray**: Little/No change  
+- **Light gray**: No baseline or missing data
+                """
+            )
+
+
+# -----------------------------------------------------------------------------
+# Report Tab
+# -----------------------------------------------------------------------------
 with tabs[2]:
-    st.subheader("Regions / Ports (Drilldown)")
-    region_choice = st.radio("Region Type", options=["County", "Port"], horizontal=True)
-    region_col = "county" if region_choice == "County" else "port"
-    avail = sorted(df[region_col].dropna().unique().tolist())
-    selected = st.multiselect(f"Select {region_choice}(s)", avail, default=[])
-    if selected:
-        # Simple annual chart of selected regions (sum over species)
-        q = df[(df[region_col].isin(selected))]
-        gp = q.groupby(["year", region_col])[metric].sum().reset_index()
-        import altair as alt
-        ch = (
-            alt.Chart(gp).mark_line(point=True)
-            .encode(
-                x=alt.X("year:O"), y=alt.Y(f"{metric}:Q", title=("Weight (lbs)" if metric=="weight" else "Revenue (USD)")),
-                color=alt.Color(f"{region_col}:N", title=region_choice),
-                tooltip=["year:O", f"{region_col}:N", alt.Tooltip(f"{metric}:Q", format=",.0f")]
-            ).properties(height=320, title=f"{region_choice} Trend — {('lbs' if metric=='weight' else '$')}")
-            .interactive()
+    st.subheader("Report")
+
+    # Use the *current sidebar selection* to define the report slice
+    r_df = apply_overview_filters(df, sb_species, sb_ports, sb_years)
+    rk = kpis_block(r_df)
+
+    st.markdown("### Key Metrics (for current selection)")
+    c1, c2, c3, c4 = st.columns(4)
+    c1.metric("Total Poundage (current period)", f"{rk['total_weight']:,.0f} lb")
+    c2.metric("Total Value (current period)",    f"${rk['total_value']:,.0f}")
+    c3.metric("YOY Poundage", f"{0.0 if rk['yoy_weight_change'] is None else rk['yoy_weight_change']:.1f}%")
+    c4.metric("YOY Value",    f"{0.0 if rk['yoy_value_change']  is None else rk['yoy_value_change']:.1f}%")
+
+    st.markdown("### Species Composition")
+    if not r_df.empty and "species" in r_df.columns:
+        sp = (
+            r_df.groupby("species", dropna=True)["weight"]
+               .sum()
+               .reset_index()
+               .sort_values("weight", ascending=False)
         )
-        st.altair_chart(ch, use_container_width=True)
+        if sp["weight"].sum() > 0:
+            pie = px.pie(sp, names="species", values="weight", title="Share of Total Weight by Species")
+            st.plotly_chart(pie, use_container_width=True)
+        else:
+            st.info("No weight totals in the current selection.")
     else:
-        st.info(f"Select one or more {region_choice.lower()}s to view trends.")
+        st.info("No species field available in the selection.")
 
-# -------- Table (Report) --------
-with tabs[3]:
-    st.subheader("Report (Table & Pie)")
-
-    # Region selector (Zone / County / Port). Default to Statewide if none chosen.
-    region_type_map = {"Statewide": None, "Lobster Zone": "lob_zone", "County": "county", "Port": "port"}
-    region_pick = st.radio("Report Region", options=list(region_type_map.keys()), index=0, horizontal=True)
-    region_type = region_type_map[region_pick]
-
-    region_vals = None
-    if region_type is not None:
-        choices = sorted(df[region_type].dropna().unique().tolist())
-        region_vals = st.multiselect(f"Select {region_pick}(s)", choices, default=[])
-
-    # Pie: species share for selected year + region
-    mix = species_mix(df, year_sel, region_type, region_vals)
-    title = f"Species Share — {year_sel} — {region_pick}" if region_type else f"Species Share — {year_sel} — Statewide"
-    st.altair_chart(pie_species_mix(mix, metric, title=title), use_container_width=True)
-
-    # Table: annual totals by species for selected region
-    rpt = region_table(df, year_sel, region_type, region_vals)
-    show_cols = ["year", "species", "region", "weight", "value"]
-    rpt = rpt[show_cols] if all(c in rpt.columns for c in show_cols) else rpt
-    st.dataframe(rpt, use_container_width=True, hide_index=True)
-
-    # Download CSV
-    if not rpt.empty:
-        st.download_button(
-            "Download CSV",
-            rpt.to_csv(index=False).encode("utf-8"),
-            file_name=f"report_{region_pick.lower().replace(' ','_')}_{year_sel}.csv",
-            mime="text/csv",
-        )
+    st.markdown("### Ports Included per Lobster Zone (in current selection)")
+    if "zone" in r_df.columns and "port" in r_df.columns:
+        sub = port_to_zone(r_df)
+        if sub.empty:
+            st.info("No ports/zones present in the current selection.")
+        else:
+            for _, row in sub.sort_values("zone").iterrows():
+                with st.expander(f"Zone {row['zone']}"):
+                    ports_list = row["ports"] or []
+                    st.write(", ".join(ports_list) if ports_list else "No ports found.")
+    else:
+        st.info("Zone/Port fields not available.")
